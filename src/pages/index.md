@@ -1,6 +1,6 @@
 ---
-templateKey: 'about-page'
-title: About our values
+templateKey: 'index-page'
+title: Mission Statement
 ---
 The Washington Post Newspaper Guild has been a voice for employees at the company since 1934, when it was founded by TK and TK. We represent 1,000 people across the newsroom and in our commercial operations — including award-winning journalists and the talented marketing, advertising and printing plant staff that help readers and watchers find their work.
 
