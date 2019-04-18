@@ -8,8 +8,9 @@ public_folder: /img
 publish_mode: editorial_workflow
 
 collections:
-  - name: "homepage"
-    label: "Homepage"
+  - name: "static-pages"
+    label: "Static Pages"
+    files:
       - file: "src/pages/index.md"
         label: "Homepage"
         name: "index"
