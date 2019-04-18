@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: contract
+title: Contract
 ---
 This link will have a PDF of the most recent contract attached, information on the bargaining committee/how a contract is negotiated and \*maybe\* links to our old contracts? 
 
