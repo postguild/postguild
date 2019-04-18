@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "gatsby";
+import PropTypes from 'prop-types'
+import { Link, graphql, StaticQuery } from "gatsby";
 import github from "../img/github-icon.svg";
 import logo from "../img/logo.svg";
 
@@ -33,6 +34,9 @@ const Navbar = class extends React.Component {
   };
 
   render() {
+    const { data } = this.props
+    const { edges: pages } = data.allMarkdownRemark
+
     return (
       <nav
         className="navbar is-transparent"
@@ -60,21 +64,12 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
+              {pages &&
+                pages.map(({node: page}) => (
+                  <Link key={page.fields.slug} className="navbar-item" to={`${page.fields.slug}`}>
+                    {page.frontmatter.title}
+                  </Link>
+                ))}
             </div>
             <div className="navbar-end has-text-centered">
               <a
@@ -95,4 +90,35 @@ const Navbar = class extends React.Component {
   }
 };
 
-export default Navbar;
+Navbar.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+}
+
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query NavbarQuery {
+        allMarkdownRemark(
+          filter: { frontmatter: { templateKey: { eq: "about-page" } } }
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data, count) => <Navbar data={data} />}
+  />
+)
