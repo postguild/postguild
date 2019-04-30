@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: Guild leadership
+title: The Washington Post Guild Leadership
 ---
 # GUILD LEADERSHIP
 
