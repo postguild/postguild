@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About The Washington Post Guild
+title: About the Guild
 ---
 
 # ABOUT THE WASHINGTON POST GUILD
