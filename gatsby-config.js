@@ -2,9 +2,9 @@ var proxy = require("http-proxy-middleware")
 
 module.exports = {
   siteMetadata: {
-    title: 'Armand, Aaron and Joe\'s awesome coffee business site',
+    title: 'The Washington Post Guild',
     description:
-      'This is our site that\'s awesome and going to break the internet. It does a lot of fancy internet things. Also it contains an example business website that is built with Gatsby, and Netlify CMS. It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution. It makes me want to become a coffee distributor.',
+      'The Washington Post Newspaper Guild has been a voice for employees at the company since 1934. We represent 1,000 people across the newsroom and in our commercial operations — including award-winning journalists and the talented marketing, advertising and printing plant staff that help readers and watchers find their work.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
