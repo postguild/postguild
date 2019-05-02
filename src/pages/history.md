@@ -10,6 +10,8 @@ Much like The Washington Post news organization, The Washington Post Newspaper G
 Some of the most beloved journalists in Washington Post history have been unwavering guild supporters. We have made headlines, too, for byline strikes, lawsuits and walkouts. Like most institutions, our history is spotted with highs and lows. But it is nevertheless extensive and rich. Here’s a recap.
 
 ## Timeline
+![Photo of Heywood Broun](./img/photos/heywood-broun-2.jpg  "Heywood Broun")
+
 * __1933:__ The American Newspaper Guild is founded by famed New York columnist Heywood Broun, who believed journalism could be a force for change and righting social injustice. (Broun married journalist Ruth Hale, a feminist who advocated for a woman’s right to keep her maiden name after marriage)
 * __1934:__ On January 28, about 75 Washington-based journalists meet in the District Building board room and formally found the Washington Newspaper Guild Local 35. Washington Post reporter J.D. Secrest serves as the local’s first secretary.
 * __1936:__ The Washington Post, under the leadership of legacy publisher Eugene Meyer, recognizes The Washington Post Newspaper Guild as a bargaining unit representing 36 of its employees.
