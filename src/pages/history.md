@@ -1,9 +1,7 @@
 ---
 templateKey: about-page
-title: History
+title: Guild History
 ---
-
-# History of The Washington Post Guild
 
 Much like The Washington Post news organization, The Washington Post Newspaper Guild has changed and evolved over the decades — positioning itself as the progressive lead advocating for the rights of the people who make The Washington Post great.
 
