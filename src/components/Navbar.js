@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from "gatsby";
-import logo from "../img/logo.svg";
+import logo from "../img/GuildLogoFinal.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
