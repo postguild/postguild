@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import Layout from '../../components/Layout'
-import Counter from './count'
-import { graphql, StaticQuery } from 'gatsby'
+import Layout from "../../components/Layout";
+import Counter from "./calculator";
+import { graphql, StaticQuery } from "gatsby";
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -11,6 +11,6 @@ export default class BlogIndexPage extends React.Component {
         <div>Hello, hello</div>
         <Counter />
       </Layout>
-    )
+    );
   }
 }
