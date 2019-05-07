@@ -3,11 +3,16 @@ import React from "react";
 export default class Counter extends React.Component {
   constructor(props) {
     super(props);
+    this.rate = 0.013846
+    let dues = 70000*this.rate
+    
     this.state = {
-      cnt: 0
+      salary: 70000,
+      dues:dues
     };
-    this.increment = this.increment.bind(this);
-    this.decrement = this.decrement.bind(this);
+
+    this.handleChange = this.handleChange.bind(this)
+    
   }
   increment(e) {
     e.preventDefault();
@@ -16,6 +21,13 @@ export default class Counter extends React.Component {
   decrement(e) {
     e.preventDefault();
     this.setState({ cnt: this.state.cnt - 1 });
+  }
+  handleChange(e){
+    let dues = e.target.value*this.rate
+    this.setState({
+      salary:e.target.value,
+      dues:dues
+    })
   }
   render() {
     let msgClass =
@@ -27,30 +39,25 @@ export default class Counter extends React.Component {
 
     return (
       <div>
-        <h2
-          className={
-            "pg-h3 " + (this.props.layout == "centered" ? "pg-skinny " : "")
-          }
-        >
-          {this.props.reactText}
-        </h2>
-
-        <p
-          className={msgClass}
-          dangerouslySetInnerHTML={{ __html: this.props.msg }}
-        />
-
-        <div className={this.props.layout == "centered" ? "pg-skinny " : ""}>
-          <h4>Count</h4>
-          <button className="col-lg-1" onClick={this.increment}>
-            +
-          </button>
+        <div className="dues-calculator">
+          <p class="explainer-text">If your annual salary is {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(this.state.salary).replace(/\D00$/, '')}</p>
+          <input 
+          type="range"
+          value={this.state.salary}
+          min="0"
+          max="200000"
+          step="1000"
+          onChange={this.handleChange}
+          ></input>
           <h5 style={h5StyleOverride} className="col-lg-1 text-center">
-            {this.state.cnt}
+            You will pay {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(this.state.dues)} yearly.
           </h5>
-          <button className="col-lg-1" onClick={this.decrement}>
-            -
-          </button>
+          <h5 style={h5StyleOverride} className="col-lg-1 text-center">
+            You will pay {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(this.state.dues/12)} monthly.
+          </h5>
+          <h5 style={h5StyleOverride} className="col-lg-1 text-center">
+            You will pay {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(this.state.dues/52)} weekly.
+          </h5>
         </div>
       </div>
     );
