@@ -3,8 +3,6 @@ templateKey: about-page
 title: Contract
 ---
 
-# Contract highlights
-
 The Post Guild bargaining committee spent more than a year negotiating our current contract, which expires in June 2020. It was a tough fight that yielded a solid contract, but there’s much we wanted that The Post refused to give us. We’ll do better next time — but we need your help.
 
 We’ve compiled a round-up of new rights and key existing ones, along with the pages where you can find them in the contract:
