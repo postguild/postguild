@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../../components/Layout";
-import Counter from "./calculator";
+import Calculator from "./calculator";
 // import { graphql, StaticQuery } from "gatsby";
 
 export default class BlogIndexPage extends React.Component {
@@ -13,7 +13,7 @@ export default class BlogIndexPage extends React.Component {
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="section">
-                  <Counter />
+                  <Calculator />
                 </div>
               </div>
             </div>
