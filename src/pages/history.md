@@ -41,7 +41,7 @@ Some of the most beloved journalists in Washington Post history have been unwave
 
 - **2012:** The Customer Service Professional of the Year award, which was first established in 2004, is renamed for long-time Washington Post activist and WBNG officer Darlene Meyers shortly after she died. The award recognizes outstanding contributions by Newspaper Guild members who work on the commercial side of news operations.
 
-![Bezos rally](./img/photos/bezos-rally-3.jpg.jpg "Rally after Bezos bought The Post in 2013 protesting changes to severance pay.")
+![Bezos rally](./img/photos/bezos-rally-3.jpg "Rally after Bezos bought The Post in 2013 protesting changes to severance pay.")
 
 - **2013:** Jeff Bezos buys The Washington Post
 
