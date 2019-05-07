@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import "~bulma/sass/utilities/mixins"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -95,7 +96,7 @@ h2.title,
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 3rem 0rem 1.5rem
   background-color: transparent
 
 //Menu overrides
@@ -114,17 +115,22 @@ $menu-label-color: $white-ter
 .menu-list
   list-style: none !important
   text-align: left
-.social
-  padding: 2em
+.column.social
+  padding: 3rem 2em 2em 2em
+
+@media screen and (max-width: $tablet)
+  .column.social
+    padding: 1.5rem 2em 2em 2em
+
 .social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
+  padding: .5em .5em .3em .5em
+  border-radius: 1em
+  background-color: $white-ter
+  margin: .5em
+  width: 1em
+  height: 1em
+  vertical-align: middle
+  display: inline
 
 .gatsby-resp-image-wrapper
   max-width: 600px
