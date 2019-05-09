@@ -1,13 +1,13 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
-import Content, { HTMLContent } from '../components/Content'
+import Layout from "../components/Layout";
+import BlogRoll from "../components/BlogRoll";
+import Content, { HTMLContent } from "../components/Content";
 
 export const IndexPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+  const PageContent = contentComponent || Content;
 
   return (
     <section className="section section--gradient">
@@ -15,6 +15,12 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
+              <img
+                className="header-logo"
+                src="/img/guildlogofinal-large.jpg"
+                alt="The Washington Post Guild Logo"
+              />
+
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
@@ -28,17 +34,17 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
+  contentComponent: PropTypes.func
+};
 
 const IndexPage = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -48,14 +54,14 @@ const IndexPage = ({ data }) => {
         content={post.html}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.object.isRequired
-}
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
@@ -66,4 +72,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
