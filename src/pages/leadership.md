@@ -87,4 +87,6 @@ Email him at [goldstraw@comcast.net](mailto:goldstraw@comcast.net) and find him 
 
 ### Rich Ehrmann, Post Guild representative
 
-TKTKTKTK
+Rick Ehrmann, a member of the Washington-Baltimore News Guild staff since 1998, is a long-time labor activist in the Washington-Baltimore area and has been the primary representative and chief negotiator for The Washington Post Guild since 2002. He also represents members at American Nurses Association, In These Times, Center for Popular Democracy, National Association of Social Workers and other media and non-profit organizations.
+
+Prior to Rick’s WBNG work, he served as organizer, representative, and vice president of District 1199E, Hospital and Health Care Employees, SEIU for many years, negotiating contracts at Georgetown University and Hospital, Maryland General Hospital, Capitol Hill Hospital and numerous nursing homes. Rick also served 1199E as a Maryland statehouse lobbyist, helping to secure passage of the geriatric nursing assistants’ certification bill. Rick has represented his unions as a delegate to the Baltimore and Washington DC labor councils.
