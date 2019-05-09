@@ -1,6 +1,6 @@
 import React from "react";
 import { Range } from "react-range";
-import "./calc.sass";
+import "./calc.scss";
 
 export default class Counter extends React.Component {
   constructor(props) {

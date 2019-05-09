@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../../components/Layout";
 import { PDFObject } from "react-pdfobject";
-import "./contract.sass";
+import "./contract.scss";
 // import { graphql, StaticQuery } from "gatsby";
 
 export default class BlogIndexPage extends React.Component {
