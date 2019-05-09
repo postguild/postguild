@@ -10,9 +10,10 @@ $primary: $kaldi-red;
 $primary-invert: $kaldi-red-invert;
 $body-color: #333;
 $black: #000000;
+$dark: $black;
 
 .navbar .navbar-menu {
-  box-shadow: none !important;
+  // box-shadow: none !important;
 }
 
 .content .taglist {
