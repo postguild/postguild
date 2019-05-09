@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import logo from "../img/GuildLogoFinal.png";
 
@@ -33,8 +33,8 @@ const Navbar = class extends React.Component {
   };
 
   render() {
-    const { data } = this.props
-    const { edges: pages } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: pages } = data.allMarkdownRemark;
 
     return (
       <nav
@@ -63,12 +63,24 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              {pages &&
-                pages.map(({node: page}) => (
-                  <Link key={page.fields.slug} className="navbar-item" to={`${page.fields.slug}`}>
-                    {page.frontmatter.title}
-                  </Link>
-                ))}
+              <Link className="navbar-item" to="/about-us/">
+                About the Guild
+              </Link>
+              <Link className="navbar-item" to="/history/">
+                Guild history
+              </Link>
+              <Link className="navbar-item" to="/leadership/">
+                Leadership
+              </Link>
+              <Link className="navbar-item" to="/contract/">
+                Our contract
+              </Link>
+              <Link className="navbar-item" to="/faq/">
+                FAQ
+              </Link>
+              <Link className="navbar-item" to="/get-in-touch/">
+                Get in touch
+              </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
@@ -76,8 +88,7 @@ const Navbar = class extends React.Component {
                 href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-              </a>
+              />
             </div>
           </div>
         </div>
@@ -89,10 +100,10 @@ const Navbar = class extends React.Component {
 Navbar.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
+      edges: PropTypes.array
+    })
+  })
+};
 
 export default () => (
   <StaticQuery
@@ -117,4 +128,4 @@ export default () => (
     `}
     render={(data, count) => <Navbar data={data} />}
   />
-)
+);
