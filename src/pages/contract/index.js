@@ -13,7 +13,7 @@ export default class BlogIndexPage extends React.Component {
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="section">
-                  <h2 class="title is-size-3 has-text-weight-bold is-bold-light">
+                  <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                     Guild Contract
                   </h2>
                   <div className="content">
@@ -107,8 +107,8 @@ export default class BlogIndexPage extends React.Component {
                       </a>
                       .
                     </p>
+                    <PDFObject url="/pdf/Post_Guild_Contract_2018-2020_OCR_optimized1.pdf" />
                   </div>
-                  <PDFObject url="/pdf/Post_Guild_Contract_2018-2020_OCR_optimized1.pdf" />
                 </div>
               </div>
             </div>
