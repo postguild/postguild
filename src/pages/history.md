@@ -43,7 +43,7 @@ Some of the most beloved journalists in Washington Post history have been unwave
 
 ![Bezos rally](./img/photos/bezos-rally-3.jpg "Rally after Bezos bought The Post in 2013 protesting changes to severance pay.")
 
-- **2013:** Jeff Bezos buys The Washington Post
+- **2013:** Jeffrey P. Bezos, the [Amazon.com](https://www.amazon.com) founder and chief executive, purchases The Washington Post for \$250 million and becomes the official owner of the company. The sale ends 80 years of local control of the newspaper by the Graham family -- ushering in profound change at the legacy newspaper. The transition led to major cuts in key benefits for Post employees, including freezing the pension. It also opened the door for the rapid business growth, staff expansion and technological advancement that has positioned The Post at the top.
 
 - **2017:** The National Labor Relations Board, acting on a complaint filed by the Guild, charged the Post with an unfair labor practice for failing to negotiate the terms of a [new social media policy](https://www.washingtonian.com/2017/06/27/the-washington-post-social-media-policy/) that the union said was too arbitrary and punitive. The Post’s original version, for example, prohibited posting anything — even on a private, person-to-person platform — that disparaged Post advertisers, vendors, suppliers or partners. The NLRB charge was withdrawn after the Post and the Guild later settled the case in a manner that was mutually satisfactory.
 
