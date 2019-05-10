@@ -1,18 +1,17 @@
 ---
 templateKey: about-page
-title: Contact
+title: Get in touch
 ---
 
 ## Email
 
 [wapounion@gmail.com](mailto:wapounion@gmail.com)
 
-
 ## Follow
+
 Twitter: https://twitter.com/postguild?lang=en
 
 Facebook: https://www.facebook.com/groups/WaPoGuild/
-
 
 ## Visit
 

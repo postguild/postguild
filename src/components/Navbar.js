@@ -1,7 +1,7 @@
 import React from "react";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
-import logo from "../img/GuildLogoFinal.png";
+import logo from "../img/GuildLogoFinalBug.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -33,19 +33,16 @@ const Navbar = class extends React.Component {
   };
 
   render() {
-    const { data } = this.props
-    const { edges: pages } = data.allMarkdownRemark
-
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-dark is-fixed-top"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+              <img src={logo} alt="Washington Post Guild" />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -62,22 +59,25 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              {pages &&
-                pages.map(({node: page}) => (
-                  <Link key={page.fields.slug} className="navbar-item" to={`${page.fields.slug}`}>
-                    {page.frontmatter.title}
-                  </Link>
-                ))}
-            </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              </a>
+              <Link className="navbar-item" to="/about-us/">
+                About the Guild
+              </Link>
+              <Link className="navbar-item" to="/history/">
+                Guild history
+              </Link>
+              <Link className="navbar-item" to="/leadership/">
+                Leadership
+              </Link>
+              <Link className="navbar-item" to="/contract/">
+                Our contract
+              </Link>
+              <Link className="navbar-item" to="/faq/">
+                FAQ
+              </Link>
+              <Link className="navbar-item" to="/get-in-touch/">
+                Get in touch
+              </Link>
             </div>
           </div>
         </div>
@@ -89,10 +89,10 @@ const Navbar = class extends React.Component {
 Navbar.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
+      edges: PropTypes.array
+    })
+  })
+};
 
 export default () => (
   <StaticQuery
@@ -117,4 +117,4 @@ export default () => (
     `}
     render={(data, count) => <Navbar data={data} />}
   />
-)
+);
