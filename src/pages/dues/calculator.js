@@ -5,7 +5,7 @@ import "./calc.scss";
 export default class Counter extends React.Component {
   constructor(props) {
     super(props);
-    this.rate = 0.013846;
+    this.rate = 0.0144;
     let dues = 70000 * this.rate;
 
     this.state = {
@@ -30,11 +30,11 @@ export default class Counter extends React.Component {
             How much are my dues?
           </h2>
           <p className="explainer-text">
-            NewsGuild members pay <em>1.3846%</em> of their salary as dues,
-            which support the larger union organization's work on our behalf.
-            This tool will give you an estimate of how much you can expect to
-            contribute through dues, which are automatically deducted from your
-            paycheck.
+            Washington Post Newspaper Guild members pay <em>1.44%</em> of their
+            salary as dues, which support the larger union organization's work
+            on our behalf. This tool will give you an estimate of how much you
+            can expect to contribute through dues, which are automatically
+            deducted from your paycheck.
           </p>
           <h3 className="viz-label">A member with a yearly salary of</h3>
           <Range
