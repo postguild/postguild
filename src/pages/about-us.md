@@ -9,8 +9,6 @@ Every two years, The Post Guild forms a bargaining committee that sits at the ta
 
 We’re proud to work at The Washington Post, a news organization that leads the industry in with its impactful journalism. The Post Guild is working to ensure that the company also sets the example for how newsrooms should treat their journalists.
 
-## ORGANIZATIONAL FLOW CHART (TK)
-
 ### The Washington Post Newspaper Guild
 
 Our unit is one of 27 organized under the Washington-Baltimore News Guild. We’ve been advocating for Post staffers since our founding in 1934. We are an open-shop union, which means we represent more than 1,000 employees of The Washington Post — whether they pay dues or not. The benefit of membership, of course, is that the success of collective bargaining depends entirely on our buy-in.
