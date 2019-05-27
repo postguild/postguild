@@ -1,5 +1,7 @@
 @import "~bulma/sass/utilities/initial-variables";
 @import "~bulma/sass/utilities/mixins";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -36,6 +38,31 @@ $dark: $black;
 
 .header-logo {
   margin: 0 auto 40px;
+  max-width: 200px;
+  display: block;
+
+  @media (max-width: 767px) {
+    max-width: 120px;
+    margin-bottom: 20px;
+  }
+}
+
+.index.section {
+  padding-top: 0px;
+
+  h2.title {
+    margin-top: 40px;
+  }
+}
+
+// These don't seem to work for some reason?
+.slick-slider {
+  margin-bottom: 40px;
+}
+
+.slick-dots {
+  position: static;
+  bottom: 15px;
 }
 
 h2.title,

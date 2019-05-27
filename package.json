@@ -34,6 +34,8 @@
     "react-pdf": "^4.0.5",
     "react-pdfobject": "^1.1.1",
     "react-range": "^1.0.5",
+    "react-slick": "^0.24.0",
+    "slick-carousel": "^1.8.1",
     "uuid": "^3.2.1"
   },
   "keywords": [

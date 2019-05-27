@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import SimpleSlider from "../components/Slider.js";
 
 export const IndexPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -13,12 +14,14 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="section">
+            <div className="section index">
               <img
                 className="header-logo"
                 src="/img/guildlogofinal-large.jpg"
                 alt="The Washington Post Guild Logo"
               />
+
+              <SimpleSlider />
 
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
