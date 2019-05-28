@@ -7,14 +7,13 @@ const photoUrls = [
   "/img/carousel-photos/launch-party-leadership.jpg",
   "/img/carousel-photos/1999-plant-rally-1.jpg",
   "/img/carousel-photos/launch-party-we-believe.jpg",
-  "/img/carousel-photos/heywood-broun-1.jpg",
   "/img/carousel-photos/party-rainbow-balloons.jpg"
 ];
 
 export default class SimpleSlider extends React.Component {
   render() {
     var settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
