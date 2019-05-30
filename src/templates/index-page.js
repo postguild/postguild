@@ -21,7 +21,9 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
                 alt="The Washington Post Guild Logo"
               />
 
-              <SimpleSlider />
+              <div className="slider-container">
+                <SimpleSlider />
+              </div>
 
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}

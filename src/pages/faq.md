@@ -79,7 +79,7 @@ We will start negotiating a new contract in 2020 and we have big goals. We need 
 
 ## What does it cost to join?
 
-Guild dues cost 1.4 percent of your pay. They are deducted from your paycheck each pay period after taxes.
+Guild dues cost 1.4 percent of your pay. They are deducted from your paycheck each pay period after taxes. You can use our [dues calculator](/dues) to determine dues based on your salary.
 
 <a id="prize"></a>
 

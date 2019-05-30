@@ -37,13 +37,24 @@ $dark: $black;
 }
 
 .header-logo {
-  margin: 0 auto 40px;
+  margin: 0 auto 3rem;
   max-width: 200px;
   display: block;
 
   @media (max-width: 767px) {
     max-width: 120px;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+  }
+}
+
+.header-logo + .section {
+  padding-top: 2rem;
+}
+
+.section.section--gradient {
+  padding-top: 3rem;
+  @media (max-width: 767px) {
+    padding-top: 2rem;
   }
 }
 
@@ -51,13 +62,20 @@ $dark: $black;
   padding-top: 0px;
 
   h2.title {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
 // These don't seem to work for some reason?
-.slick-slider {
+.slider-container {
   margin-bottom: 40px;
+
+  @media (max-width: 480px) {
+    width: 95vw;
+    transform: translate(-50%, 0);
+    position: relative;
+    left: 50%;
+  }
 }
 
 .slick-dots {
@@ -72,6 +90,13 @@ h2.title,
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
+}
+
+// Overwriting other !important rules...
+.is-size-3 {
+  @media (max-width: 480px) {
+    font-size: 1.75px !important;
+  }
 }
 
 .content li {

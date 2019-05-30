@@ -13,6 +13,9 @@ export default class BlogIndexPage extends React.Component {
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="section">
+                  <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                    How much are my dues?
+                  </h2>
                   <Calculator />
                 </div>
               </div>

@@ -24,11 +24,8 @@ export default class Counter extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="content">
         <div className="calculator-container">
-          <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-            How much are my dues?
-          </h2>
           <p className="explainer-text">
             Washington Post Newspaper Guild members pay <em>1.44%</em> of their
             salary as dues, which support the larger union organization's work
