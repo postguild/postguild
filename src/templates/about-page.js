@@ -12,7 +12,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <a href="/">
+            <a href="/" title="The Washington Post Guild">
               <img
                 className="header-logo"
                 src="/img/guildlogofinal-large.jpg"

@@ -10,11 +10,13 @@ const Footer = class extends React.Component {
       <footer className="footer has-background-black has-text-white-ter">
         <div className="columns">
           <div className="column is-8 has-text-centered">
-            <img
-              src={logo}
-              alt="The Washington Post Guild logo"
-              style={{ width: "14em" }}
-            />
+            <a href="/" title="The Washington Post Guild">
+              <img
+                src={logo}
+                alt="The Washington Post Guild logo"
+                style={{ width: "14em" }}
+              />
+            </a>
           </div>
 
           <div className="column is-4 social has-text-centered">

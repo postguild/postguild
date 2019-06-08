@@ -15,7 +15,7 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section index">
-              <a href="/">
+              <a href="/" title="The Washington Post Guild">
                 <img
                   className="header-logo"
                   src="/img/guildlogofinal-large.jpg"
