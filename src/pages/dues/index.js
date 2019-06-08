@@ -12,7 +12,17 @@ export default class BlogIndexPage extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <div className="section">
+                <div className="section content join-us">
+                  <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                    Join Us
+                  </h2>
+                  <p>
+                    Most non-managers at The Washington Post are guild-eligible.
+                    If you're curious about your status, or interested in
+                    joining the guild today, email us at{" "}
+                    <a href="mailto:wapounion@gmail.com">wapounion@gmail.com</a>{" "}
+                    and a member of guild leadership will get in touch.
+                  </p>
                   <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                     How much are my dues?
                   </h2>
