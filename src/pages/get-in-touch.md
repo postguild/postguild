@@ -9,9 +9,9 @@ title: Get in touch
 
 ## Follow
 
-Twitter: https://twitter.com/postguild?lang=en
+[@postguild](https://twitter.com/postguild) on Twitter
 
-Facebook: https://www.facebook.com/groups/WaPoGuild/
+Follow us on [Facebook](https://www.facebook.com/groups/WaPoGuild/)
 
 ## Visit
 

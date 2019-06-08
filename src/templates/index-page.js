@@ -15,11 +15,13 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section index">
-              <img
-                className="header-logo"
-                src="/img/guildlogofinal-large.jpg"
-                alt="The Washington Post Guild Logo"
-              />
+              <a href="/">
+                <img
+                  className="header-logo"
+                  src="/img/guildlogofinal-large.jpg"
+                  alt="The Washington Post Guild Logo"
+                />
+              </a>
 
               <div className="slider-container">
                 <SimpleSlider />

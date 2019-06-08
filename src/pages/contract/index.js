@@ -12,11 +12,13 @@ export default class BlogIndexPage extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <img
-                  className="header-logo"
-                  src="/img/guildlogofinal-large.jpg"
-                  alt="The Washington Post Guild Logo"
-                />
+                <a href="/">
+                  <img
+                    className="header-logo"
+                    src="/img/guildlogofinal-large.jpg"
+                    alt="The Washington Post Guild Logo"
+                  />
+                </a>
 
                 <div className="section">
                   <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
