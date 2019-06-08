@@ -53,19 +53,19 @@ Sarah is a science reporter and the Chief Steward for the guild, which means she
 
 You can find Sarah at her desk, surrounded by nerdy science books, on twitter at [@sarahkaplan48](https://twitter.com/sarahkaplan48) and by email at [sarahkaplan48@gmail.com](mailto:sarahkaplan48@gmail.com)
 
-### Stephen “Rocky” Richardson, Commercial
-
-Rocky has been a dedicated Washington Post employee and Guild member for more than 15 years. He believes that The Washington Post is a first class news product because proud and hard working Guild members work to make it the best newspaper in the United States.
-
-You can reach Rocky at [richardsonstephen123@hotmail.com](mailto:richardsonstephen123@hotmail.com)
-
 ## Diversity + Equity Chair(s)
 
-### Alice Li, Vice Chair for Equity and Diversity
+### Alice Li, co-Chair for Equity and Diversity
 
 Alice is a video journalist and vice-chair for Equity and Diversity for the Post Guild. She came to The Post in 2014 as an intern and has stuck around ever since. As someone who has lived in China for several years, Alice recognizes the power of having unions advocating for their workers. It’s a privilege she doesn’t take lightly. That’s why she is so excited to serve in this capacity and can’t wait to hear all of your ideas for what this committee can do for you.
 
 You can email her at [alice.li2014@gmail.com](mailto:alice.li2014@gmail.com) or follow her on Twitter [@byaliceli](https://twitter.com/byaliceli)
+
+### Sophie Ho, co-chair for equity and diversity
+
+Sophie is a newsroom audience analyst and a vice-chair for the Equity and Diversity committee for the Post Guild. She joined The Post in 2016 as an intern on the audience engagement team, and was most recently the operations editor in National and Politics. She is passionate about creating an equitable and diverse work environment and believes in the power of mentorship to pave the way. Sophie is a San Francisco Bay Area native and is always on the quest for good Vietnamese food in the DMV region.
+
+Email her at [sophanho@gmail.com](mailto:sophanho@gmail.com) or DM [@sophanho](https://twitter.com/sophanho) on Twitter.
 
 ## Overnight chair
 
