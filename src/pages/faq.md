@@ -67,7 +67,7 @@ Most importantly, we have successfully represented countless employees in indivi
 
 ## Don’t I already benefit from the Guild’s work without being a dues-paying member?
 
-You do! But The Post gauges our union’s strength by its membership and its activism. The single most important thing you can do to increase the odds of improving your pay and benefits is to become a member — and ask your colleagues to join as well. Joining also puts you in good company: More than half of newsroom employees are dues-paying members, and company-wide membership is around 47 percent.
+You do! But The Post gauges our union’s strength by its membership and its activism. The single most important thing you can do to increase the odds of improving your pay and benefits is to become a member — and ask your colleagues to join as well. Joining also puts you in good company: More than half of newsroom employees are dues-paying members, and company-wide membership is around 50 percent.
 
 <a id="why-now"></a>
 

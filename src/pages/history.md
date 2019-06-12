@@ -37,7 +37,7 @@ Some of the most beloved journalists in Washington Post history have been unwave
 
 - **2002:** As a way to turn up the heat on stalled negotiations over pay, vacation time and union members, nearly all Washington Post employees stage a two-day byline strike — electing to have their names in the newspaper replaced with “By a Washington Post Staff Writer” or “Washington Post Foreign Service.” At least 200 readers called The Post switchboard afterward, angry and bewildered. Four months later, employees again protested with a byline strike, and within weeks the guild and management had settled on a contract agreement.
 
-- **2010:** The Post Guild begins representing employees from washingtonpost.com (Yes, staffers who ran the website used to work in a different building across the river and were considered separate from the print-oriented newsroom).
+- **2010:** The Post Guild begins representing employees from washingtonpost.com. (Yes, staffers who ran the website used to work in a different building across the river and were considered separate from the print-oriented newsroom.)
 
 - **2012:** The Customer Service Professional of the Year award, which was first established in 2004, is renamed for long-time Washington Post activist and WBNG officer Darlene Meyers shortly after she died. The award recognizes outstanding contributions by Newspaper Guild members who work on the commercial side of news operations.
 

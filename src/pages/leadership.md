@@ -31,6 +31,8 @@ Justin came to The Post as a copy aide in 2008 as we were winning Pulitzers and 
 
 Inspired by his grandfather, who helped unionize a Goodrich tire factory in Phoenixville, Pa., decades ago, Justin now serves as treasurer of our Local, helping make sure the hundreds of thousands of dollars in dues that Post members send to the union annually are well spent.
 
+Email Justin at [justinmoyer@gmail.com](mailto:justinmoyer@gmail.com).
+
 ### Pat Jacob, Commercial
 
 Pat has worked in The Post’s advertising department for more than 20 years, and has always been a Guild member. She has witnessed the collective power of union workers confronting and resolving problems in our workplace. “We are the true voice of fairness and have always been committed to helping our sisters and brethren when needed.”
@@ -45,23 +47,23 @@ Hau started at The Post in 2015 delivering papers and sorting mail as a copy aid
 
 Email him at [hauchu@gmail.com](mailto:hauchu@gmail.com) or find him on pretty much any social media [@hauchu](https://twitter.com/hauchu)
 
-## Chief Stewards
+## Steward Network
 
-### Sarah Kaplan, News
+### Sarah Kaplan, chief steward
 
 Sarah is a science reporter and the Chief Steward for the guild, which means she’s responsible for recruiting new members and making sure that everyone can lean on the guild in times of need. Nearly five years after she first arrived at the Post as an intern for Style, the thrill of sitting down at her desk each morning hasn’t worn off. But she’s also eager to help make the Post a better and fairer place to work.
 
 You can find Sarah at her desk, surrounded by nerdy science books, on twitter at [@sarahkaplan48](https://twitter.com/sarahkaplan48) and by email at [sarahkaplan48@gmail.com](mailto:sarahkaplan48@gmail.com)
 
-## Diversity + Equity Chair(s)
+## Diversity + Equity Committee
 
-### Alice Li, co-Chair for Equity and Diversity
+### Alice Li, co-chair
 
 Alice is a video journalist and vice-chair for Equity and Diversity for the Post Guild. She came to The Post in 2014 as an intern and has stuck around ever since. As someone who has lived in China for several years, Alice recognizes the power of having unions advocating for their workers. It’s a privilege she doesn’t take lightly. That’s why she is so excited to serve in this capacity and can’t wait to hear all of your ideas for what this committee can do for you.
 
 You can email her at [alice.li2014@gmail.com](mailto:alice.li2014@gmail.com) or follow her on Twitter [@byaliceli](https://twitter.com/byaliceli)
 
-### Sophie Ho, co-chair for equity and diversity
+### Sophie Ho, co-chair
 
 Sophie is a newsroom audience analyst and a vice-chair for the Equity and Diversity committee for the Post Guild. She joined The Post in 2016 as an intern on the audience engagement team, and was most recently the operations editor in National and Politics. She is passionate about creating an equitable and diverse work environment and believes in the power of mentorship to pave the way. Sophie is a San Francisco Bay Area native and is always on the quest for good Vietnamese food in the DMV region.
 
@@ -85,8 +87,10 @@ He has covered cops, courts, government, Maryland and Virginia politics and tran
 
 Email him at [goldstraw@comcast.net](mailto:goldstraw@comcast.net) and find him on Twitter at [@KunkleFredrick](https://twitter.com/KunkleFredrick)
 
-### Rich Ehrmann, Post Guild representative
+### Rick Ehrmann, Post Guild representative
 
 Rick Ehrmann, a member of the Washington-Baltimore News Guild staff since 1998, is a long-time labor activist in the Washington-Baltimore area and has been the primary representative and chief negotiator for The Washington Post Guild since 2002. He also represents members at American Nurses Association, In These Times, Center for Popular Democracy, National Association of Social Workers and other media and non-profit organizations.
 
 Prior to Rick’s WBNG work, he served as organizer, representative, and vice president of District 1199E, Hospital and Health Care Employees, SEIU for many years, negotiating contracts at Georgetown University and Hospital, Maryland General Hospital, Capitol Hill Hospital and numerous nursing homes. Rick also served 1199E as a Maryland statehouse lobbyist, helping to secure passage of the geriatric nursing assistants’ certification bill. Rick has represented his unions as a delegate to the Baltimore and Washington DC labor councils.
+
+Email him at [Rehrmann@wbng.org](mailto:Rehrmann@wbng.org).
