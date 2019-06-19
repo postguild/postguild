@@ -10,9 +10,10 @@
     position: relative;
     width: 20px;
     height: 20px;
-    background-color: #ff9981;
+    background-color: #ffffff;
     border-radius: 50%;
-    border: 1px solid #fa2e37;
+    border: 1.25px solid #fa2e37;
+    box-shadow: 0.4px 1px 1px 1px #ccc;
 
     .salary-text {
       position: absolute;
