@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../../components/Layout";
-import { PDFObject } from "react-pdfobject";
+import ContractPDF from "../../components/ContractPDF";
 import "./contract.scss";
 
 export default class BlogIndexPage extends React.Component {
@@ -115,7 +115,7 @@ export default class BlogIndexPage extends React.Component {
                       </a>
                       .
                     </p>
-                    <PDFObject url="/pdf/Post_Guild_Contract_2018-2020_OCR_optimized1.pdf" />
+                    <ContractPDF />
                   </div>
                 </div>
               </div>

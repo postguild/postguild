@@ -1,0 +1,11 @@
+.react-pdf__Page {
+  margin-bottom: 25px;
+  > canvas {
+    border: 1px solid black;
+  }
+}
+
+.react-pdf__Document > .pagination {
+  margin: 0 auto;
+  max-width: 500px;
+}
