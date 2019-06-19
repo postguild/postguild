@@ -1,7 +1,7 @@
 import React from "react";
 
 import Layout from "../../components/Layout";
-import ContractPDF from "../../components/ContractPDF";
+// import ContractPDF from "../../components/ContractPDF";
 import "./contract.scss";
 
 export default class BlogIndexPage extends React.Component {
@@ -115,7 +115,6 @@ export default class BlogIndexPage extends React.Component {
                       </a>
                       .
                     </p>
-                    <ContractPDF />
                   </div>
                 </div>
               </div>
