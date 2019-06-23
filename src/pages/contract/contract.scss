@@ -25,4 +25,8 @@ span.page-control {
 
 #pdfobject {
   height: 100vh;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 }
