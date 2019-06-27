@@ -115,7 +115,6 @@ export default class BlogIndexPage extends React.Component {
                       </a>
                       .
                     </p>
-                    <PDFObject url="/pdf/Post_Guild_Contract_2018-2020_OCR_optimized1.pdf" />
                   </div>
                 </div>
               </div>
