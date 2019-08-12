@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
+import BlogList from "../components/BlogList";
 import Content, { HTMLContent } from "../components/Content";
 import SimpleSlider from "../components/Slider.js";
 
@@ -31,6 +32,7 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <PageContent className="content" content={content} />
+              <BlogList />
             </div>
           </div>
         </div>
