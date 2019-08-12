@@ -28,11 +28,12 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
                 <SimpleSlider />
               </div>
 
+              <BlogList />
+
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
               <PageContent className="content" content={content} />
-              <BlogList />
             </div>
           </div>
         </div>

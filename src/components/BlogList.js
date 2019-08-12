@@ -9,7 +9,7 @@ class BlogList extends React.Component {
 
     return (
       <>
-        <h2 className="title is-size-4 has-text-weight-bold is-bold-list">
+        <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
           Latest News
         </h2>
         <ul className="content">
