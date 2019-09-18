@@ -14,4 +14,4 @@ We’re not done yet.
 
 Had the company allowed Express workers to join the union that covers other Post journalists, it would be required to attempt to rehire those who were laid off. The Post Guild is demanding that The Washington Post abide by guaranteeing hiring priority for anyone affected by the Express shutdown. We encourage readers and supporters of Express to do the same. 
 
-The Post Guild is determined to ensure that employees at this company are treated with fairness, dignity and respect. Please add your name to this petition, and join us in calling on The Washington Post to do what is right.
+The Post Guild is determined to ensure that employees at this company are treated with fairness, dignity and respect. Please add your name to t[his petition](https://docs.google.com/forms/d/e/1FAIpQLSfsIojb4a3drxmm7HFswTwy0G0hBFcx-sveMt5vBut3GFSaxQ/viewform), and join us in calling on The Washington Post to do what is right.
