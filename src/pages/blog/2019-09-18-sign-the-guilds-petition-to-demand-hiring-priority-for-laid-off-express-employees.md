@@ -4,11 +4,7 @@ title: >-
   Sign the Guild's petition to demand hiring priority for laid-off Express
   employees
 date: 2019-09-18T12:57:08.417Z
-description: >-
-  Had the company allowed Express workers to join the union that covers other
-  Post journalists, it would be required to attempt to rehire those who were
-  laid off. The Post Guild is demanding that The Washington Post abide by
-  guaranteeing hiring priority for anyone affected by the Express shutdown.
+description: ' '
 ---
 In the past week, members of the Post Guild have demonstrated what being part of a union is all about. 
 
