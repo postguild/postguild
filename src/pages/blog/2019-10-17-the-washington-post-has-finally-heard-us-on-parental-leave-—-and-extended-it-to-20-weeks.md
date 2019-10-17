@@ -4,11 +4,7 @@ title: >-
   The Washington Post has finally heard us on parental leave — and extended it
   to 20 weeks
 date: 2019-10-17T20:49:07.926Z
-description: >-
-  Our union is thrilled to announce that our company, The Washington Post, has
-  finally extended its parental leave policy to 20 weeks — 16 weeks longer than
-  the current paid time allotted to new parents after the adoption or birth of a
-  child.
+description: ' '
 ---
 Our union is thrilled to announce that our company, The Washington Post, has finally extended its parental leave policy to 20 weeks — 16 weeks longer than the current paid time allotted to new parents after the adoption or birth of a child. 
 
