@@ -384,7 +384,7 @@ The Guild believes that a diverse, equitable and inclusive workplace is key to T
 
 ### PAY HISTORY AT THE POST
 
-he fight for equal pay at The Washington Post has spanned decades of hard work, collective action and uncommon courage from past generations of Post employees.
+The fight for equal pay at The Washington Post has spanned decades of hard work, collective action and uncommon courage from past generations of Post employees.
 
 When the Civil Rights Act of 1964 passed the Senate after the longest debate in its history, Title VII came into law, prohibiting employment discimination based on race, sex, color, religion and national origin. The act not only prohibited discriminatory pay, but also discrimination in recruitment, hiring, assignment, promotions, benefits, discipline and layoffs.
 
