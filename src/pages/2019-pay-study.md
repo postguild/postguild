@@ -20,7 +20,7 @@ We must note that the ability to analyze pay disparities at The Post has been hi
 
 This is what we found.
 
-## IN THE NEWSROOM:
+### IN THE NEWSROOM:
 
 - **Women as a group are paid less than men**.
 - **Employees of color are paid less than white men, even when controlling for age and job description. White women are paid about the median for their age.**
@@ -32,7 +32,7 @@ This is what we found.
   - On the flip side, **42 percent** of scores below 3 were given to employees of color in the newsroom (the newsroom is about 24 percent nonwhite).
 - **Pay disparities have narrowed from the Graham era to the Bezos era, but not to within what could be considered parity.**
 
-## IN THE COMMERCIAL DIVISION:
+### IN THE COMMERCIAL DIVISION:
 
 - **Men and women are paid about the same.** Gender pay disparities are nearly nonexistent among salaried employees in the commercial division’s nine departments.
 - **Pay disparities do exist, however, when analyzing for race or ethnicity.** The median salary for white employees in commercial is $88,000, compared with $83,445 for people of color — **a difference of \$4,555, or 5 percent.**
@@ -46,7 +46,7 @@ We know there are common-sense steps the company can take to eliminate these dis
 
 We invite the company to work with us to position The Post as a leader not just in journalism, but in workplace diversity, equality and fairness.
 
-## THE POST’S WORKFORCE
+### THE POST’S WORKFORCE
 
 Among all current Guild-covered employees, about two-thirds (707 in total) are salaried. Among those employees, the mean salary is $112,383, while the median salary is $99,904. The median salary is generally a better metric for salaries. The higher mean suggests that the highest salaries have skewed the average upward.
 
@@ -90,7 +90,7 @@ The median salary by race for those salaried employees is as follows:
 
 ![Median pay by race and gender (salaried employees)](img/pay-study/median_pay_by_race_and_gender_salaried.png "Median pay by race and gender (salaried employees)")
 
-## NEWSROOM
+### NEWSROOM
 
 In the newsroom, the pay disparities are similar to those in the larger company, including employees working in commercial. For the 290 salaried male newsroom employees working at The Post, the median salary is $116,065. For the 284 salaried female newsroom employees, it is $95,595. These groups have disparities in age and years of service: The median age for men working in the newsroom is 41, compared to 35 for women.
 
@@ -229,7 +229,7 @@ For contrast, over that time the racial and ethnic makeup of salaried employees 
 
 **The Post contends that merit raises are tied mostly to performance evaluations, and the data bears that out. Those who score higher, regardless or race, ethnicity or gender, tend to be the ones who get merit raises most frequently. However, an analysis of every performance evaluation score over the last four years shows that those who score the highest are overwhelmingly white. In cases where a 4 or higher was awarded to a salaried newsroom employee, 85 percent were white and over half were awarded to white men. And in cases where employees were given a score of 3 or below, 42 percent of scores were given to employees of color in the newsroom (the newsroom is about 24 percent nonwhite).**
 
-## GRAHAM FAMILY ERA VS. BEZOS ERA
+### GRAHAM FAMILY ERA VS. BEZOS ERA
 
 Finally, the Guild wanted to examine whether pay disparities had changed after Jeff Bezos bought The Washington Post in 2013 from the Graham family. Analysis shows that from the Graham era to the Bezos era, pay disparities have shrunk slightly, but not to within a range that the Guild would recognize as the point of parity. While white men are paid closer to the median salary across age groups, all other groups are also closer to white men than they were before.
 
@@ -242,7 +242,7 @@ For current employees hired under Jeff Bezos’s ownership, salaries when accoun
 - Men of color are paid an average of 1.1 percent higher than the median for their age group and desk
 - Women of color are paid an average of 0.6 percent lower than the median for their age group and desk
 
-## COMMERCIAL
+### COMMERCIAL
 
 Analysis of the organization’s commercial side as a whole is difficult, because it includes nine different departments across the organization and only 133 salaried employees and 147 hourly employees. These numbers are high enough for topline analysis, but with the introduction of more and more factors, the results become less reliable. In many departments, it is difficult to ascertain pay equity or disparity across gender, race and ethnicity because they have too few employees. The following section attempts to examine pay where possible. As with the newsroom section, topline numbers are only reliable insofar as they reveal broad trends, though they cannot capture other factors that influence pay, such as years of experience or the demands of the job itself.
 
@@ -305,7 +305,7 @@ Merit raises went to these groups in the following percentages, compared to the 
 - Other men: 0 percent of merit raises vs. 1.2 percent of employees
 - Other women: 1.7 percent of merit raises vs. 2 percent of employees
 
-## Testimonies
+### Testimonies
 
 In interviews, employees across desks and departments described troubling pay disparities between colleagues doing the same job, even with the same level of experience. They expressed frustration with a system that encourages employees to seek offers elsewhere in order to receive significant raises. They spoke of a hiring process that benefits industry insiders coming from higher-paying competitors and that too often sets back women, people of color, and journalists from smaller publications.
 
@@ -358,13 +358,13 @@ The aide thought back to orientation day at The Post, when new employees were to
 
 “It just feels very almost disingenuous,” the employee said.
 
-## CLOSING
+### CLOSING
 
 The analysis provided above is a fraction of the analysis completed as part of this pay study. If we had written it all up, this report would be much, much longer. The numbers in this report represent the most relevant topline numbers in the analysis, and all attempts were made to present those numbers alongside context including factors such as age and job.
 
 If you are interested in seeing the Post Guild’s full analysis, it is attached as an appendix to this report.
 
-## RECOMMENDATIONS
+### RECOMMENDATIONS
 
 The Guild believes that a diverse, equitable and inclusive workplace is key to The Post’s success as an organization. While the company has made progress, there is still work to do. To help promote such an environment, the Guild offers the following recommendations:
 
@@ -382,7 +382,7 @@ The Guild believes that a diverse, equitable and inclusive workplace is key to T
 
 **The Post should hire a third-party consultant to conduct an annual pay study and share the results with Post employees, along with any recommended changes.** This pay study should include every employee, not just Guild-covered workers, to provide the most comprehensive picture of pay within the organization.
 
-## PAY HISTORY AT THE POST
+### PAY HISTORY AT THE POST
 
 he fight for equal pay at The Washington Post has spanned decades of hard work, collective action and uncommon courage from past generations of Post employees.
 
@@ -418,7 +418,7 @@ In the years since Ifill’s bulletin, pay disparities have contracted and expan
 
 The advancements made by previous generations of Post employees, empowered by civil rights legislation and by the Guild, are a testament to the power of collective action and the bravery of those who put their jobs on the line in the name of equality. As the latest pay study will attest, there is still much work to be done.
 
-## PAY STUDIES AT OTHER COMPANIES
+### PAY STUDIES AT OTHER COMPANIES
 
 The Post Guild, of course, is not the only entity to conduct a pay study. Google and Citigroup are two major companies that have recently conducted public pay equity studies in their respective industries.
 
@@ -430,7 +430,7 @@ A number of media unions have also conducted their own pay studies of their news
 
 While Bloomberg has made an effort to bring in new hires, the merit pay system already in place meant the pay disparities inevitably continued, and the company does not have a mechanism to balance pay. The study recommended a proactive pay policy for new hires and compensation for current employees. BBNA’s guild chair noted that she found the methodology flawed because it is difficult to quantify experience. She also noted that disparities varied across groups in the company, and that that should be kept in mind as solutions are proposed.
 
-## METHODOLOGY
+### METHODOLOGY
 
 Conducting a pay study of an organization like The Washington Post is not easy. Because the organization isn’t flat, meaning not everyone with the same amount of experience is working the same job, topline numbers such as median salary by gender or race and ethnicity cannot capture the entire story of pay at The Post. Those figures presented here should be understood primarily as a starting point for discussion. Ultimately, the goal is to add nuance to this analysis, and develop truer metrics for pay at The Post, accurately capturing the landscape to determine where the organization has genuine pay parity, and where it has disparities.
 
@@ -444,7 +444,7 @@ Identifying the median salaries of small numbers of people would make it easy to
 
 To study salaries by gender, the Guild relied on a field provided by The Post. The field is binary, containing no additional information beyond “male” or “female.” It is unclear how The Post determined this information for its employees. That caveat aside, the field had information for every employee in the data set.
 
-## CONTRIBUTORS
+### CONTRIBUTORS
 
 Guild Leadership\
 Jacob Brogan\

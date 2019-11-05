@@ -26,10 +26,10 @@ export const PayStudyPageTemplate = ({
             </a>
 
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+              <h2 className="title has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <span className="byline">{byline}</span>
+              <p className="byline">{byline}</p>
               <PageContent className="content" content={content} />
             </div>
           </div>
