@@ -27,7 +27,7 @@ export const PayStudyPageTemplate = ({
             </a>
 
             <div className="section">
-              <h2 className="title has-text-weight-bold is-bold-light">
+              <h2 className="title is-size-1 has-text-weight-bold has-text-centered">
                 {title}
               </h2>
               <p className="byline">{byline}</p>
