@@ -1,7 +1,6 @@
 import React from "react";
 
 import Layout from "../../components/Layout";
-import { PDFObject } from "react-pdfobject";
 import "./contract.scss";
 
 export default class BlogIndexPage extends React.Component {

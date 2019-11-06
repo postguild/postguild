@@ -4,7 +4,7 @@ import { Link, graphql, StaticQuery } from "gatsby";
 
 class BlogList extends React.Component {
   render() {
-    const { data, title } = this.props;
+    const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
