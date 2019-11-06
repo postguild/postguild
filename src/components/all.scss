@@ -229,9 +229,7 @@ $menu-label-color: $white-ter;
 
 section.pay-study {
   .section {
-    @media (max-width: 767px) {
-      padding-top: 0;
-    }
+    padding-top: 0;
   }
 
   h2.title {
