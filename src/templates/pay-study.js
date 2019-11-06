@@ -54,6 +54,7 @@ const PayStudyPage = ({ data }) => {
     <Layout>
       <SEO
         title={post.frontmatter.title}
+        description={post.frontmatter.description}
         pathname={post.fields.slug}
         article={true}
       />
@@ -83,6 +84,7 @@ export const payStudyPageQuery = graphql`
       frontmatter {
         title
         byline
+        description
       }
     }
   }
