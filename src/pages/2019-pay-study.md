@@ -230,7 +230,7 @@ For contrast, over that time the racial and ethnic makeup of salaried employees 
 - Hispanic or Latino: 4.6 percent
 - All others: 7.7 percent
 
-The Post contends that merit raises are tied mostly to performance evaluations, and the data bears that out. Those who score higher, regardless of race, ethnicity or gender, tend to be the ones who get merit raises most frequently. However, an analysis of every performance evaluation score over the past four years shows that those who score the highest are overwhelmingly white. In cases in which a 4 or higher was awarded to a salaried newsroom employee, 85 percent were white, and over half of scores of 4 or higher were awarded to white men. And in cases in which salaried newsroom employees were given a score of 3 or below, 42 percent of those scores were given to employees of color (the newsroom is about 24 percent nonwhite).
+The Post contends that merit raises are tied mostly to performance evaluations, and the data bears that out. Those who score higher, regardless of race, ethnicity or gender, tend to be the ones who get merit raises most frequently. However, an analysis of every performance evaluation score over the past four years shows that those who score the highest are overwhelmingly white. In cases in which a 4 or higher was awarded to a salaried newsroom employee, 85 percent were white, and over half of scores of 4 or higher were awarded to white men. And in cases in which salaried newsroom employees were given a score of 3 or below, 37 percent of those scores were given to employees of color (the newsroom is about 24 percent nonwhite).
 
 ### GRAHAM FAMILY ERA VS. BEZOS ERA
 
