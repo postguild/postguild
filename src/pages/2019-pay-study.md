@@ -6,6 +6,8 @@ byline: By members of the Washington Post Newspaper Guild
 
 Washington Post employees work hard every day to ensure that our company is a leader in the journalism industry. Members of our company’s union, The Washington Post Newspaper Guild, believe The Post should also lead the way in how it treats its staff.
 
+[(Download this report as a PDF)](/pdf/GUILDPAYSTUDY_FINAL_2019.pdf)
+
 We want to foster an environment where all people, regardless of their gender, race, religion, sex, age or job, feel they are heard, respected and paid fairly.
 
 Our company has expressed a commitment to these values. But the members of the Post Guild believe that true progress can only be achieved when we begin with the facts. And the facts tell us that The Post has a problem with pay disparity.
