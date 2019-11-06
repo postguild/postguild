@@ -27,7 +27,7 @@ This is what we found.
 - **Men receive a higher percentage of merit pay raises than women, despite accounting for a smaller proportion of the newsroom.**
 - **The Post tends to give merit raises based on performance evaluation scores, but those who score the highest are overwhelmingly white.** The Post is fairly consistent across races/ethnicities and genders at awarding raises to those who do well on performance evaluations.
   - But in **85 percent** of instances in which a 4 or higher was awarded to a salaried newsroom employee, that employee was white. Employees are rated on a scale of 1 to 5.
-  - On the flip side, **42 percent** of scores below 3 were given to employees of color in the newsroom (the newsroom is about 24 percent nonwhite).
+  - On the flip side, **37 percent** of scores below 3 were given to employees of color in the newsroom (the newsroom is about 24 percent nonwhite).
 - **Pay disparities have narrowed from the Graham era to the Bezos era, but most have not shrunk to within what could be considered parity.**
 
 ### IN THE COMMERCIAL DIVISION:
@@ -190,13 +190,13 @@ We recognize that these groups aren’t monoliths, and so in a normal distributi
 
 The data also shed light on who received raises over the past five years and their performance evaluation scores for the past four.
 
-For men and women in the newsroom, the median performance evaluation score is even, at 3.4 for 3,804 evaluations conducted over four years. Analyzed by race and ethnicity, scores started to diverge. Among groups for whom more than 20 evaluations were done over the four years from 2015 through 2018, the median performance ratings were as follows:
+For men and women in the newsroom, the median performance evaluation score is even, at 3.4 for 3,664 evaluations conducted over four years. Analyzed by race and ethnicity, scores started to diverge. Among groups for whom more than 20 evaluations were done over the four years from 2015 through 2018, the median performance ratings were as follows:
 
 - White: 3.5
 - Asian: 3.4
 - Hispanic or Latino: 3.3
+- Black: 3.3
 - Two or more races: 3.2
-- Black: 3.2
 
 For men, performance ratings were always at least equal to those of their female counterparts of the same race or ethnicity. Ratings for men and women by race and ethnicity were as follows:
 
@@ -204,21 +204,22 @@ For men, performance ratings were always at least equal to those of their female
 - White women: 3.4
 - Asian men and women: 3.4
 - Hispanic or Latino men and women: 3.3
+- Black men: 3.3
+- Black Women: 3.25
 - Men and women of two or more races: 3.2
-- Black men and women: 3.2
 
 It is unclear what accounts for these disparities in performance evaluation scores.
 
 Most pay raises in the newsroom are a result of Guild-negotiated contracts that award across-the-board increases in salaries. In addition, people also receive merit pay increases, which are based on performance evaluations and awarded solely at the discretion of management. Merit pay increases account for 26 percent of all raises. They are an important way to reward effort and initiative but can also create and magnify disparities if the company does not take steps to ensure fairness in the way performances are evaluated and rewarded.
 
-Men received 51.6 percent of those merit raises, and women received 48.4 percent. (The newsroom’s gender makeup is 48.2 percent men and 51.8 percent women.)
+Men received 51.7 percent of those merit raises, and women received 48.3 percent. (The newsroom’s gender makeup is 48.2 percent men and 51.8 percent women.)
 
 The percentages of merit raises distributed by race and ethnicity for salaried journalists are as follows:
 
-- White: 75.5 percent
+- White: 75.7 percent
 - Black: 9.3 percent
 - Asian: 8.3 percent
-- Hispanic or Latino: 3.8 percent
+- Hispanic or Latino: 3.6 percent
 - All others: 3.1 percent
 
 For contrast, over that time the racial and ethnic makeup of salaried employees is as follows:
