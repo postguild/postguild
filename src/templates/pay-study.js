@@ -1,6 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import PropTypes from "prop-types";
+import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
@@ -51,6 +52,11 @@ const PayStudyPage = ({ data }) => {
 
   return (
     <Layout>
+      <SEO
+        title={post.frontmatter.title}
+        pathname={post.fields.slug}
+        article={true}
+      />
       <PayStudyPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -71,6 +77,9 @@ export const payStudyPageQuery = graphql`
   query PayStudyPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         byline

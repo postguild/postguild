@@ -1,22 +1,15 @@
 import React from "react";
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
-import Helmet from "react-helmet";
+import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  description,
-  title,
-  helmet
-}) => {
+export const BlogPostTemplate = ({ content, contentComponent, title }) => {
   const PostContent = contentComponent || Content;
 
   return (
     <section className="section">
-      {helmet || ""}
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -30,7 +23,6 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light is-center">
               {title}
             </h1>
-            <p>{description}</p>
             <PostContent content={content} />
           </div>
         </div>
@@ -43,8 +35,7 @@ BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.object
+  title: PropTypes.string
 };
 
 const BlogPost = ({ data }) => {
@@ -52,19 +43,16 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        pathname={post.fields.slug}
+        article={true}
+      />
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={
-          <Helmet titleTemplate="%s | Blog">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
         title={post.frontmatter.title}
       />
     </Layout>
@@ -84,6 +72,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
