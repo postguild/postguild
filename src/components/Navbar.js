@@ -67,7 +67,12 @@ const Navbar = class extends React.Component {
                 Join Us
               </Link>
               <Link className="navbar-item" to="/2019-pay-study/">
-                <b>✨ Pay Study</b>
+                <b>
+                  <span role="img" aria-label="New">
+                    ✨
+                  </span>{" "}
+                  Pay Study
+                </b>
               </Link>
               <Link className="navbar-item" to="/leadership/">
                 Leadership
