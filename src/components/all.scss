@@ -1,20 +1,30 @@
 @import "~bulma/sass/utilities/initial-variables";
-@import "~bulma/sass/utilities/mixins";
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #d64000;
-$kaldi-red-invert: #fff;
-$guild-magenta: #f31550;
-$guildOrange: #ff8c2e;
-
-$primary: $kaldi-red;
-$primary-invert: $kaldi-red-invert;
-$body-color: #333;
-$black: #000000;
+$black: #000;
 $dark: $black;
+$guild-magenta: #f31550;
+$guild-orange: #ff8c2e;
+$primary: $black;
+
+@import "~bulma";
+
+$mobile: 768px;
+
+body {
+  @media (max-width: $mobile) {
+    overflow-x: hidden;
+  }
+}
+
+.section {
+  $paddingfix: 15px !important; // I think slick-carousel is doing this
+  @media (max-width: $mobile) {
+    padding-left: $paddingfix;
+    padding-right: $paddingfix;
+  }
+}
 
 .navbar .navbar-menu {
   box-shadow: none !important;
@@ -38,18 +48,14 @@ $dark: $black;
   }
 }
 
-.is-center {
-  text-align: center;
-}
-
 .header-logo {
   margin: 0 auto 3rem;
   max-width: 200px;
   display: block;
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile) {
     max-width: 120px;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem;
   }
 }
 
@@ -59,7 +65,7 @@ $dark: $black;
 
 .section.section--gradient {
   padding-top: 3rem;
-  @media (max-width: 767px) {
+  @media (max-width: $mobile) {
     padding-top: 2rem;
   }
 }
@@ -76,7 +82,7 @@ $dark: $black;
 .slider-container {
   margin-bottom: 40px;
 
-  @media (max-width: 480px) {
+  @media (max-width: $mobile) {
     width: 95vw;
     transform: translate(-50%, 0);
     position: relative;
@@ -100,7 +106,7 @@ h2.title,
 
 // Overwriting other !important rules...
 .is-size-3 {
-  @media (max-width: 480px) {
+  @media (max-width: $mobile) {
     font-size: 1.75px !important;
   }
 }
@@ -183,9 +189,9 @@ footer.footer {
 $menu-item-color: $white-ter;
 $menu-item-hover-color: $black !important;
 $menu-item-hover-background-color: $black;
-$menu-item-active-color: $kaldi-red-invert;
-$menu-item-active-background-color: $kaldi-red-invert;
-$menu-list-border-left: 1px solid $kaldi-red-invert;
+$menu-item-active-color: $white;
+$menu-item-active-background-color: $white;
+$menu-list-border-left: 1px solid $white;
 $menu-label-color: $white-ter;
 
 .menu-label {
@@ -229,26 +235,18 @@ $menu-label-color: $white-ter;
 
 section.pay-study {
   .section {
-    padding-top: 0;
+    padding: 0 !important;
   }
 
-  h2.title {
-    text-align: center;
-    font-size: 3.5rem;
-    line-height: 4.2rem;
-
-    @media (max-width: 767px) {
-      font-size: 2.4rem;
-      line-height: 3rem;
-    }
-
-    @media (max-width: 320px) {
-      font-size: 2rem;
-      line-height: 2.6rem;
+  .title,
+  .byline {
+    @media (max-width: $mobile) {
+      text-align: left !important;
     }
   }
 
   .byline {
+    font-weight: bold;
     margin: 1.5rem auto;
     max-width: 650px;
     text-align: center;
@@ -266,5 +264,3 @@ section.pay-study {
     border-bottom: 2px solid $guild-magenta;
   }
 }
-
-@import "~bulma";

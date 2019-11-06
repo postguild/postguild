@@ -17,7 +17,7 @@ class BlogList extends React.Component {
             posts.map(({ node: post }) => (
               <li>
                 <p>
-                  <Link className="has-text-primary" to={post.fields.slug}>
+                  <Link className="has-text-link" to={post.fields.slug}>
                     {post.frontmatter.title}
                   </Link>
                   <span> &bull; </span>
