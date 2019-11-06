@@ -273,19 +273,19 @@ One of the issues with attempting to determine disparities across commercial is 
 
 When analyzing just the full-time hourly employees in commercial, the disparities shrink and shift. For the men and women of color, the wages are virtually the same for full-time employees on an hourly wage. For white men and women, hourly wages are about $2 apart. But while full-time men and women of color have median hourly rates of $26.04 and $26.82, respectively, full-time white men and women have median hourly rates of $29.91 and \$31.84, respectively.
 
-There is a slight gender disparity in the scores that commercial employees have received on performance evaluations. While the median score for women is 3.3, the median score for men is 3.2. Similarly, when it comes to race and ethnicity, while white and Asian employees in commercial each have a median score of 3.3, black and Hispanic or Latino employees each have a median score of 3.2.
+There is a slight gender disparity in the scores that commercial employees have received on performance evaluations. While the median score for women is 3.3, the median score for men is 3.2. Similarly, when it comes to race and ethnicity, while white and Asian employees in commercial each have a median score of 3.3, black employees have a median score of 3.2 and Hispanic or Latino employees each have a median score of 3.15.
 
 Finally, an analysis of raises for The Post’s commercial employees shows few disparities in who receives them. The most common type of raise among commercial employees, with the exception of those mandated by Guild contracts, is merit raises.
 
-Men received 43.1 percent of those merit raises, and women received 56.9 percent. (The gender makeup of commercial is 42.9 percent male and 57.1 percent female.)
+Men received 44.3 percent of those merit raises, and women received 55.7 percent. (The gender makeup of commercial is 42.9 percent male and 57.1 percent female.)
 
 The percentages of merit raises distributed by race and ethnicity for salaried commercial employees were as follows:
 
-- Black: 45.8 percent
-- White: 42.5 percent
-- Asian: 6.8 percent
-- Hispanic or Latino: 3.3 percent
-- All others: 1.6 percent
+- Black: 47.4 percent
+- White: 40.7 percent
+- Asian: 7.1 percent
+- Hispanic or Latino: 3.5 percent
+- All others: 1.3 percent
 
 For contrast, over that time the racial and ethnic makeup of salaried employees was as follows:
 
@@ -297,16 +297,10 @@ For contrast, over that time the racial and ethnic makeup of salaried employees 
 
 Merit raises went to these groups in the following percentages, compared to the percentages they make up in commercial:
 
-- White men: 17 percent of merit raises vs. 18 percent of employees
-- White women: 25.5 percent of merit raises vs. 29.8 percent of employees
-- Black men: 21.2 percent of merit raises vs. 19.7 percent of employees
-- Black women: 24.5 percent of merit raises vs. 17.8 percent of employees
-- Asian men: 3.1 percent of merit raises vs. 2.3 percent of employees
-- Asian women: 3.7 percent of merit raises vs. 5.1 percent of employees
-- Hispanic or Latino men: 1.7 percent of merit raises vs. 1.7 percent of employees
-- Hispanic or Latino women: 1.5 percent of merit raises vs. 2.4 percent of employees
-- Other men: 0 percent of merit raises vs. 1.2 percent of employees
-- Other women: 1.7 percent of merit raises vs. 2 percent of employees
+- White men: 17.1 percent of merit raises vs. 18 percent of employees
+- White women: 23.6 percent of merit raises vs. 29.8 percent of employees
+- Men of color: 27.1 percent of merit raises vs. 24.9 percent of employees
+- Women of color: 31.9 percent of merit raises vs. 27.3 percent of employees
 
 ### ADDITIONAL ANALYSIS
 
