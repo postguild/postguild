@@ -6,7 +6,7 @@ module.exports = {
     titleTemplate: "%s | The Washington Post Guild",
     description:
       "The Washington Post Newspaper Guild has been a voice for employees at the company since 1934. We represent 1,000 people across the newsroom and in our commercial operations — including award-winning journalists and the talented marketing, advertising and printing plant staff that help readers and watchers find their work.",
-    url: "https://postguild.com",
+    url: "https://postguild.org",
     image: "/img/guildlogo-og.jpg",
     twitterUsername: "@postguild"
   },
