@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 
+import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import BlogList from "../components/BlogList";
 import Content, { HTMLContent } from "../components/Content";
@@ -53,6 +54,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title={post.frontmatter.title} />
       <IndexPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

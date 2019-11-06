@@ -2,8 +2,9 @@
 templateKey: blog-post
 title: Guild condemns Post Express layoffs and shutdown
 date: 2019-09-11T18:03:11.633Z
-description: ' '
+description: "The Washington Post Newspaper Guild is outraged by the abrupt announcement today that Washington Post Express will close and 20 of our friends and colleagues will be laid off."
 ---
+
 The Washington Post Newspaper Guild is outraged by the abrupt announcement today that Washington Post Express will close and 20 of our friends and colleagues will be laid off.
 
 This announcement came the day before operations ceased, with no advance warning.

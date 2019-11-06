@@ -7,6 +7,8 @@
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #d64000;
 $kaldi-red-invert: #fff;
+$guild-magenta: #f31550;
+$guildOrange: #ff8c2e;
 
 $primary: $kaldi-red;
 $primary-invert: $kaldi-red-invert;
@@ -219,6 +221,45 @@ $menu-label-color: $white-ter;
 
 .gatsby-resp-image-wrapper {
   max-width: 600px;
+}
+
+/********
+ * Pay study styles
+ ********/
+
+section.pay-study {
+  .section {
+    padding-top: 0;
+  }
+
+  h2.title {
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+
+    @media (max-width: 767px) {
+      font-size: 2.6rem;
+      line-height: 3.2rem;
+    }
+  }
+
+  .byline {
+    margin: 1.5rem auto;
+    max-width: 650px;
+    text-align: center;
+  }
+
+  li {
+    margin-bottom: 0.5em;
+
+    p:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
+    border-bottom: 2px solid $guild-magenta;
+  }
 }
 
 @import "~bulma";
