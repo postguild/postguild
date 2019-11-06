@@ -306,7 +306,7 @@ Merit raises went to these groups in the following percentages, compared to the 
 
 The analysis provided above is a fraction of the analysis completed as part of this pay study. If we had written it all up, this report would be much, much longer. The numbers in this report represent the most relevant topline numbers in the analysis, and all attempts were made to present those numbers alongside context including factors such as age and job.
 
-If you are interested in seeing the Post Guild’s full analysis, it is attached as an appendix to this report.
+The Post Guild's full analysis is available on GitHub at [https://github.com/postguild/paystudy2019](https://github.com/postguild/paystudy2019).
 
 ### TESTIMONIES
 
