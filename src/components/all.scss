@@ -104,13 +104,6 @@ body {
   margin-right: auto;
 }
 
-// Overwriting other !important rules...
-.is-size-3 {
-  @media (max-width: $mobile) {
-    font-size: 1.75px !important;
-  }
-}
-
 .content li {
   max-width: 650px;
   margin-left: auto;
