@@ -108,7 +108,7 @@ export default class BlogIndexPage extends React.Component {
                       View the full contract{" "}
                       <a
                         title="PDF of the latest contract"
-                        href="http://www.wbng.org/wp-content/uploads/2016/10/7-13-18-to-7-12-20-Guild-Post-CBA-Signed.pdf"
+                        href="http://www.wbng.org/wp-content/uploads/2016/10/Post_Guild_Contract_2018-2020_OCR_optimized1.pdf"
                       >
                         here (PDF)
                       </a>
