@@ -18,11 +18,10 @@ Then the pandemic hit, and we decided it was in the best interest of our members
 
 Today, we are pleased to announce that Post Guild members voted unanimously on Tuesday to approve an eight-month contract extension. This agreement will protect our jobs as we do our best to protect our communities from the coronavirus, as well as: 
 
-Grant all Guild-eligible employees across the board raises ($15/week or $0.40/hour), which will go into effect this July;
+* Grant all Guild-eligible employees across the board raises ($15/week or $0.40/hour), which will go into effect this July;
+* Formally ratify language for an increased 401(k) match and improved parental leave policy announced last year.
 
-Formally ratify language for an increased 401(k) match and improved parental leave policy announced last year.
-
-We are grateful to have an owner and managers able to help us through this strange time as other outlets -- many of them without union protections -- endure furloughs, layoffs and worse. As we wait to return to the office and to the bargaining table, Post Guild leadership will continue to advocate for our members so they can do what they do best: bring our readers the news even in a time of crisis, when it matters most. 
+We are grateful to have an owner and managers able to help us through this strange time as other outlets — many of them without union protections — endure furloughs, layoffs and worse. As we wait to return to the office and to the bargaining table, Post Guild leadership will continue to advocate for our members so they can do what they do best: bring our readers the news even in a time of crisis, when it matters most. 
 
 In solidarity,
 
