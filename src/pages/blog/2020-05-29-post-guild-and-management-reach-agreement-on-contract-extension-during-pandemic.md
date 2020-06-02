@@ -1,16 +1,14 @@
 ---
 templateKey: blog-post
-title: >-
-  Post Guild and management reach agreement on contract extension during
-  pandemic
+title: Post Guild and management reach agreement on contract extension during pandemic
 date: 2020-05-29T21:38:41.213Z
-description: >-
-  Six months ago, the Washington Post Guild, armed with its largest membership
-  in decades, prepared to bargain a new contract with our parent company. We
-  were ready to ask Jeff Bezos to do better on health care, pay disparity and
-  job security, among a host of other issues.
+description: Six months ago, the Washington Post Guild, armed with its largest
+  membership in decades, prepared to bargain a new contract with our parent
+  company. We were ready to ask Jeff Bezos to do better on health care, pay
+  disparity and job security, among a host of other issues.
 tags:
   - statement
+  - contract
 ---
 
 Six months ago, the Washington Post Guild, armed with its largest membership in decades, prepared to bargain a new contract with our parent company. We were ready to ask Jeff Bezos to do better on health care, pay disparity and job security, among a host of other issues.
