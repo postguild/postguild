@@ -2,7 +2,6 @@
 templateKey: about-page
 title: Leadership
 ---
-
 ## Co-chairs
 
 ### Katie Mettler, News
@@ -25,13 +24,11 @@ You can reach Dave at [davemdejesus@gmail.com](mailto:davemdejesus@gmail.com) or
 
 ## Vice chairs
 
-### Justin Moyer, News
+### Michael Brice-Saddler, News
 
-Justin came to The Post as a copy aide in 2008 as we were winning Pulitzers and laying off longtime employees. He became a reporter not long after the Bezos sale, and was part of an organizing drive that brought more than 100 members into our union in the past two years.
+Michael Brice-Saddler is a beat reporter covering D.C. politics and vice chair for News for the Post Guild. Originally from Baltimore, he came to The Post as an intern in 2018 and joined the union shortly after he became a full-time staff writer. Since joining the Guild, Michael has keyed in on issues affecting underrepresented groups at The Post, founding the Guild's Black Caucus in 2020 amid conversations about racial justice and equity in the newsroom. He is passionate about making sure all employees have a seat at the table.
 
-Inspired by his grandfather, who helped unionize a Goodrich tire factory in Phoenixville, Pa., decades ago, Justin now serves as treasurer of our Local, helping make sure the hundreds of thousands of dollars in dues that Post members send to the union annually are well spent.
-
-Email Justin at [justinmoyer@gmail.com](mailto:justinmoyer@gmail.com).
+Email Michael at mbb643@gmail.com or DM him on Twitter @[TheArtist_MBS](https://twitter.com/TheArtist_MBS).
 
 ### Pat Jacob, Commercial
 
@@ -55,31 +52,35 @@ Sarah is a science reporter and the Chief Steward for the guild, which means she
 
 You can find Sarah at her desk, surrounded by nerdy science books, on twitter at [@sarahkaplan48](https://twitter.com/sarahkaplan48) and by email at [sarahkaplan48@gmail.com](mailto:sarahkaplan48@gmail.com)
 
-## Diversity + Equity Committee
+### Anthony Rivera, chief mobilizer
 
-### Alice Li, co-chair
+Anthony Rivera is a multiplatform editor at The Post and chief mobilizer for Post Guild. Anthony started off as a steward and recruitment lead; he strongly believes that the union's strength is in its membership numbers. He has been at the company for over five years and has seen a lot of changes — some good, some bad — in that short time. He's originally from South Jersey and spends his free time going to the beach or camping with his growing family.
 
-Alice is a video journalist and vice-chair for Equity and Diversity for the Post Guild. She came to The Post in 2014 as an intern and has stuck around ever since. As someone who has lived in China for several years, Alice recognizes the power of having unions advocating for their workers. It’s a privilege she doesn’t take lightly. That’s why she is so excited to serve in this capacity and can’t wait to hear all of your ideas for what this committee can do for you.
+## Equity+ Diversity Committee
 
-You can email her at [alice.li2014@gmail.com](mailto:alice.li2014@gmail.com) or follow her on Twitter [@byaliceli](https://twitter.com/byaliceli)
+### Sonia Rao, co-chair
 
-### Sophie Ho, co-chair
+Sonia Rao is a features reporter and co-chair for the Post Guild's Equity and Diversity Committee. In the nearly four years since she started at The Post as a newsroom intern, she has seen just how much employees at every level have benefited from having union members advocate on their behalf. She is excited to help make The Post a fairer workplace for all and to help forge more of the pathways that allowed her and other journalists from underrepresented backgrounds to get to where they are today. 
 
-Sophie is a newsroom audience analyst and a vice-chair for the Equity and Diversity committee for the Post Guild. She joined The Post in 2016 as an intern on the audience engagement team, and was most recently the operations editor in National and Politics. She is passionate about creating an equitable and diverse work environment and believes in the power of mentorship to pave the way. Sophie is a San Francisco Bay Area native and is always on the quest for good Vietnamese food in the DMV region.
+Email her at soniarao23@gmail.com or follow her on Twitter **@[misssoniarao](https://twitter.com/misssoniarao)**
 
-Email her at [sophanho@gmail.com](mailto:sophanho@gmail.com) or DM [@sophanho](https://twitter.com/sophanho) on Twitter.
+### Yu Vongkiatkajorn, co-chair
 
-## Overnight chair
+Yu Vongkiatkajorn is a community editor at The Post, where she oversees comments, live chats and other community engagement strategies, and co-chair for the Equity and Diversity Committee. She joined The Post in June 2019 and is passionate about growing equity and diversity across the organization and in news coverage. 
 
-### Lynn Olson, Vice Chair for Nightside
+Email her at yu.vongkiatkajorn@gmail.com or on Twitter at @[yukvon](https://twitter.com/yukvon).
 
-Lynn started work at The Post in 2004 on the night news desk and moved to the night homepage team in 2009. She joined the Guild immediately after starting work at The Post, inspired by the example of her father, who was a union steward for the John Deere factory in her hometown. Growing up, she saw the importance of the union to her dad and the people he worked with, and she wanted to be part of advocating for her coworkers, just as he did for his.
+## Communications
 
-Email her at [olsonldsm@gmail.com](mailto:olsonldsm@gmail.com).
+### Razzan Nakhlawi, communications chair
+
+Razzan Nakhlawi is a social media producer and the Post Guild's Communications chair. She is currently working on the National Security desk researching far-right extremism as part of the Opportunity Year fellowship, a newsroom initiative created after the Guild called for training opportunities for employees of color. Razzan believes in the formidable combination of worker solidarity and Twitter fingers. She looks forward to making our voices heard clearly across the industry. 
+
+Email her atrnakhlawi@gmail.com and find her on Twitter at[@raz_nak](https://twitter.com/raz_nak).
 
 ## Chair Emeritus
 
-### Fredrick Kunkle
+## Fredrick Kunkle
 
 Freddy Kunkle joined The Washington Post and the Guild in February 2000, as might be expected of the grandson of a union organizer who worked with Walter Reuther in Detroit. In 2009, he became the union’s co-chair for news — a role he served in for a decade. During that time, Freddy led bargaining committees that negotiated four collective bargaining agreements with both the Graham family and the Post’s current owner, Jeff Bezos.
 
