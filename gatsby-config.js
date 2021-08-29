@@ -62,6 +62,13 @@ module.exports = {
               destinationDir: "static"
             }
           }
+        //   ,
+        //   {
+        //       resolve: "gatsby-remark-autolink-headers",
+        //       options: {
+        //           elements: ['h3']
+        //       }
+        //   }
         ]
       }
     },
