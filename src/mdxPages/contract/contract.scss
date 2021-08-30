@@ -1,0 +1,32 @@
+div.react-pdf__Page {
+  canvas {
+    margin: auto;
+  }
+}
+
+p.page-number {
+  text-align: center;
+}
+
+span.page-control {
+  display: inline;
+
+  &.inactive {
+    color: #bbbbbb;
+  }
+
+  &.active {
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
+
+#pdfobject {
+  height: 100vh;
+
+  @media (max-width: 480px) {
+    display: none;
+  }
+}

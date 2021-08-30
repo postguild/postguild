@@ -1,0 +1,38 @@
+.calculator-container {
+  max-width: 650px;
+  margin: auto;
+
+  .slider-track {
+    margin: 40px auto;
+  }
+
+  .drag-handle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1.25px solid #fa2e37;
+    box-shadow: 0.4px 1px 1px 1px #ccc;
+
+    .salary-text {
+      position: absolute;
+      top: calc(-100% - 8px);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.salary-text {
+  font-weight: bold;
+}
+
+p.explainer-text {
+  margin: 20px 0 40px;
+}
+
+h3.viz-label {
+  font-size: 22px;
+  margin: 0 auto 20px;
+}
