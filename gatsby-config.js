@@ -21,7 +21,6 @@ module.exports = {
         name: "uploads"
       }
     },
-    `gatsby-transformer-csv`,
     {
       resolve: "gatsby-source-filesystem",
       options: {

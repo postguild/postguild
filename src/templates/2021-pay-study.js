@@ -36,6 +36,7 @@ const PayStudyPageTemplate = ({
               {/* {toc.items.map((i) => {
                 return i.url
               })} */}
+              <PayGraphics />
               <PageContent className="content" content={content} />
             </div>
           </div>
