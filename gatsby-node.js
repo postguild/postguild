@@ -2,12 +2,13 @@ const _ = require("lodash");
 const path = require("path");
 const { createFilePath } = require("gatsby-source-filesystem");
 const { fmImagesToRelative } = require("gatsby-remark-relative-images");
+const { node } = require("prop-types");
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   return graphql(`
-    {
+    query {
       allMdx(limit: 1000) {
         edges {
           node {
@@ -16,6 +17,7 @@ exports.createPages = ({ actions, graphql }) => {
               slug
             }
             frontmatter {
+              tags
               templateKey
             }
           }
@@ -30,17 +32,17 @@ exports.createPages = ({ actions, graphql }) => {
 
     const posts = result.data.allMdx.edges;
 
-    posts.forEach(edge => {
-      const id = edge.node.id;
+    posts.forEach(({ node }, index) => {
       createPage({
-        path: edge.node.fields.slug,
-        tags: edge.node.frontmatter.tags,
+        path: node.fields.slug,
+        tags: node.frontmatter.tags,
         component: path.resolve(
-          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+          `./src/templates/${String(node.frontmatter.templateKey)}.js`
         ),
         // additional data can be passed via context
         context: {
-          id
+          id: node.id,
+          index: index
         }
       });
     });
@@ -62,9 +64,9 @@ exports.createPages = ({ actions, graphql }) => {
 
       createPage({
         path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
+        component: path.resolve(`./src/templates/tags.js`),
         context: {
-          tag
+          tag: tag
         }
       });
     });
