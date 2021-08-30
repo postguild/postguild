@@ -5,12 +5,7 @@ import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const PayStudyPageTemplate = ({
-  title,
-  byline,
-  content,
-  contentComponent
-}) => {
+const PayStudyPageTemplate = ({ title, byline, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -48,7 +43,7 @@ PayStudyPageTemplate.propTypes = {
 };
 
 const PayStudyPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { mdx: post } = data;
 
   return (
     <Layout>
@@ -62,7 +57,7 @@ const PayStudyPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         byline={post.frontmatter.byline}
-        content={post.html}
+        content={post.body}
       />
     </Layout>
   );
@@ -76,8 +71,8 @@ export default PayStudyPage;
 
 export const payStudyPageQuery = graphql`
   query PayStudyPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
+    mdx(id: { eq: $id }) {
+      body
       fields {
         slug
       }

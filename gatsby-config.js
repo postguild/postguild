@@ -21,6 +21,7 @@ module.exports = {
         name: "uploads"
       }
     },
+    `gatsby-transformer-csv`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -38,9 +39,10 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: "gatsby-plugin-mdx",
       options: {
-        plugins: [
+        extensions: [`.md`, `.mdx`],
+        gatsbyRemarkPlugins: [
           {
             resolve: "gatsby-remark-relative-images",
             options: {
@@ -62,13 +64,13 @@ module.exports = {
               destinationDir: "static"
             }
           }
-        //   ,
-        //   {
-        //       resolve: "gatsby-remark-autolink-headers",
-        //       options: {
-        //           elements: ['h3']
-        //       }
-        //   }
+          //   ,
+          //   {
+          //       resolve: "gatsby-remark-autolink-headers",
+          //       options: {
+          //           elements: ['h3']
+          //       }
+          //   }
         ]
       }
     },

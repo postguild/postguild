@@ -5,7 +5,7 @@ import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const BlogPostTemplate = ({ content, contentComponent, title }) => {
+const BlogPostTemplate = ({ content, contentComponent, title }) => {
   const PostContent = contentComponent || Content;
 
   return (
@@ -39,7 +39,7 @@ BlogPostTemplate.propTypes = {
 };
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { mdx: post } = data;
 
   return (
     <Layout>
@@ -50,7 +50,7 @@ const BlogPost = ({ data }) => {
         article={true}
       />
       <BlogPostTemplate
-        content={post.html}
+        content={post.mdx}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         title={post.frontmatter.title}
@@ -61,7 +61,7 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
+    mdx: PropTypes.object
   })
 };
 
@@ -69,9 +69,9 @@ export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    mdx(id: { eq: $id }) {
       id
-      html
+      body
       fields {
         slug
       }

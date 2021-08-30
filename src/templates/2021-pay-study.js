@@ -4,8 +4,9 @@ import PropTypes from "prop-types";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import PayGraphics from "../components/PayGraphics";
 
-export const PayStudyPageTemplate = ({
+const PayStudyPageTemplate = ({
   title,
   byline,
   toc,
@@ -32,7 +33,9 @@ export const PayStudyPageTemplate = ({
                 {title}
               </h2>
               <p className="byline">{byline}</p>
-              {toc}
+              {/* {toc.items.map((i) => {
+                return i.url
+              })} */}
               <PageContent className="content" content={content} />
             </div>
           </div>
@@ -50,7 +53,7 @@ PayStudyPageTemplate.propTypes = {
 };
 
 const PayStudyPage21 = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { mdx: post } = data;
 
   return (
     <Layout>
@@ -64,7 +67,7 @@ const PayStudyPage21 = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         byline={post.frontmatter.byline}
-        content={post.html}
+        content={post.body}
         toc={post.tableOfContents}
       />
     </Layout>
@@ -79,8 +82,8 @@ export default PayStudyPage21;
 
 export const payStudyPageQuery = graphql`
   query PayStudyPage21($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
+    mdx(id: { eq: $id }) {
+      body
       tableOfContents
       fields {
         slug

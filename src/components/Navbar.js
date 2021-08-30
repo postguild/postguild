@@ -96,7 +96,7 @@ const Navbar = class extends React.Component {
 
 Navbar.propTypes = {
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
+    allMdx: PropTypes.shape({
       edges: PropTypes.array
     })
   })
@@ -106,9 +106,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query NavbarQuery {
-        allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { eq: "about-page" } } }
-        ) {
+        allMdx(filter: { frontmatter: { templateKey: { eq: "about-page" } } }) {
           edges {
             node {
               fields {

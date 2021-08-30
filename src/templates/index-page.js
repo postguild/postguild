@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import BlogList from "../components/BlogList";
 import Content, { HTMLContent } from "../components/Content";
 import SimpleSlider from "../components/Slider.js";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
-export const IndexPageTemplate = ({ title, content, contentComponent }) => {
+const IndexPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
@@ -34,7 +34,7 @@ export const IndexPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+              <MDXRenderer>{content}</MDXRenderer>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ IndexPageTemplate.propTypes = {
 };
 
 const IndexPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { mdx: post } = data;
 
   return (
     <Layout>
@@ -58,7 +58,7 @@ const IndexPage = ({ data }) => {
       <IndexPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        content={post.html}
+        content={post.body}
       />
     </Layout>
   );
@@ -72,8 +72,8 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
+    mdx(id: { eq: $id }) {
+      body
       frontmatter {
         title
       }

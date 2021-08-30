@@ -1,19 +1,14 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 export const HTMLContent = ({ content, className }) => (
-  <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
-)
+  <MDXRenderer>{content}</MDXRenderer>
+);
 
 const Content = ({ content, className }) => (
   <div className={className}>{content}</div>
-)
+);
 
-Content.propTypes = {
-  content: PropTypes.node,
-  className: PropTypes.string,
-}
+HTMLContent.propTypes = Content.propTypes;
 
-HTMLContent.propTypes = Content.propTypes
-
-export default Content
+export default Content;
