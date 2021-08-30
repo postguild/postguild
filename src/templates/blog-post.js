@@ -4,10 +4,9 @@ import PropTypes from "prop-types";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 const BlogPostTemplate = ({ content, contentComponent, title }) => {
-  const PostContent = contentComponent || Content;
-
   return (
     <section className="section">
       <div className="container content">
@@ -23,7 +22,7 @@ const BlogPostTemplate = ({ content, contentComponent, title }) => {
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light is-center">
               {title}
             </h1>
-            <PostContent content={content} />
+            <MDXRenderer>{content}</MDXRenderer>
           </div>
         </div>
       </div>
@@ -50,7 +49,7 @@ const BlogPost = ({ data }) => {
         article={true}
       />
       <BlogPostTemplate
-        content={post.mdx}
+        content={post.body}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         title={post.frontmatter.title}

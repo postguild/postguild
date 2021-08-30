@@ -8,6 +8,7 @@ description: As the Guild continues to push for fair and equitable coverage,
 tags:
   - resource
 ---
+
 As the Guild continues to push for fair and equitable coverage, here is a helpful list of resources related to race, gender identity and sexuality compiled by fellow journalists and reporting organizations:
 
 **The National Association of Hispanic Journalists' Cultural Competence Handbook:** Aguide to help journalists, academics and students "communicate with and about diverse collectives," specifically focusing on migration, sexism, the LGBTQ community, victims of violence and crime reporting, and medical reporting. Areas of discussion include creating fair narratives and minimizing harm.

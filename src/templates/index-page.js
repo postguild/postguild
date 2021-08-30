@@ -9,8 +9,6 @@ import SimpleSlider from "../components/Slider.js";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
 const IndexPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
-
   return (
     <section className="section section--gradient">
       <div className="container">
