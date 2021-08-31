@@ -14,6 +14,18 @@ payData = payData.map(d => {
   return d;
 });
 
+function FilterLink(props) {
+  const { runFilters, filters, label } = props;
+  function handleClick() {
+    runFilters(filters);
+  }
+  return (
+    <a onClick={handleClick}>
+      <span>{label}</span>
+    </a>
+  );
+}
+
 export default function PayGraphics(props) {
   const [dataView, setDataView] = useState({
     salaried: true,
@@ -24,13 +36,14 @@ export default function PayGraphics(props) {
   });
   const [filters, setFilters] = useState({
     level1: "",
-    level2: ""
+    level2: "",
+    level3: "Overall"
   });
-  console.log(payData);
+  console.log(dataView);
 
   useEffect(() => {
     let filteredData = payData.filter(d => {
-      return d.level1 == filters.level1 && d.level2 == filters.level2;
+      return d.level1 == filters.level1;
     });
     let salariedData = filteredData.filter(d => d.pay_rate_type === "Salaried");
     let hourlyData = filteredData.filter(d => d.pay_rate_type === "Hourly");
@@ -52,8 +65,46 @@ export default function PayGraphics(props) {
     });
   }, [filters]);
 
+  function runFilters(filters) {
+    setFilters(f => {
+      let newFilters = { ...filters };
+      console.log(newFilters);
+      return newFilters;
+    });
+  }
+
   return (
-    <div className="container">
+    <div className="pay-graphics container">
+      <div className="tabs is-toggle">
+        <ul>
+          <li className={`toggle-tab ${filters.level1 === "" && "is-active"}`}>
+            <FilterLink
+              label="Overall"
+              runFilters={runFilters}
+              filters={{ level1: "", level3: "Overall" }}
+            />
+          </li>
+          <li
+            className={`toggle-tab ${filters.level1 === "Commercial" &&
+              "is-active"}`}
+          >
+            <FilterLink
+              label="Commercial"
+              runFilters={runFilters}
+              filters={{ level1: "Commercial", level3: "" }}
+            />
+          </li>
+          <li
+            className={`toggle-tab ${filters.level1 === "News" && "is-active"}`}
+          >
+            <FilterLink
+              label="Newsroom"
+              runFilters={runFilters}
+              filters={{ level1: "News", level3: "" }}
+            />
+          </li>
+        </ul>
+      </div>
       {dataView.salaried && (
         <div className="pay-type-section">
           <h3>Salaried employees</h3>

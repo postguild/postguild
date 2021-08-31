@@ -1,5 +1,14 @@
 @import "./colors.scss";
 
+.pay-graphics {
+  .toggle-tab {
+    flex-grow: 1;
+    a > span {
+      pointer-events: none;
+    }
+  }
+}
+
 .pay-type-section {
   h5 {
     font-size: x-small;
