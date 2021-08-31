@@ -5,6 +5,7 @@ import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import PayGraphics from "../components/PayGraphics";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 const PayStudyPageTemplate = ({
   title,
@@ -37,7 +38,7 @@ const PayStudyPageTemplate = ({
                 return i.url
               })} */}
               <PayGraphics />
-              <PageContent className="content" content={content} />
+              <MDXRenderer>{content}</MDXRenderer>
             </div>
           </div>
         </div>

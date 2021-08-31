@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 const PayStudyPageTemplate = ({ title, byline, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -26,7 +27,7 @@ const PayStudyPageTemplate = ({ title, byline, content, contentComponent }) => {
                 {title}
               </h2>
               <p className="byline">{byline}</p>
-              <PageContent className="content" content={content} />
+              <MDXRenderer>{content}</MDXRenderer>
             </div>
           </div>
         </div>

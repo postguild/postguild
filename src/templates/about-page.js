@@ -26,7 +26,7 @@ const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+              <MDXRenderer>{content}</MDXRenderer>
             </div>
           </div>
         </div>

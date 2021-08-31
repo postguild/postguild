@@ -1,0 +1,55 @@
+@import "./colors.scss";
+
+.pay-type-section {
+  h5 {
+    font-size: x-small;
+    margin-bottom: 0;
+  }
+}
+
+.percentile-plot {
+  position: relative;
+  width: 80%;
+  height: 40px;
+  margin: auto;
+
+  .plot-bar {
+    position: absolute;
+    height: 12px;
+    background-color: $guild-magenta;
+    opacity: 0.25;
+  }
+
+  .marker {
+    position: absolute;
+    background-color: $guild-magenta;
+    width: 4px;
+    height: 20px;
+    transform: translate(-50%, -4px);
+    font-weight: bold;
+
+    &:after {
+      content: attr(data-tooltip);
+      position: absolute;
+      font-size: 12px;
+    }
+
+    &.marker-25 {
+      &:after {
+        transform: translate(calc(-100% - 2px));
+      }
+    }
+
+    &.marker-50 {
+      &:after {
+        transform: translate(-50%, calc(-100% - 2px));
+      }
+    }
+
+    &.marker-75 {
+      &:after {
+        transform: translate(6px);
+      }
+    }
+  }
+}
