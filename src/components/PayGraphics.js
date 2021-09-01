@@ -5,6 +5,7 @@ import { Dropdown, Tabs } from "react-bulma-components";
 import { filter } from "lodash-es";
 
 import "../components/styles/pay-graphics.scss";
+import { data } from "jquery";
 
 const d3 = Object.assign({}, require("d3-array"));
 let payData = require("../../static/data/pay_study_int_data@1.json");
@@ -73,8 +74,6 @@ export default function PayGraphics(props) {
         .filter(d => d !== "")
     );
 
-    console.log(filteredData);
-
     setDataView({
       salariedScale: salariedRange,
       hourlyScale: hourlyRange,
@@ -87,12 +86,11 @@ export default function PayGraphics(props) {
 
   function runFilters(filters) {
     setFilters(f => {
-      console.log(filters);
       let newFilters = { ...f, ...filters };
       if (filters.level1) {
         delete newFilters.level2;
       }
-      console.log(newFilters);
+
       return newFilters;
     });
   }
@@ -155,33 +153,59 @@ export default function PayGraphics(props) {
       {dataView.salaried && (
         <div className="pay-type-section" key="salaried-section">
           <h3>Salaried employees</h3>
-          {dataView.data
-            .filter(d => d.pay_rate_type === "Salaried")
-            .map((d, i) => (
-              <div key={`plot-${i}`}>
-                <h5>{d.groups}</h5>
-                <PercentilePlot
-                  domain={dataView.salariedScale}
-                  data={d}
-                ></PercentilePlot>
+          {Array.from(
+            new Set(
+              dataView.data
+                .filter(d => d.pay_rate_type === "Salaried")
+                .map(d => d.level3)
+            )
+          ).map(l => {
+            return (
+              <div className="desk-section">
+                <h4>{l}</h4>
+                {dataView.data
+                  .filter(d => d.pay_rate_type === "Salaried" && d.level3 === l)
+                  .map((d, i) => (
+                    <div key={`plot-${i}`}>
+                      <h5>{d.groups}</h5>
+                      <PercentilePlot
+                        domain={dataView.salariedScale}
+                        data={d}
+                      ></PercentilePlot>
+                    </div>
+                  ))}
               </div>
-            ))}
+            );
+          })}
         </div>
       )}
       {dataView.hourly && (
         <div className="pay-type-section" key="hourly-section">
           <h3>Hourly employees</h3>
-          {dataView.data
-            .filter(d => d.pay_rate_type === "Hourly")
-            .map((d, i) => (
-              <div key={`plot-${i}`}>
-                <h5>{d.groups}</h5>
-                <PercentilePlot
-                  domain={dataView.hourlyScale}
-                  data={d}
-                ></PercentilePlot>
+          {Array.from(
+            new Set(
+              dataView.data
+                .filter(d => d.pay_rate_type === "Hourly")
+                .map(d => d.level3)
+            )
+          ).map(l => {
+            return (
+              <div className="desk-section">
+                <h4>{l}</h4>
+                {dataView.data
+                  .filter(d => d.pay_rate_type === "Hourly" && d.level3 == l)
+                  .map((d, i) => (
+                    <div key={`plot-${i}`}>
+                      <h5>{d.groups}</h5>
+                      <PercentilePlot
+                        domain={dataView.hourlyScale}
+                        data={d}
+                      ></PercentilePlot>
+                    </div>
+                  ))}
               </div>
-            ))}
+            );
+          })}
         </div>
       )}
     </div>
