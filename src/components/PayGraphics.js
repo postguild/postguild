@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PercentilePlot from "./PercentilePlot";
 import { Dropdown, Tabs } from "react-bulma-components";
-import { filter } from "lodash-es";
 
 import "../components/styles/pay-graphics.scss";
-import { data } from "jquery";
 
 const d3 = Object.assign({}, require("d3-array"));
 let payData = require("../../static/data/pay_study_int_data@1.json");

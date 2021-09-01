@@ -5,6 +5,8 @@ import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import PayGraphics from "../components/PayGraphics";
+import PercentilePlot from "../components/PercentilePlot";
+import { MDXProvider } from "@mdx-js/react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
@@ -42,7 +44,9 @@ const PayStudyPageTemplate = ({
                 return i.url
               })} */}
               <PayGraphics />
-              <MDXRenderer>{content}</MDXRenderer>
+              <MDXProvider components={{ PercentilePlot }}>
+                <MDXRenderer>{content}</MDXRenderer>
+              </MDXProvider>
             </div>
           </div>
         </div>
