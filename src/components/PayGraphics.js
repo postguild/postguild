@@ -146,7 +146,7 @@ export default function PayGraphics(props) {
           }}
         >
           {dataView.level2Items.map((d, i) => (
-            <Dropdown.Item value={d} key={`dropdown-item-${i}`}>
+            <Dropdown.Item value={d} key={`dropdown-item-${i}`} renderAs="a">
               {d}
             </Dropdown.Item>
           ))}

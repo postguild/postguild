@@ -1,6 +1,13 @@
 @import "./colors.scss";
 
 .pay-graphics {
+  a.is-active {
+    background-color: $guild-magenta-light !important;
+    border-color: $guild-magenta !important;
+    color: $primary !important;
+    font-weight: bold;
+  }
+
   .tabs {
     ul {
       margin-left: 0;
