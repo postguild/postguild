@@ -168,6 +168,7 @@ export default function PayGraphics(props) {
                   .map((d, i) => (
                     <div key={`plot-${i}`}>
                       <h5>{d.groups}</h5>
+                      <h5>{d.employees} employees</h5>
                       <PercentilePlot
                         domain={dataView.salariedScale}
                         data={d}
@@ -197,6 +198,7 @@ export default function PayGraphics(props) {
                   .map((d, i) => (
                     <div key={`plot-${i}`}>
                       <h5>{d.groups}</h5>
+                      <h5>{d.employees} employees</h5>
                       <PercentilePlot
                         domain={dataView.hourlyScale}
                         data={d}
