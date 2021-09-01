@@ -79,6 +79,7 @@ export default function PayGraphics(props) {
     <div className="pay-graphics container">
       <Tabs type="toggle">
         <Tabs.Tab
+          key="tab-0"
           renderAs="div"
           className="toggle-tab"
           active={filters.level1 === ""}
@@ -90,6 +91,7 @@ export default function PayGraphics(props) {
           />
         </Tabs.Tab>
         <Tabs.Tab
+          key="tab-1"
           renderAs="div"
           className="toggle-tab"
           active={filters.level1 === "Commercial"}
@@ -101,6 +103,7 @@ export default function PayGraphics(props) {
           />
         </Tabs.Tab>
         <Tabs.Tab
+          key="tab-2"
           renderAs="div"
           className="toggle-tab"
           active={filters.level1 === "News"}
@@ -112,35 +115,36 @@ export default function PayGraphics(props) {
           />
         </Tabs.Tab>
       </Tabs>
+      <Dropdown></Dropdown>
       {dataView.salaried && (
-        <div className="pay-type-section">
+        <div className="pay-type-section" key="salaried-section">
           <h3>Salaried employees</h3>
           {dataView.data
             .filter(d => d.pay_rate_type === "Salaried")
-            .map(d => (
-              <>
+            .map((d, i) => (
+              <div key={`plot-${i}`}>
                 <h5>{d.groups}</h5>
                 <PercentilePlot
                   domain={dataView.salariedScale}
                   data={d}
                 ></PercentilePlot>
-              </>
+              </div>
             ))}
         </div>
       )}
       {dataView.hourly && (
-        <div className="pay-type-section">
+        <div className="pay-type-section" key="hourly-section">
           <h3>Hourly employees</h3>
           {dataView.data
             .filter(d => d.pay_rate_type === "Hourly")
-            .map(d => (
-              <>
+            .map((d, i) => (
+              <div key={`plot-${i}`}>
                 <h5>{d.groups}</h5>
                 <PercentilePlot
                   domain={dataView.hourlyScale}
                   data={d}
                 ></PercentilePlot>
-              </>
+              </div>
             ))}
         </div>
       )}
