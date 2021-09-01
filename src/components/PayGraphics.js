@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PercentilePlot from "./PercentilePlot";
 import { Dropdown, Tabs } from "react-bulma-components";
+import { filter } from "lodash-es";
+
+import "../components/styles/pay-graphics.scss";
 
 const d3 = Object.assign({}, require("d3-array"));
 let payData = require("../../static/data/pay_study_int_data@1.json");
@@ -34,6 +37,7 @@ export default function PayGraphics(props) {
     salariedScale: [0, 100000],
     hourly: true,
     hourlyScale: [0, 40],
+    level2Items: ["Overall"],
     data: payData
   });
   const [filters, setFilters] = useState({
@@ -41,12 +45,16 @@ export default function PayGraphics(props) {
     level2: "",
     level3: "Overall"
   });
-  console.log(dataView);
 
   useEffect(() => {
     let filteredData = payData.filter(d => {
       return d.level1 == filters.level1;
     });
+    if (filters.level2) {
+      filteredData = filteredData.filter(d => {
+        return d.level2 == filters.level2;
+      });
+    }
     let salariedData = filteredData.filter(d => d.pay_rate_type === "Salaried");
     let hourlyData = filteredData.filter(d => d.pay_rate_type === "Hourly");
     let salariedRange = [
@@ -58,18 +66,32 @@ export default function PayGraphics(props) {
       d3.max(hourlyData, d => d.percentile_75_pay)
     ];
 
+    let level2Items = new Set(
+      payData
+        .filter(d => d.level1 == filters.level1)
+        .map(d => d.level2)
+        .filter(d => d !== "")
+    );
+
+    console.log(filteredData);
+
     setDataView({
       salariedScale: salariedRange,
       hourlyScale: hourlyRange,
       salaried: salariedData.length > 0,
       hourly: hourlyData.length > 0,
+      level2Items: Array.from(level2Items),
       data: filteredData
     });
   }, [filters]);
 
   function runFilters(filters) {
     setFilters(f => {
-      let newFilters = { ...filters };
+      console.log(filters);
+      let newFilters = { ...f, ...filters };
+      if (filters.level1) {
+        delete newFilters.level2;
+      }
       console.log(newFilters);
       return newFilters;
     });
@@ -99,7 +121,7 @@ export default function PayGraphics(props) {
           <FilterLink
             label="Commercial"
             runFilters={runFilters}
-            filters={{ level1: "Commercial", level3: "" }}
+            filters={{ level1: "Commercial", level3: "Overall" }}
           />
         </Tabs.Tab>
         <Tabs.Tab
@@ -111,11 +133,25 @@ export default function PayGraphics(props) {
           <FilterLink
             label="Newsroom"
             runFilters={runFilters}
-            filters={{ level1: "News", level3: "" }}
+            filters={{ level1: "News", level3: "Overall" }}
           />
         </Tabs.Tab>
       </Tabs>
-      <Dropdown></Dropdown>
+      {dataView.level2Items.length > 0 && (
+        <Dropdown
+          label="Department"
+          value={filters.level2}
+          onChange={e => {
+            runFilters({ level2: e });
+          }}
+        >
+          {dataView.level2Items.map((d, i) => (
+            <Dropdown.Item value={d} key={`dropdown-item-${i}`}>
+              {d}
+            </Dropdown.Item>
+          ))}
+        </Dropdown>
+      )}
       {dataView.salaried && (
         <div className="pay-type-section" key="salaried-section">
           <h3>Salaried employees</h3>

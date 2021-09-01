@@ -1,6 +1,12 @@
 @import "./colors.scss";
 
 .pay-graphics {
+  .tabs {
+    ul {
+      margin-left: 0;
+    }
+  }
+
   .toggle-tab {
     flex-grow: 1;
 
