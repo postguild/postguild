@@ -3,6 +3,16 @@
 .pay-graphics {
   .toggle-tab {
     flex-grow: 1;
+
+    &.is-active {
+      a {
+        background-color: $guild-magenta-light !important;
+        border-color: $guild-magenta !important;
+        color: $primary !important;
+        font-weight: bold;
+      }
+    }
+
     a > span {
       pointer-events: none;
     }

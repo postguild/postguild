@@ -6,6 +6,10 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import PayGraphics from "../components/PayGraphics";
 import { MDXRenderer } from "gatsby-plugin-mdx";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faAngleDown);
 
 const PayStudyPageTemplate = ({
   title,

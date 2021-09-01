@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PercentilePlot from "./PercentilePlot";
+import { Dropdown, Tabs } from "react-bulma-components";
 
 const d3 = Object.assign({}, require("d3-array"));
 let payData = require("../../static/data/pay_study_int_data@1.json");
@@ -75,36 +77,41 @@ export default function PayGraphics(props) {
 
   return (
     <div className="pay-graphics container">
-      <div className="tabs is-toggle">
-        <ul>
-          <li className={`toggle-tab ${filters.level1 === "" && "is-active"}`}>
-            <FilterLink
-              label="Overall"
-              runFilters={runFilters}
-              filters={{ level1: "", level3: "Overall" }}
-            />
-          </li>
-          <li
-            className={`toggle-tab ${filters.level1 === "Commercial" &&
-              "is-active"}`}
-          >
-            <FilterLink
-              label="Commercial"
-              runFilters={runFilters}
-              filters={{ level1: "Commercial", level3: "" }}
-            />
-          </li>
-          <li
-            className={`toggle-tab ${filters.level1 === "News" && "is-active"}`}
-          >
-            <FilterLink
-              label="Newsroom"
-              runFilters={runFilters}
-              filters={{ level1: "News", level3: "" }}
-            />
-          </li>
-        </ul>
-      </div>
+      <Tabs type="toggle">
+        <Tabs.Tab
+          renderAs="div"
+          className="toggle-tab"
+          active={filters.level1 === ""}
+        >
+          <FilterLink
+            label="Overall"
+            runFilters={runFilters}
+            filters={{ level1: "", level3: "Overall" }}
+          />
+        </Tabs.Tab>
+        <Tabs.Tab
+          renderAs="div"
+          className="toggle-tab"
+          active={filters.level1 === "Commercial"}
+        >
+          <FilterLink
+            label="Commercial"
+            runFilters={runFilters}
+            filters={{ level1: "Commercial", level3: "" }}
+          />
+        </Tabs.Tab>
+        <Tabs.Tab
+          renderAs="div"
+          className="toggle-tab"
+          active={filters.level1 === "News"}
+        >
+          <FilterLink
+            label="Newsroom"
+            runFilters={runFilters}
+            filters={{ level1: "News", level3: "" }}
+          />
+        </Tabs.Tab>
+      </Tabs>
       {dataView.salaried && (
         <div className="pay-type-section">
           <h3>Salaried employees</h3>

@@ -1,11 +1,7 @@
-@import "~bulma/sass/utilities/initial-variables";
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-@import "~bulma";
-@import "bulma/sass/utilities/_all.sass";
-@import "~bulma/sass/components/all.sass";
-@import "bulma/sass/grid/columns.sass";
+@import "~bulma/bulma.sass";
 
 @import "./styles/colors.scss";
 @import "./styles/pay-graphics.scss";
