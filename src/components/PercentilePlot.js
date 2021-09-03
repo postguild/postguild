@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-let payData = require("../../static/data/pay_study_int_data@1.json");
+let payData = require("../../static/data/pay_study_int_data.json");
 const commafy = require("commafy");
 
 const d3 = Object.assign({}, require("d3-scale"));

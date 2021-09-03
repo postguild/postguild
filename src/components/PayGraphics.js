@@ -6,7 +6,7 @@ import { Dropdown, Tabs } from "react-bulma-components";
 import "../components/styles/pay-graphics.scss";
 
 const d3 = Object.assign({}, require("d3-array"));
-let payData = require("../../static/data/pay_study_int_data@1.json");
+let payData = require("../../static/data/pay_study_int_data.json");
 payData = payData.map(d => {
   Object.keys(d).map(field => {
     if (parseFloat(d[field])) {
