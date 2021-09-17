@@ -49,11 +49,13 @@ export default function PayGraphics(props) {
     let filteredData = payData.filter(d => {
       return d.level1 == filters.level1;
     });
-    if (filters.level2) {
-      filteredData = filteredData.filter(d => {
-        return d.level2 == filters.level2;
-      });
-    }
+
+    filteredData = filteredData.filter(d => {
+      return filters.level2
+        ? d.level2 == filters.level2
+        : d.level2 == "Overall";
+    });
+
     let salariedData = filteredData.filter(d => d.pay_rate_type === "Salaried");
     let hourlyData = filteredData.filter(d => d.pay_rate_type === "Hourly");
     let salariedRange = [
@@ -105,7 +107,7 @@ export default function PayGraphics(props) {
           <FilterLink
             label="Overall"
             runFilters={runFilters}
-            filters={{ level1: "", level3: "Overall" }}
+            filters={{ level1: "", level2: "Overall", level3: "Overall" }}
           />
         </Tabs.Tab>
         <Tabs.Tab
@@ -117,7 +119,11 @@ export default function PayGraphics(props) {
           <FilterLink
             label="Commercial"
             runFilters={runFilters}
-            filters={{ level1: "Commercial", level3: "Overall" }}
+            filters={{
+              level1: "Commercial",
+              level2: "Overall",
+              level3: "Overall"
+            }}
           />
         </Tabs.Tab>
         <Tabs.Tab
@@ -129,7 +135,7 @@ export default function PayGraphics(props) {
           <FilterLink
             label="Newsroom"
             runFilters={runFilters}
-            filters={{ level1: "News", level3: "Overall" }}
+            filters={{ level1: "News", level2: "Overall", level3: "Overall" }}
           />
         </Tabs.Tab>
       </Tabs>
