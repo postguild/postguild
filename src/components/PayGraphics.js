@@ -102,12 +102,16 @@ export default function PayGraphics(props) {
           key="tab-0"
           renderAs="div"
           className="toggle-tab"
-          active={filters.level1 === ""}
+          active={filters.level1 === "Overall"}
         >
           <FilterLink
             label="Overall"
             runFilters={runFilters}
-            filters={{ level1: "", level2: "Overall", level3: "Overall" }}
+            filters={{
+              level1: "Overall",
+              level2: "Overall",
+              level3: "Overall"
+            }}
           />
         </Tabs.Tab>
         <Tabs.Tab
@@ -139,7 +143,7 @@ export default function PayGraphics(props) {
           />
         </Tabs.Tab>
       </Tabs>
-      {dataView.level2Items.length > 0 && (
+      {dataView.level2Items.length > 0 && filters.level1 != "Overall" && (
         <Dropdown
           label="Department"
           value={filters.level2}
@@ -166,7 +170,7 @@ export default function PayGraphics(props) {
           ).map(l => {
             return (
               <div className="desk-section">
-                <h4>{l}</h4>
+                <h4>{l != "Overall" ? l : ""}</h4>
                 {dataView.data
                   .filter(d => d.pay_rate_type === "Salaried" && d.level3 === l)
                   .map((d, i) => (
@@ -196,7 +200,7 @@ export default function PayGraphics(props) {
           ).map(l => {
             return (
               <div className="desk-section">
-                <h4>{l}</h4>
+                <h4>{l != "Overall" ? l : ""}</h4>
                 {dataView.data
                   .filter(d => d.pay_rate_type === "Hourly" && d.level3 == l)
                   .map((d, i) => (
