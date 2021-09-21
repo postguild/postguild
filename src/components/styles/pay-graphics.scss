@@ -1,9 +1,41 @@
 @import "./colors.scss";
 
 .pay-graphics {
+  position: relative;
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
+
+  .sticky-controls {
+    position: sticky;
+    top: 52px;
+    background-color: white;
+    z-index: 2;
+    display: flex;
+    flex-flow: row wrap;
+
+    .sticky-controls-row {
+      flex: 1 0 100%;
+      display: flex;
+
+      .tabs {
+        flex: 1 0 auto;
+      }
+
+      .dropdown-container {
+        margin-right: 0.5em;
+      }
+    }
+  }
+
+  p.dropdown-label {
+    font-size: small;
+    margin-bottom: 0.25em;
+  }
+
+  .dropdown {
+    margin: 0 0 1em;
+  }
 
   a.is-active {
     background-color: $guild-magenta-light !important;
@@ -21,7 +53,7 @@
   .toggle-tab {
     flex-grow: 1;
 
-    &.is-active {
+    &.is-active:not(.is-disabled) {
       a {
         background-color: $guild-magenta-light !important;
         border-color: $guild-magenta !important;
@@ -33,13 +65,41 @@
     a > span {
       pointer-events: none;
     }
-  }
-}
 
-.pay-type-section {
+    &.is-disabled {
+      background-color: #ccc;
+      border-color: #dbdbdb;
+      box-shadow: none;
+      opacity: 0.5;
+      a {
+        background-color: #ccc !important;
+        border-color: #dbdbdb !important;
+        color: black !important;
+        box-shadow: none;
+        pointer-events: none;
+      }
+    }
+  }
+
+  div.group-type-section:not(first-child) {
+    margin: 1em 0;
+
+    div.plot:not(first-of-type) {
+      margin: 1em 0;
+    }
+  }
   h5 {
-    font-size: x-small;
+    font-size: medium;
     margin-bottom: 0;
+  }
+
+  h6 {
+    font-size: x-small;
+  }
+
+  h5.italic {
+    font-style: italic;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -47,13 +107,37 @@
   position: relative;
   width: 80%;
   height: 40px;
-  margin: auto;
+  margin: 1.25em 0 1em;
 
   .plot-bar {
     position: absolute;
     height: 12px;
     background-color: $guild-magenta;
     opacity: 0.25;
+
+    &.plot-bar-fuzzy {
+      background-color: unset;
+      opacity: 0.8;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(221, 221, 221, 1) 40%,
+        rgba(221, 221, 221, 1) 50%,
+        rgba(221, 221, 221, 1) 60%,
+        rgba(255, 255, 255, 0) 100%
+      );
+
+      &:after {
+        content: "(Fewer than seven employees)";
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 12px);
+        font-size: 11px;
+        white-space: nowrap;
+        font-weight: normal;
+        color: #666666;
+      }
+    }
   }
 
   .marker {
@@ -86,6 +170,11 @@
       &:after {
         transform: translate(6px);
       }
+    }
+
+    &.marker-nodata {
+      width: 0;
+      background-color: unset;
     }
   }
 }

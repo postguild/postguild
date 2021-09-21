@@ -71,7 +71,7 @@ export default function PercentilePlot(props) {
           ></div>
           <div
             key="marker-25"
-            className="marker marker-25"
+            className={`marker marker-25 ${keyChart && "marker-example"}`}
             data-tooltip={`$${formatPay(data.percentile_25_pay)}`}
             style={{
               left: `${scale(data.percentile_25_pay)}%`
@@ -79,7 +79,7 @@ export default function PercentilePlot(props) {
           ></div>
           <div
             key="marker-75"
-            className="marker marker-75"
+            className={`marker marker-75 ${keyChart && "marker-example"}`}
             data-tooltip={`$${formatPay(data.percentile_75_pay)}`}
             style={{
               left: `${scale(data.percentile_75_pay)}%`
@@ -93,22 +93,23 @@ export default function PercentilePlot(props) {
             className="plot-bar plot-bar-fuzzy"
             key="plot-bar-fuzzy"
             style={{
-              left: `${scale(data.percentile_50_pay * 0.75)}%`,
-              width: `${scale(data.percentile_50_pay * 1.25)}`
+              left: `${scale(data.percentile_50_pay * 0.8)}%`,
+              width: `${scale(data.percentile_50_pay * 1.2) -
+                scale(data.percentile_50_pay * 0.8)}%`
             }}
           ></div>
           <div
-            className="marker marker-example"
-            key="marker-example"
+            className="marker marker-nodata"
+            key="marker-nodata"
             style={{
-              left: `${scale(data.percentile_50_pay * 1.25)}%`
+              left: `${scale(data.percentile_50_pay * 1.2)}%`
             }}
           ></div>
         </>
       )}
       <div
         key="marker-50"
-        className="marker marker-50"
+        className={`marker marker-50 ${keyChart && "marker-example"}`}
         data-tooltip={`$${formatPay(data.percentile_50_pay)}`}
         style={{
           left: `${scale(data.percentile_50_pay)}%`
