@@ -41,8 +41,7 @@ export default function PayGraphics(props) {
   });
   const [filters, setFilters] = useState({
     level1: "",
-    level2: "",
-    level3: "Overall"
+    level2: ""
   });
 
   useEffect(() => {
@@ -56,15 +55,17 @@ export default function PayGraphics(props) {
         : d.level2 == "Overall";
     });
 
+    console.log(filteredData);
+
     let salariedData = filteredData.filter(d => d.pay_rate_type === "Salaried");
     let hourlyData = filteredData.filter(d => d.pay_rate_type === "Hourly");
     let salariedRange = [
-      d3.min(salariedData, d => d.percentile_25_pay),
-      d3.max(salariedData, d => d.percentile_75_pay)
+      d3.min(salariedData, d => d.percentile_25_pay) * 0.75,
+      d3.max(salariedData, d => d.percentile_75_pay) * 1.25
     ];
     let hourlyRange = [
-      d3.min(hourlyData, d => d.percentile_25_pay),
-      d3.max(hourlyData, d => d.percentile_75_pay)
+      d3.min(hourlyData, d => d.percentile_25_pay) * 0.75,
+      d3.max(hourlyData, d => d.percentile_75_pay) * 1.25
     ];
 
     let level2Items = new Set(
@@ -87,16 +88,14 @@ export default function PayGraphics(props) {
   function runFilters(filters) {
     setFilters(f => {
       let newFilters = { ...f, ...filters };
-      if (filters.level1) {
-        delete newFilters.level2;
-      }
+      console.log(newFilters);
 
       return newFilters;
     });
   }
 
   return (
-    <div className="pay-graphics container">
+    <div className="pay-graphics">
       <Tabs type="toggle">
         <Tabs.Tab
           key="tab-0"
@@ -109,8 +108,7 @@ export default function PayGraphics(props) {
             runFilters={runFilters}
             filters={{
               level1: "Overall",
-              level2: "Overall",
-              level3: "Overall"
+              level2: "Overall"
             }}
           />
         </Tabs.Tab>
@@ -125,8 +123,7 @@ export default function PayGraphics(props) {
             runFilters={runFilters}
             filters={{
               level1: "Commercial",
-              level2: "Overall",
-              level3: "Overall"
+              level2: "Overall"
             }}
           />
         </Tabs.Tab>
@@ -139,13 +136,20 @@ export default function PayGraphics(props) {
           <FilterLink
             label="Newsroom"
             runFilters={runFilters}
-            filters={{ level1: "News", level2: "Overall", level3: "Overall" }}
+            filters={{
+              level1: "News",
+              level2: "Overall"
+            }}
           />
         </Tabs.Tab>
       </Tabs>
+      <div className="chart-explainer">
+        <h3>How to read these charts</h3>
+        <p>Each group of at least five employees is represented by a chart.</p>
+      </div>
       {dataView.level2Items.length > 0 && filters.level1 != "Overall" && (
         <Dropdown
-          label="Department"
+          label="Overall"
           value={filters.level2}
           onChange={e => {
             runFilters({ level2: e });
@@ -169,7 +173,7 @@ export default function PayGraphics(props) {
             )
           ).map(l => {
             return (
-              <div className="desk-section">
+              <div className="desk-section" key={`desk-section-${l}`}>
                 <h4>{l != "Overall" ? l : ""}</h4>
                 {dataView.data
                   .filter(d => d.pay_rate_type === "Salaried" && d.level3 === l)
@@ -199,7 +203,7 @@ export default function PayGraphics(props) {
             )
           ).map(l => {
             return (
-              <div className="desk-section">
+              <div className="desk-section" key={`desk-section-${l}`}>
                 <h4>{l != "Overall" ? l : ""}</h4>
                 {dataView.data
                   .filter(d => d.pay_rate_type === "Hourly" && d.level3 == l)

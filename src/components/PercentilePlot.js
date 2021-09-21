@@ -12,6 +12,7 @@ function formatPay(d) {
 
 export default function PercentilePlot(props) {
   let path = props.path || null;
+  let keyChart = props.keyChart || false;
   const pathLevels = ["level1", "level2", "level3", "groups"];
 
   const [data, setData] = useState(props.data || payData[0]);
@@ -39,6 +40,14 @@ export default function PercentilePlot(props) {
       }
     }
   }, []);
+
+  useEffect(() => {
+    if (props.data && props.domain) {
+      setData(props.data);
+      setDomain(props.domain);
+    }
+  }, [props.data, props.domain]);
+
   const scale = d3
     .scaleLinear()
     .domain(domain)
@@ -53,6 +62,7 @@ export default function PercentilePlot(props) {
       {data.percentile_25_pay && (
         <>
           <div
+            key="plot-bar"
             className="plot-bar"
             style={{
               left: `${scale(data.percentile_25_pay)}%`,
@@ -60,6 +70,7 @@ export default function PercentilePlot(props) {
             }}
           ></div>
           <div
+            key="marker-25"
             className="marker marker-25"
             data-tooltip={`$${formatPay(data.percentile_25_pay)}`}
             style={{
@@ -67,6 +78,7 @@ export default function PercentilePlot(props) {
             }}
           ></div>
           <div
+            key="marker-75"
             className="marker marker-75"
             data-tooltip={`$${formatPay(data.percentile_75_pay)}`}
             style={{
@@ -75,7 +87,27 @@ export default function PercentilePlot(props) {
           ></div>
         </>
       )}
+      {!data.percentile_25_pay && (
+        <>
+          <div
+            className="plot-bar plot-bar-fuzzy"
+            key="plot-bar-fuzzy"
+            style={{
+              left: `${scale(data.percentile_50_pay * 0.75)}%`,
+              width: `${scale(data.percentile_50_pay * 1.25)}`
+            }}
+          ></div>
+          <div
+            className="marker marker-example"
+            key="marker-example"
+            style={{
+              left: `${scale(data.percentile_50_pay * 1.25)}%`
+            }}
+          ></div>
+        </>
+      )}
       <div
+        key="marker-50"
         className="marker marker-50"
         data-tooltip={`$${formatPay(data.percentile_50_pay)}`}
         style={{
