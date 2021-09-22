@@ -9,7 +9,7 @@
     "percentile_50_pay": 29.43,
     "percentile_75_pay": "33.6325",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -21,7 +21,7 @@
     "percentile_50_pay": 32.05,
     "percentile_75_pay": "37.37",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -33,7 +33,7 @@
     "percentile_50_pay": 26.81,
     "percentile_75_pay": "30.77",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -45,7 +45,7 @@
     "percentile_50_pay": 29.12,
     "percentile_75_pay": "32.72",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -57,7 +57,7 @@
     "percentile_50_pay": 29.63,
     "percentile_75_pay": "NA",
     "groups": "Asian women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -69,7 +69,7 @@
     "percentile_50_pay": 28.835,
     "percentile_75_pay": "32.1125",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -81,7 +81,7 @@
     "percentile_50_pay": 30.14,
     "percentile_75_pay": "32.5",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -93,7 +93,7 @@
     "percentile_50_pay": 26.705,
     "percentile_75_pay": "29.8525",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -105,7 +105,7 @@
     "percentile_50_pay": 26.56,
     "percentile_75_pay": "NA",
     "groups": "Hispanic",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -117,7 +117,7 @@
     "percentile_50_pay": 32.12,
     "percentile_75_pay": "36.785",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -129,7 +129,7 @@
     "percentile_50_pay": 34.61,
     "percentile_75_pay": "38.77",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -141,7 +141,7 @@
     "percentile_50_pay": 28.695,
     "percentile_75_pay": "32.18",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -153,7 +153,7 @@
     "percentile_50_pay": 90471.94,
     "percentile_75_pay": "118730.29",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -165,7 +165,7 @@
     "percentile_50_pay": 93503.4,
     "percentile_75_pay": "123468.58",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -177,7 +177,7 @@
     "percentile_50_pay": 89382.07,
     "percentile_75_pay": "107460.58",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -189,7 +189,7 @@
     "percentile_50_pay": 80000,
     "percentile_75_pay": "90702.3",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -201,7 +201,7 @@
     "percentile_50_pay": 81350.05,
     "percentile_75_pay": "91526.725",
     "groups": "Asian women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -213,7 +213,7 @@
     "percentile_50_pay": 80000,
     "percentile_75_pay": "NA",
     "groups": "Asian men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -225,7 +225,7 @@
     "percentile_50_pay": 84584.635,
     "percentile_75_pay": "93556.25",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -237,7 +237,7 @@
     "percentile_50_pay": 81879.99,
     "percentile_75_pay": "95292.5",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -249,7 +249,7 @@
     "percentile_50_pay": 85573.5,
     "percentile_75_pay": "NA",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -261,7 +261,7 @@
     "percentile_50_pay": 97695.6,
     "percentile_75_pay": "146370.13",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -273,7 +273,7 @@
     "percentile_50_pay": 98047.8,
     "percentile_75_pay": "151906",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -285,7 +285,7 @@
     "percentile_50_pay": 95050.62,
     "percentile_75_pay": "125978.32",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -297,7 +297,7 @@
     "percentile_50_pay": 30.165,
     "percentile_75_pay": "34.3225",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -309,7 +309,7 @@
     "percentile_50_pay": 32.24,
     "percentile_75_pay": "36.065",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -321,7 +321,7 @@
     "percentile_50_pay": 31.17,
     "percentile_75_pay": "NA",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -333,7 +333,7 @@
     "percentile_50_pay": 29.18,
     "percentile_75_pay": "33.525",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -345,7 +345,7 @@
     "percentile_50_pay": 28.61,
     "percentile_75_pay": "32.935",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -357,7 +357,7 @@
     "percentile_50_pay": 31.41,
     "percentile_75_pay": "33.935",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -369,7 +369,7 @@
     "percentile_50_pay": 33.285,
     "percentile_75_pay": "36.6575",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -381,7 +381,7 @@
     "percentile_50_pay": 34.035,
     "percentile_75_pay": "36.22",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -393,7 +393,7 @@
     "percentile_50_pay": 32.24,
     "percentile_75_pay": "36.6575",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -405,7 +405,7 @@
     "percentile_50_pay": 90471.94,
     "percentile_75_pay": "140758.705",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -417,7 +417,7 @@
     "percentile_50_pay": 89957.05,
     "percentile_75_pay": "121957.08",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -429,7 +429,7 @@
     "percentile_50_pay": 77677.205,
     "percentile_75_pay": "83783.825",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -441,7 +441,7 @@
     "percentile_50_pay": 77625,
     "percentile_75_pay": "NA",
     "groups": "Asian women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -453,7 +453,7 @@
     "percentile_50_pay": 78759.98,
     "percentile_75_pay": "85000",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -465,7 +465,7 @@
     "percentile_50_pay": 78629.99,
     "percentile_75_pay": "NA",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -477,7 +477,7 @@
     "percentile_50_pay": 99406.48,
     "percentile_75_pay": "149718",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -489,7 +489,7 @@
     "percentile_50_pay": 99465.35,
     "percentile_75_pay": "154144.75",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -501,7 +501,7 @@
     "percentile_50_pay": 99347.61,
     "percentile_75_pay": "129999.56",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -513,7 +513,7 @@
     "percentile_50_pay": 85045.1,
     "percentile_75_pay": "88872.335",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -525,7 +525,7 @@
     "percentile_50_pay": 129999.56,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -537,7 +537,7 @@
     "percentile_50_pay": 129999.56,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -549,7 +549,7 @@
     "percentile_50_pay": 28.61,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -561,7 +561,7 @@
     "percentile_50_pay": 28.61,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -573,7 +573,7 @@
     "percentile_50_pay": 78229.695,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -585,7 +585,7 @@
     "percentile_50_pay": 96975,
     "percentile_75_pay": "1e+05",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -597,7 +597,7 @@
     "percentile_50_pay": 94202.1,
     "percentile_75_pay": "98580.475",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -609,7 +609,7 @@
     "percentile_50_pay": 98580.475,
     "percentile_75_pay": "105791.035",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -621,7 +621,7 @@
     "percentile_50_pay": 97335.3,
     "percentile_75_pay": "101529.3575",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -633,7 +633,7 @@
     "percentile_50_pay": 74790.3,
     "percentile_75_pay": "77610",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -645,7 +645,7 @@
     "percentile_50_pay": 74790.3,
     "percentile_75_pay": "77640",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -657,7 +657,7 @@
     "percentile_50_pay": 71885.24,
     "percentile_75_pay": "77580.09",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -669,7 +669,7 @@
     "percentile_50_pay": 71885.24,
     "percentile_75_pay": "80655.42",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -681,7 +681,7 @@
     "percentile_50_pay": 174956,
     "percentile_75_pay": "185000",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -693,7 +693,7 @@
     "percentile_50_pay": 176517.18,
     "percentile_75_pay": "186289.54",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -705,7 +705,7 @@
     "percentile_50_pay": 172946.6,
     "percentile_75_pay": "185322.385",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -717,7 +717,7 @@
     "percentile_50_pay": 176517.18,
     "percentile_75_pay": "186289.54",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -729,7 +729,7 @@
     "percentile_50_pay": 92703.735,
     "percentile_75_pay": "138919.935",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -741,7 +741,7 @@
     "percentile_50_pay": 25.5,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -753,7 +753,7 @@
     "percentile_50_pay": 25.5,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -765,7 +765,7 @@
     "percentile_50_pay": 106385.36,
     "percentile_75_pay": "117692.3375",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -777,7 +777,7 @@
     "percentile_50_pay": 107453,
     "percentile_75_pay": "120773.945",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -789,7 +789,7 @@
     "percentile_50_pay": 106385.36,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -801,7 +801,7 @@
     "percentile_50_pay": 106385.36,
     "percentile_75_pay": "NA",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -813,7 +813,7 @@
     "percentile_50_pay": 30.6,
     "percentile_75_pay": "32.275",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -825,7 +825,7 @@
     "percentile_50_pay": 30.26,
     "percentile_75_pay": "32.45",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -837,7 +837,7 @@
     "percentile_50_pay": 30.26,
     "percentile_75_pay": "32.47",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -849,7 +849,7 @@
     "percentile_50_pay": 30.6,
     "percentile_75_pay": "32.275",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -861,7 +861,7 @@
     "percentile_50_pay": 30.26,
     "percentile_75_pay": "NA",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -873,7 +873,7 @@
     "percentile_50_pay": 95585,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -885,7 +885,7 @@
     "percentile_50_pay": 95585,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -897,7 +897,7 @@
     "percentile_50_pay": 30.14,
     "percentile_75_pay": "32",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -909,7 +909,7 @@
     "percentile_50_pay": 30.14,
     "percentile_75_pay": "31.57",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -921,7 +921,7 @@
     "percentile_50_pay": 31.025,
     "percentile_75_pay": "NA",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -933,7 +933,7 @@
     "percentile_50_pay": 30.14,
     "percentile_75_pay": "31.9225",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -945,7 +945,7 @@
     "percentile_50_pay": 30.14,
     "percentile_75_pay": "31.06",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -957,7 +957,7 @@
     "percentile_50_pay": 30.26,
     "percentile_75_pay": "NA",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -969,7 +969,7 @@
     "percentile_50_pay": 39.64,
     "percentile_75_pay": "40.43",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -981,7 +981,7 @@
     "percentile_50_pay": 39.64,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -993,7 +993,7 @@
     "percentile_50_pay": 39.64,
     "percentile_75_pay": "NA",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -1005,7 +1005,7 @@
     "percentile_50_pay": 25.41,
     "percentile_75_pay": "26.6825",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -1017,7 +1017,7 @@
     "percentile_50_pay": 25.205,
     "percentile_75_pay": "26.6575",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -1029,7 +1029,7 @@
     "percentile_50_pay": 25.41,
     "percentile_75_pay": "26.66",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -1041,7 +1041,7 @@
     "percentile_50_pay": 25.23,
     "percentile_75_pay": "26.615",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -1053,7 +1053,7 @@
     "percentile_50_pay": 25.23,
     "percentile_75_pay": "26.615",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -1065,7 +1065,7 @@
     "percentile_50_pay": 25.32,
     "percentile_75_pay": "26.6525",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -1077,7 +1077,7 @@
     "percentile_50_pay": 25.41,
     "percentile_75_pay": "26.655",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Commercial",
@@ -1089,7 +1089,7 @@
     "percentile_50_pay": 25,
     "percentile_75_pay": "26.65",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -1101,7 +1101,7 @@
     "percentile_50_pay": 25.095,
     "percentile_75_pay": "26.6525",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -1113,7 +1113,7 @@
     "percentile_50_pay": 25.23,
     "percentile_75_pay": "26.615",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Commercial",
@@ -1125,7 +1125,7 @@
     "percentile_50_pay": 25.23,
     "percentile_75_pay": "26.615",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Commercial",
@@ -1137,7 +1137,7 @@
     "percentile_50_pay": 75000.51,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -1149,7 +1149,7 @@
     "percentile_50_pay": 38.4,
     "percentile_75_pay": "45.435",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1161,7 +1161,7 @@
     "percentile_50_pay": 34.28,
     "percentile_75_pay": "40.715",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1173,7 +1173,7 @@
     "percentile_50_pay": 35.9,
     "percentile_75_pay": "44.3125",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1185,7 +1185,7 @@
     "percentile_50_pay": 33.77,
     "percentile_75_pay": "37.44",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1197,7 +1197,7 @@
     "percentile_50_pay": 34.28,
     "percentile_75_pay": "40.515",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1209,7 +1209,7 @@
     "percentile_50_pay": 33.34,
     "percentile_75_pay": "38.9775",
     "groups": "Asian women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1221,7 +1221,7 @@
     "percentile_50_pay": 23.22,
     "percentile_75_pay": "33.46",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1233,7 +1233,7 @@
     "percentile_50_pay": 35.4,
     "percentile_75_pay": "40.9525",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1245,7 +1245,7 @@
     "percentile_50_pay": 38.46,
     "percentile_75_pay": "51.28",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1257,7 +1257,7 @@
     "percentile_50_pay": 33.77,
     "percentile_75_pay": "37.18",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1269,7 +1269,7 @@
     "percentile_50_pay": 109884.02,
     "percentile_75_pay": "144090.85",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1281,7 +1281,7 @@
     "percentile_50_pay": 102700.045,
     "percentile_75_pay": "129712.5",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1293,7 +1293,7 @@
     "percentile_50_pay": 120976.6,
     "percentile_75_pay": "155344.8975",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1305,7 +1305,7 @@
     "percentile_50_pay": 103970.05,
     "percentile_75_pay": "126420",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1317,7 +1317,7 @@
     "percentile_50_pay": 95000,
     "percentile_75_pay": "120365.505",
     "groups": "Asian women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1329,7 +1329,7 @@
     "percentile_50_pay": 115355,
     "percentile_75_pay": "128228.975",
     "groups": "Asian men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1341,7 +1341,7 @@
     "percentile_50_pay": 102700.045,
     "percentile_75_pay": "133730",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1353,7 +1353,7 @@
     "percentile_50_pay": 95000,
     "percentile_75_pay": "128395",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1365,7 +1365,7 @@
     "percentile_50_pay": 114488.29,
     "percentile_75_pay": "136190",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1377,7 +1377,7 @@
     "percentile_50_pay": 95780.04,
     "percentile_75_pay": "120630",
     "groups": "Hispanic",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1389,7 +1389,7 @@
     "percentile_50_pay": 93060,
     "percentile_75_pay": "105780",
     "groups": "Hispanic  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1401,7 +1401,7 @@
     "percentile_50_pay": 98411.56,
     "percentile_75_pay": "134324.81",
     "groups": "Hispanic  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1413,7 +1413,7 @@
     "percentile_50_pay": 91090,
     "percentile_75_pay": "103028.75",
     "groups": "Multi-racial",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1425,7 +1425,7 @@
     "percentile_50_pay": 91400,
     "percentile_75_pay": "120780",
     "groups": "Multi-racial women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1437,7 +1437,7 @@
     "percentile_50_pay": 89000,
     "percentile_75_pay": "NA",
     "groups": "Multi-racial men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1449,7 +1449,7 @@
     "percentile_50_pay": 113809.68,
     "percentile_75_pay": "151340",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1461,7 +1461,7 @@
     "percentile_50_pay": 105780,
     "percentile_75_pay": "130096",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1473,7 +1473,7 @@
     "percentile_50_pay": 123796.94,
     "percentile_75_pay": "165164.03",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1485,7 +1485,7 @@
     "percentile_50_pay": 89080,
     "percentile_75_pay": "95380",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1497,7 +1497,7 @@
     "percentile_50_pay": 88880,
     "percentile_75_pay": "92370",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1509,7 +1509,7 @@
     "percentile_50_pay": 94780,
     "percentile_75_pay": "114780",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1521,7 +1521,7 @@
     "percentile_50_pay": 89280,
     "percentile_75_pay": "100880",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1533,7 +1533,7 @@
     "percentile_50_pay": 86330,
     "percentile_75_pay": "89865",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1545,7 +1545,7 @@
     "percentile_50_pay": 103060,
     "percentile_75_pay": "119280",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1557,7 +1557,7 @@
     "percentile_50_pay": 93140,
     "percentile_75_pay": "107302",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1569,7 +1569,7 @@
     "percentile_50_pay": 94280,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1581,7 +1581,7 @@
     "percentile_50_pay": 92284.94,
     "percentile_75_pay": "102935",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1593,7 +1593,7 @@
     "percentile_50_pay": 85000,
     "percentile_75_pay": "92500",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1605,7 +1605,7 @@
     "percentile_50_pay": 98340,
     "percentile_75_pay": "110856.265",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1617,7 +1617,7 @@
     "percentile_50_pay": 80000,
     "percentile_75_pay": "NA",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1629,7 +1629,7 @@
     "percentile_50_pay": 92500,
     "percentile_75_pay": "98703.69",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1641,7 +1641,7 @@
     "percentile_50_pay": 93750,
     "percentile_75_pay": "100097.79",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1653,7 +1653,7 @@
     "percentile_50_pay": 93640,
     "percentile_75_pay": "NA",
     "groups": "Hispanic",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1665,7 +1665,7 @@
     "percentile_50_pay": 92924.94,
     "percentile_75_pay": "106740.2375",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1677,7 +1677,7 @@
     "percentile_50_pay": 85000,
     "percentile_75_pay": "93780",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1689,7 +1689,7 @@
     "percentile_50_pay": 106340,
     "percentile_75_pay": "120078.34",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1701,7 +1701,7 @@
     "percentile_50_pay": 43.265,
     "percentile_75_pay": "51.42",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1713,7 +1713,7 @@
     "percentile_50_pay": 43.265,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1725,7 +1725,7 @@
     "percentile_50_pay": 39.495,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1737,7 +1737,7 @@
     "percentile_50_pay": 42.94,
     "percentile_75_pay": "NA",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1749,7 +1749,7 @@
     "percentile_50_pay": 128560.27,
     "percentile_75_pay": "185240.83",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1761,7 +1761,7 @@
     "percentile_50_pay": 102692.61,
     "percentile_75_pay": "136170.135",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1773,7 +1773,7 @@
     "percentile_50_pay": 156476.68,
     "percentile_75_pay": "217720.205",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1785,7 +1785,7 @@
     "percentile_50_pay": 134806.25,
     "percentile_75_pay": "195880.82",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1797,7 +1797,7 @@
     "percentile_50_pay": 107200.365,
     "percentile_75_pay": "141937.09",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1809,7 +1809,7 @@
     "percentile_50_pay": 158673.36,
     "percentile_75_pay": "210440.41",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1821,7 +1821,7 @@
     "percentile_50_pay": 75000,
     "percentile_75_pay": "84790",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1833,7 +1833,7 @@
     "percentile_50_pay": 73440,
     "percentile_75_pay": "85280",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1845,7 +1845,7 @@
     "percentile_50_pay": 76840.01,
     "percentile_75_pay": "78700",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1857,7 +1857,7 @@
     "percentile_50_pay": 76700.005,
     "percentile_75_pay": "85345",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1869,7 +1869,7 @@
     "percentile_50_pay": 72940,
     "percentile_75_pay": "85345",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -1881,7 +1881,7 @@
     "percentile_50_pay": 71926.5,
     "percentile_75_pay": "77395.0075",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1893,7 +1893,7 @@
     "percentile_50_pay": 70000,
     "percentile_75_pay": "72720",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1905,7 +1905,7 @@
     "percentile_50_pay": 76840.01,
     "percentile_75_pay": "NA",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1917,7 +1917,7 @@
     "percentile_50_pay": 73440,
     "percentile_75_pay": "77950.005",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1929,7 +1929,7 @@
     "percentile_50_pay": 72720,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1941,7 +1941,7 @@
     "percentile_50_pay": 72440,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -1953,7 +1953,7 @@
     "percentile_50_pay": 137140,
     "percentile_75_pay": "166560",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -1965,7 +1965,7 @@
     "percentile_50_pay": 133666,
     "percentile_75_pay": "164850",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1977,7 +1977,7 @@
     "percentile_50_pay": 137340,
     "percentile_75_pay": "166560",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -1989,7 +1989,7 @@
     "percentile_50_pay": 137140,
     "percentile_75_pay": "NA",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2001,7 +2001,7 @@
     "percentile_50_pay": 137799.88,
     "percentile_75_pay": "166560",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2013,7 +2013,7 @@
     "percentile_50_pay": 129876,
     "percentile_75_pay": "158545",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2025,7 +2025,7 @@
     "percentile_50_pay": 142027.5,
     "percentile_75_pay": "167950",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2037,7 +2037,7 @@
     "percentile_50_pay": 142780,
     "percentile_75_pay": "158340",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2049,7 +2049,7 @@
     "percentile_50_pay": 129890,
     "percentile_75_pay": "150795",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2061,7 +2061,7 @@
     "percentile_50_pay": 150780,
     "percentile_75_pay": "161196.925",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2073,7 +2073,7 @@
     "percentile_50_pay": 124843.27,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2085,7 +2085,7 @@
     "percentile_50_pay": 104320.14,
     "percentile_75_pay": "115840",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2097,7 +2097,7 @@
     "percentile_50_pay": 104320.14,
     "percentile_75_pay": "104560",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2109,7 +2109,7 @@
     "percentile_50_pay": 101640,
     "percentile_75_pay": "120840",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2121,7 +2121,7 @@
     "percentile_50_pay": 106340,
     "percentile_75_pay": "118747",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2133,7 +2133,7 @@
     "percentile_50_pay": 104780,
     "percentile_75_pay": "NA",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2145,7 +2145,7 @@
     "percentile_50_pay": 117131,
     "percentile_75_pay": "NA",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2157,7 +2157,7 @@
     "percentile_50_pay": 144340,
     "percentile_75_pay": "160780",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2169,7 +2169,7 @@
     "percentile_50_pay": 133200,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2181,7 +2181,7 @@
     "percentile_50_pay": 151780,
     "percentile_75_pay": "163951.825",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2193,7 +2193,7 @@
     "percentile_50_pay": 151780,
     "percentile_75_pay": "166840",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2205,7 +2205,7 @@
     "percentile_50_pay": 151840,
     "percentile_75_pay": "167123.65",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2217,7 +2217,7 @@
     "percentile_50_pay": 113140,
     "percentile_75_pay": "130140.6725",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2229,7 +2229,7 @@
     "percentile_50_pay": 108075.8,
     "percentile_75_pay": "118157.0125",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2241,7 +2241,7 @@
     "percentile_50_pay": 122011.175,
     "percentile_75_pay": "132461.555",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2253,7 +2253,7 @@
     "percentile_50_pay": 106500,
     "percentile_75_pay": "119170.655",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2265,7 +2265,7 @@
     "percentile_50_pay": 100780,
     "percentile_75_pay": "NA",
     "groups": "Hispanic",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2277,7 +2277,7 @@
     "percentile_50_pay": 113280,
     "percentile_75_pay": "131840.47",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2289,7 +2289,7 @@
     "percentile_50_pay": 108075.8,
     "percentile_75_pay": "117683.92",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2301,7 +2301,7 @@
     "percentile_50_pay": 121113.2,
     "percentile_75_pay": "135612.85",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2313,7 +2313,7 @@
     "percentile_50_pay": 32.77,
     "percentile_75_pay": "37.4",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2325,7 +2325,7 @@
     "percentile_50_pay": 90810,
     "percentile_75_pay": "98483.395",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2337,7 +2337,7 @@
     "percentile_50_pay": 88560,
     "percentile_75_pay": "95245.115",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2349,7 +2349,7 @@
     "percentile_50_pay": 96356.89,
     "percentile_75_pay": "99353.73",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2361,7 +2361,7 @@
     "percentile_50_pay": 92547.185,
     "percentile_75_pay": "100204.89",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2373,7 +2373,7 @@
     "percentile_50_pay": 89840,
     "percentile_75_pay": "98080.835",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2385,7 +2385,7 @@
     "percentile_50_pay": 96600.08,
     "percentile_75_pay": "101318.22",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2397,7 +2397,7 @@
     "percentile_50_pay": 33.85,
     "percentile_75_pay": "46.545",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2409,7 +2409,7 @@
     "percentile_50_pay": 39.425,
     "percentile_75_pay": "52.61",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2421,7 +2421,7 @@
     "percentile_50_pay": 33.85,
     "percentile_75_pay": "52.605",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2433,7 +2433,7 @@
     "percentile_50_pay": 33.85,
     "percentile_75_pay": "NA",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2445,7 +2445,7 @@
     "percentile_50_pay": 158242.11,
     "percentile_75_pay": "191201.58",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2457,7 +2457,7 @@
     "percentile_50_pay": 145602.97,
     "percentile_75_pay": "179459.6125",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2469,7 +2469,7 @@
     "percentile_50_pay": 178737.5,
     "percentile_75_pay": "197096.25",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2481,7 +2481,7 @@
     "percentile_50_pay": 137345,
     "percentile_75_pay": "155753.555",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2493,7 +2493,7 @@
     "percentile_50_pay": 144985,
     "percentile_75_pay": "163983.165",
     "groups": "Asian women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2505,7 +2505,7 @@
     "percentile_50_pay": 146425.94,
     "percentile_75_pay": "175000",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2517,7 +2517,7 @@
     "percentile_50_pay": 136190,
     "percentile_75_pay": "176642.5",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2529,7 +2529,7 @@
     "percentile_50_pay": 127910,
     "percentile_75_pay": "NA",
     "groups": "Hispanic",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2541,7 +2541,7 @@
     "percentile_50_pay": 177838.45,
     "percentile_75_pay": "195200.085",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2553,7 +2553,7 @@
     "percentile_50_pay": 148550,
     "percentile_75_pay": "186382.5525",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2565,7 +2565,7 @@
     "percentile_50_pay": 186065,
     "percentile_75_pay": "202185",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2577,7 +2577,7 @@
     "percentile_50_pay": 129990,
     "percentile_75_pay": "151102.97",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2589,7 +2589,7 @@
     "percentile_50_pay": 129690,
     "percentile_75_pay": "144190",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2601,7 +2601,7 @@
     "percentile_50_pay": 142885,
     "percentile_75_pay": "NA",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2613,7 +2613,7 @@
     "percentile_50_pay": 132249.5,
     "percentile_75_pay": "174409.31",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2625,7 +2625,7 @@
     "percentile_50_pay": 132249.5,
     "percentile_75_pay": "NA",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2637,7 +2637,7 @@
     "percentile_50_pay": 33.59,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2649,7 +2649,7 @@
     "percentile_50_pay": 157840,
     "percentile_75_pay": "192904.48",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2661,7 +2661,7 @@
     "percentile_50_pay": 142780,
     "percentile_75_pay": "173482.5",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2673,7 +2673,7 @@
     "percentile_50_pay": 187910,
     "percentile_75_pay": "206065",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2685,7 +2685,7 @@
     "percentile_50_pay": 137345,
     "percentile_75_pay": "NA",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2697,7 +2697,7 @@
     "percentile_50_pay": 180060,
     "percentile_75_pay": "201516.25",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2709,7 +2709,7 @@
     "percentile_50_pay": 147910,
     "percentile_75_pay": "184780",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2721,7 +2721,7 @@
     "percentile_50_pay": 191325,
     "percentile_75_pay": "227892.5",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2733,7 +2733,7 @@
     "percentile_50_pay": 180737.5,
     "percentile_75_pay": "189721.25",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2745,7 +2745,7 @@
     "percentile_50_pay": 174890,
     "percentile_75_pay": "181940",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2757,7 +2757,7 @@
     "percentile_50_pay": 181190,
     "percentile_75_pay": "192422.5",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2769,7 +2769,7 @@
     "percentile_50_pay": 181190,
     "percentile_75_pay": "192780",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2781,7 +2781,7 @@
     "percentile_50_pay": 181627.5,
     "percentile_75_pay": "192601.25",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2793,7 +2793,7 @@
     "percentile_50_pay": 133387.5,
     "percentile_75_pay": "163340.5025",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2805,7 +2805,7 @@
     "percentile_50_pay": 133387.5,
     "percentile_75_pay": "NA",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2817,7 +2817,7 @@
     "percentile_50_pay": 148072.5,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2829,7 +2829,7 @@
     "percentile_50_pay": 164322.11,
     "percentile_75_pay": "182908.86",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2841,7 +2841,7 @@
     "percentile_50_pay": 164322.11,
     "percentile_75_pay": "180000",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2853,7 +2853,7 @@
     "percentile_50_pay": 154111.74,
     "percentile_75_pay": "NA",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2865,7 +2865,7 @@
     "percentile_50_pay": 181939.24,
     "percentile_75_pay": "196092.5375",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2877,7 +2877,7 @@
     "percentile_50_pay": 22.685,
     "percentile_75_pay": "30.695",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2889,7 +2889,7 @@
     "percentile_50_pay": 28.54,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2901,7 +2901,7 @@
     "percentile_50_pay": 105497.5,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2913,7 +2913,7 @@
     "percentile_50_pay": 27.74,
     "percentile_75_pay": "35.4",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2925,7 +2925,7 @@
     "percentile_50_pay": 33.77,
     "percentile_75_pay": "35.4",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2937,7 +2937,7 @@
     "percentile_50_pay": 33.77,
     "percentile_75_pay": "35.4",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -2949,7 +2949,7 @@
     "percentile_50_pay": 33.77,
     "percentile_75_pay": "35.4",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -2961,7 +2961,7 @@
     "percentile_50_pay": 107560,
     "percentile_75_pay": "155391.785",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -2973,7 +2973,7 @@
     "percentile_50_pay": 125935,
     "percentile_75_pay": "157567.485",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2985,7 +2985,7 @@
     "percentile_50_pay": 103685,
     "percentile_75_pay": "155300.99",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -2997,7 +2997,7 @@
     "percentile_50_pay": 133715,
     "percentile_75_pay": "NA",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -3009,7 +3009,7 @@
     "percentile_50_pay": 136340,
     "percentile_75_pay": "NA",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3021,7 +3021,7 @@
     "percentile_50_pay": 107560,
     "percentile_75_pay": "157260",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -3033,7 +3033,7 @@
     "percentile_50_pay": 160089.98,
     "percentile_75_pay": "NA",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3045,7 +3045,7 @@
     "percentile_50_pay": 102653.66,
     "percentile_75_pay": "155346.3875",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3057,7 +3057,7 @@
     "percentile_50_pay": 20.955,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -3069,7 +3069,7 @@
     "percentile_50_pay": 20.91,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -3081,7 +3081,7 @@
     "percentile_50_pay": 111833.47,
     "percentile_75_pay": "136000",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -3093,7 +3093,7 @@
     "percentile_50_pay": 107060,
     "percentile_75_pay": "125643.285",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -3105,7 +3105,7 @@
     "percentile_50_pay": 118280,
     "percentile_75_pay": "149799.3425",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -3117,7 +3117,7 @@
     "percentile_50_pay": 115471.31,
     "percentile_75_pay": "149799.3425",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -3129,7 +3129,7 @@
     "percentile_50_pay": 111833.47,
     "percentile_75_pay": "134560.4425",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3141,7 +3141,7 @@
     "percentile_50_pay": 116175.06,
     "percentile_75_pay": "149799.3425",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3153,7 +3153,7 @@
     "percentile_50_pay": 108618,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -3165,7 +3165,7 @@
     "percentile_50_pay": 114071.94,
     "percentile_75_pay": "146038.685",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -3177,7 +3177,7 @@
     "percentile_50_pay": 106722.325,
     "percentile_75_pay": "128103.285",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -3189,7 +3189,7 @@
     "percentile_50_pay": 125000,
     "percentile_75_pay": "153560",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -3201,7 +3201,7 @@
     "percentile_50_pay": 116170,
     "percentile_75_pay": "157226.7625",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -3213,7 +3213,7 @@
     "percentile_50_pay": 109595,
     "percentile_75_pay": "158931.175",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3225,7 +3225,7 @@
     "percentile_50_pay": 130000,
     "percentile_75_pay": "153560",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3237,7 +3237,7 @@
     "percentile_50_pay": 44.165,
     "percentile_75_pay": "51.3225",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -3249,7 +3249,7 @@
     "percentile_50_pay": 43.87,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -3261,7 +3261,7 @@
     "percentile_50_pay": 44.165,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -3273,7 +3273,7 @@
     "percentile_50_pay": 107876.005,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -3285,7 +3285,7 @@
     "percentile_50_pay": 94420,
     "percentile_75_pay": "1e+05",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "News",
@@ -3297,7 +3297,7 @@
     "percentile_50_pay": 91560,
     "percentile_75_pay": "96000",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -3309,7 +3309,7 @@
     "percentile_50_pay": 95000,
     "percentile_75_pay": "110000",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "News",
@@ -3321,7 +3321,7 @@
     "percentile_50_pay": 90000,
     "percentile_75_pay": "NA",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -3333,7 +3333,7 @@
     "percentile_50_pay": 90000,
     "percentile_75_pay": "NA",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3345,7 +3345,7 @@
     "percentile_50_pay": 80000,
     "percentile_75_pay": "NA",
     "groups": "Hispanic",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -3357,7 +3357,7 @@
     "percentile_50_pay": 78000,
     "percentile_75_pay": "NA",
     "groups": "Hispanic  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3369,7 +3369,7 @@
     "percentile_50_pay": 95000,
     "percentile_75_pay": "112000",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "News",
@@ -3381,7 +3381,7 @@
     "percentile_50_pay": 95000,
     "percentile_75_pay": "115000",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "News",
@@ -3393,7 +3393,7 @@
     "percentile_50_pay": 94500,
     "percentile_75_pay": "108500",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Other",
@@ -3405,7 +3405,7 @@
     "percentile_50_pay": 27.79,
     "percentile_75_pay": "32.875",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Other",
@@ -3417,7 +3417,7 @@
     "percentile_50_pay": 28.985,
     "percentile_75_pay": "33.1025",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Other",
@@ -3429,7 +3429,7 @@
     "percentile_50_pay": 22.09,
     "percentile_75_pay": "NA",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Other",
@@ -3441,7 +3441,7 @@
     "percentile_50_pay": 23.76,
     "percentile_75_pay": "28.985",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Other",
@@ -3453,7 +3453,7 @@
     "percentile_50_pay": 22.695,
     "percentile_75_pay": "29.3625",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Other",
@@ -3465,7 +3465,7 @@
     "percentile_50_pay": 33.645,
     "percentile_75_pay": "NA",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Other",
@@ -3477,7 +3477,7 @@
     "percentile_50_pay": 87819,
     "percentile_75_pay": "96508.6925",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Other",
@@ -3489,7 +3489,7 @@
     "percentile_50_pay": 87819,
     "percentile_75_pay": "107195.85",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Other",
@@ -3501,7 +3501,7 @@
     "percentile_50_pay": 87500,
     "percentile_75_pay": "94402.5",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Other",
@@ -3513,7 +3513,7 @@
     "percentile_50_pay": 93000,
     "percentile_75_pay": "98739.085",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Other",
@@ -3525,7 +3525,7 @@
     "percentile_50_pay": 94391.7,
     "percentile_75_pay": "110500",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Other",
@@ -3537,7 +3537,7 @@
     "percentile_50_pay": 93000,
     "percentile_75_pay": "95325",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Other",
@@ -3549,7 +3549,7 @@
     "percentile_50_pay": 94391.7,
     "percentile_75_pay": "110500",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Other",
@@ -3561,7 +3561,7 @@
     "percentile_50_pay": 87500,
     "percentile_75_pay": "94402.5",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Other",
@@ -3573,7 +3573,7 @@
     "percentile_50_pay": 93935,
     "percentile_75_pay": "98761.2425",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Other",
@@ -3585,7 +3585,7 @@
     "percentile_50_pay": 98783.4,
     "percentile_75_pay": "111000",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Other",
@@ -3597,7 +3597,7 @@
     "percentile_50_pay": 93000,
     "percentile_75_pay": "95325",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Other",
@@ -3609,7 +3609,7 @@
     "percentile_50_pay": 21.63,
     "percentile_75_pay": "28.23",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Other",
@@ -3621,7 +3621,7 @@
     "percentile_50_pay": 21.24,
     "percentile_75_pay": "24.8775",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Other",
@@ -3633,7 +3633,7 @@
     "percentile_50_pay": 21.24,
     "percentile_75_pay": "24.8775",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Other",
@@ -3645,7 +3645,7 @@
     "percentile_50_pay": 33.33,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Other",
@@ -3657,7 +3657,7 @@
     "percentile_50_pay": 34.1,
     "percentile_75_pay": "NA",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Other",
@@ -3669,7 +3669,7 @@
     "percentile_50_pay": 33.33,
     "percentile_75_pay": "NA",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Overall",
@@ -3681,7 +3681,7 @@
     "percentile_50_pay": 31.16,
     "percentile_75_pay": "36.5875",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Overall",
@@ -3693,7 +3693,7 @@
     "percentile_50_pay": 32.65,
     "percentile_75_pay": "38.46",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Overall",
@@ -3705,7 +3705,7 @@
     "percentile_50_pay": 28.65,
     "percentile_75_pay": "33.77",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Overall",
@@ -3717,7 +3717,7 @@
     "percentile_50_pay": 31.92,
     "percentile_75_pay": "37.44",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Overall",
@@ -3729,7 +3729,7 @@
     "percentile_50_pay": 31.92,
     "percentile_75_pay": "37.37",
     "groups": "Asian women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3741,7 +3741,7 @@
     "percentile_50_pay": 32.825,
     "percentile_75_pay": "NA",
     "groups": "Asian men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3753,7 +3753,7 @@
     "percentile_50_pay": 27.88,
     "percentile_75_pay": "32.145",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Overall",
@@ -3765,7 +3765,7 @@
     "percentile_50_pay": 29.42,
     "percentile_75_pay": "32.715",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3777,7 +3777,7 @@
     "percentile_50_pay": 26.66,
     "percentile_75_pay": "29.815",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3789,7 +3789,7 @@
     "percentile_50_pay": 26.56,
     "percentile_75_pay": "36.84",
     "groups": "Hispanic",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Overall",
@@ -3801,7 +3801,7 @@
     "percentile_50_pay": 33.85,
     "percentile_75_pay": "NA",
     "groups": "Hispanic  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3813,7 +3813,7 @@
     "percentile_50_pay": 35,
     "percentile_75_pay": "36.9",
     "groups": "Multi-racial",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3825,7 +3825,7 @@
     "percentile_50_pay": 35.9,
     "percentile_75_pay": "NA",
     "groups": "Multi-racial women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3837,7 +3837,7 @@
     "percentile_50_pay": 33.77,
     "percentile_75_pay": "39.33",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Overall",
@@ -3849,7 +3849,7 @@
     "percentile_50_pay": 35.9,
     "percentile_75_pay": "42.205",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3861,7 +3861,7 @@
     "percentile_50_pay": 32.12,
     "percentile_75_pay": "36.11",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3873,7 +3873,7 @@
     "percentile_50_pay": 105298.56,
     "percentile_75_pay": "140670",
     "groups": "All Guild-eligible",
-    "type": "Race/Gender"
+    "type": "overall"
   },
   {
     "level1": "Overall",
@@ -3885,7 +3885,7 @@
     "percentile_50_pay": 99465.35,
     "percentile_75_pay": "129040",
     "groups": "Women",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Overall",
@@ -3897,7 +3897,7 @@
     "percentile_50_pay": 114921.16,
     "percentile_75_pay": "152730.88",
     "groups": "Men",
-    "type": "Gender"
+    "type": "gender"
   },
   {
     "level1": "Overall",
@@ -3909,7 +3909,7 @@
     "percentile_50_pay": 94920,
     "percentile_75_pay": "120477.5",
     "groups": "Asian",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Overall",
@@ -3921,7 +3921,7 @@
     "percentile_50_pay": 94840,
     "percentile_75_pay": "113964.25",
     "groups": "Asian women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3933,7 +3933,7 @@
     "percentile_50_pay": 95691.99,
     "percentile_75_pay": "125560",
     "groups": "Asian men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3945,7 +3945,7 @@
     "percentile_50_pay": 95000,
     "percentile_75_pay": "127690.8575",
     "groups": "Black",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Overall",
@@ -3957,7 +3957,7 @@
     "percentile_50_pay": 91959.9,
     "percentile_75_pay": "119868.3675",
     "groups": "Black  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3969,7 +3969,7 @@
     "percentile_50_pay": 99375,
     "percentile_75_pay": "130720",
     "groups": "Black  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -3981,7 +3981,7 @@
     "percentile_50_pay": 94780,
     "percentile_75_pay": "120420",
     "groups": "Hispanic",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Overall",
@@ -3993,7 +3993,7 @@
     "percentile_50_pay": 91254.94,
     "percentile_75_pay": "102030",
     "groups": "Hispanic  women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -4005,7 +4005,7 @@
     "percentile_50_pay": 98411.56,
     "percentile_75_pay": "144302.405",
     "groups": "Hispanic  men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -4017,7 +4017,7 @@
     "percentile_50_pay": 90000,
     "percentile_75_pay": "98435",
     "groups": "Multi-racial",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -4029,7 +4029,7 @@
     "percentile_50_pay": 90780,
     "percentile_75_pay": "107280",
     "groups": "Multi-racial women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -4041,7 +4041,7 @@
     "percentile_50_pay": 86890,
     "percentile_75_pay": "NA",
     "groups": "Multi-racial men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -4053,7 +4053,7 @@
     "percentile_50_pay": 110453.45,
     "percentile_75_pay": "147910",
     "groups": "White",
-    "type": "Race"
+    "type": "race"
   },
   {
     "level1": "Overall",
@@ -4065,7 +4065,7 @@
     "percentile_50_pay": 104780,
     "percentile_75_pay": "132249.5",
     "groups": "White women",
-    "type": "Race/Gender"
+    "type": "race and gender"
   },
   {
     "level1": "Overall",
@@ -4077,6 +4077,6 @@
     "percentile_50_pay": 117131,
     "percentile_75_pay": "159726.68",
     "groups": "White men",
-    "type": "Race/Gender"
+    "type": "race and gender"
   }
 ]
