@@ -2,7 +2,6 @@
 templateKey: about-page
 title: FAQ
 ---
-
 [Why do workers need unions?](#why-a-union)
 
 [Why do we need a union at The Washington Post?](#why-a-union-wapo)
@@ -85,7 +84,7 @@ Guild dues cost 1.4 percent of your pay. They are deducted from your paycheck ea
 
 ## Do I get a prize for joining?
 
-Every new member receives a $50 American Express gift card. Everyone who recruits a new member receives a $25 finders' fee.
+No, but everyone who recruits a new member receives a $25 finders' fee.
 
 <a id="where-do-dues-go"></a>
 
