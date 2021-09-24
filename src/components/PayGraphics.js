@@ -237,7 +237,7 @@ export default function PayGraphics(props) {
                   key={`group-type-section-${t}`}
                 >
                   <h5 className="italic">
-                    {t != "Overall" ? `Grouped by ${t}` : ""}
+                    {t != "overall" ? `Grouped by ${t}` : ""}
                   </h5>
                   {dataView.data
                     .filter(
