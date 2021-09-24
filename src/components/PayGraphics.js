@@ -248,8 +248,10 @@ export default function PayGraphics(props) {
                     )
                     .map((d, i) => (
                       <div className="plot" key={`plot-${i}`}>
-                        <h5>{d.groups}</h5>
-                        <h6>{d.employees} employees</h6>
+                        <div className="plot-labels">
+                          <h5>{d.groups}</h5>
+                          <h6>{d.employees} employees</h6>
+                        </div>
                         <PercentilePlot
                           domain={
                             filters.pay_rate_type === "Salaried"
