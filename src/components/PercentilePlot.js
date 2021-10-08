@@ -55,7 +55,6 @@ export default function PercentilePlot(props) {
   // console.log(domain)
   const barWidth =
     scale(data.percentile_75_pay) - scale(data.percentile_25_pay);
-  // console.log(scale(data.percentile_25_pay))
 
   return (
     <div className="percentile-plot">

@@ -55,10 +55,12 @@ export default function PayGraphics(props) {
         ? d.level2 == filters.level2
         : d.level2 == "Overall";
     });
+
     console.log(filteredData);
 
     let salariedData = filteredData.filter(d => d.pay_rate_type === "Salaried");
     let hourlyData = filteredData.filter(d => d.pay_rate_type === "Hourly");
+
     let salariedRange = [
       d3.min(salariedData, d => d.percentile_25_pay) * 0.8,
       d3.max(salariedData, d => d.percentile_75_pay) * 1.2
@@ -98,8 +100,9 @@ export default function PayGraphics(props) {
       <div className="chart-explainer">
         <h3>How to read these charts</h3>
         <p>
-          Each group of at least five employees is represented by a chart. XXXXX
-          example coming soon!
+          Salary data includes all Guild-covered employees and is shown across
+          departments and demographic groups. Only groups with at least five
+          people are shown. *EXAMPLE COMING SOON*
         </p>
       </div>
       <div className="sticky-controls">
@@ -213,6 +216,18 @@ export default function PayGraphics(props) {
             </Tabs.Tab>
           </Tabs>
         </div>
+      </div>
+      <div>
+        {!dataView.hourly && (
+          <p className="none-note">
+            This department has fewer than five hourly workers.
+          </p>
+        )}
+        {!dataView.salaried && (
+          <p className="none-note">
+            This department has fewer than five salaried workers.
+          </p>
+        )}
       </div>
       {/* when needed, create a div to hold each subdesk (level 3 categorizations) */}
       {Array.from(

@@ -291,6 +291,18 @@
     "level1": "Commercial",
     "level2": "Client Solutions",
     "level3": "Overall",
+    "employees": 48,
+    "pay_rate_type": "Hourly",
+    "percentile_25_pay": "26.6325",
+    "percentile_50_pay": 31.23,
+    "percentile_75_pay": "34.9175",
+    "groups": "All Guild-eligible",
+    "type": "overall"
+  },
+  {
+    "level1": "Commercial",
+    "level2": "Client Solutions",
+    "level3": "Overall",
     "employees": 30,
     "pay_rate_type": "Hourly",
     "percentile_25_pay": "25.6375",
@@ -394,6 +406,18 @@
     "percentile_75_pay": "36.6575",
     "groups": "White men",
     "type": "race and gender"
+  },
+  {
+    "level1": "Commercial",
+    "level2": "Client Solutions",
+    "level3": "Overall",
+    "employees": 91,
+    "pay_rate_type": "Salaried",
+    "percentile_25_pay": "77587.545",
+    "percentile_50_pay": 90241.58,
+    "percentile_75_pay": "134000.055",
+    "groups": "All Guild-eligible",
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -807,6 +831,18 @@
     "level1": "Commercial",
     "level2": "Finance",
     "level3": "Overall",
+    "employees": 23,
+    "pay_rate_type": "Hourly",
+    "percentile_25_pay": "29.12",
+    "percentile_50_pay": 30.26,
+    "percentile_75_pay": "32.34",
+    "groups": "All Guild-eligible",
+    "type": "overall"
+  },
+  {
+    "level1": "Commercial",
+    "level2": "Finance",
+    "level3": "Overall",
     "employees": 16,
     "pay_rate_type": "Hourly",
     "percentile_25_pay": "29.2175",
@@ -862,6 +898,18 @@
     "percentile_75_pay": "NA",
     "groups": "Black  men",
     "type": "race and gender"
+  },
+  {
+    "level1": "Commercial",
+    "level2": "Finance",
+    "level3": "Overall",
+    "employees": 9,
+    "pay_rate_type": "Salaried",
+    "percentile_25_pay": "89225",
+    "percentile_50_pay": 95000,
+    "percentile_75_pay": "98400",
+    "groups": "All Guild-eligible",
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -968,6 +1016,18 @@
     "percentile_25_pay": "36.9",
     "percentile_50_pay": 39.64,
     "percentile_75_pay": "40.43",
+    "groups": "All Guild-eligible",
+    "type": "overall"
+  },
+  {
+    "level1": "Commercial",
+    "level2": "Marketing",
+    "level3": "Overall",
+    "employees": 7,
+    "pay_rate_type": "Hourly",
+    "percentile_25_pay": "36.9",
+    "percentile_50_pay": 39.64,
+    "percentile_75_pay": "40.43",
     "groups": "Women",
     "type": "gender"
   },
@@ -994,6 +1054,18 @@
     "percentile_75_pay": "NA",
     "groups": "White women",
     "type": "race and gender"
+  },
+  {
+    "level1": "Commercial",
+    "level2": "Production",
+    "level3": "Overall",
+    "employees": 33,
+    "pay_rate_type": "Hourly",
+    "percentile_25_pay": "23.83",
+    "percentile_50_pay": 25.41,
+    "percentile_75_pay": "26.66",
+    "groups": "All Guild-eligible",
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -1054,6 +1126,18 @@
     "percentile_75_pay": "26.615",
     "groups": "White men",
     "type": "race and gender"
+  },
+  {
+    "level1": "Commercial",
+    "level2": "Production",
+    "level3": "Overall",
+    "employees": 5,
+    "pay_rate_type": "Salaried",
+    "percentile_25_pay": "NA",
+    "percentile_50_pay": 75000.51,
+    "percentile_75_pay": "NA",
+    "groups": "All Guild-eligible",
+    "type": "overall"
   },
   {
     "level1": "Commercial",
@@ -1136,6 +1220,18 @@
     "percentile_25_pay": "NA",
     "percentile_50_pay": 75000.51,
     "percentile_75_pay": "NA",
+    "groups": "All Guild-eligible",
+    "type": "overall"
+  },
+  {
+    "level1": "Commercial",
+    "level2": "Public Relations",
+    "level3": "Overall",
+    "employees": 7,
+    "pay_rate_type": "Hourly",
+    "percentile_25_pay": "33.9",
+    "percentile_50_pay": 38.4,
+    "percentile_75_pay": "45.435",
     "groups": "All Guild-eligible",
     "type": "overall"
   },
@@ -3543,6 +3639,18 @@
     "level1": "Other",
     "level2": "Audience Development and Insights",
     "level3": "Overall",
+    "employees": 18,
+    "pay_rate_type": "Salaried",
+    "percentile_25_pay": "84780",
+    "percentile_50_pay": 90000,
+    "percentile_75_pay": "97966.0775",
+    "groups": "All Guild-eligible",
+    "type": "overall"
+  },
+  {
+    "level1": "Other",
+    "level2": "Audience Development and Insights",
+    "level3": "Overall",
     "employees": 8,
     "pay_rate_type": "Salaried",
     "percentile_25_pay": "84780",
@@ -3603,6 +3711,18 @@
     "level1": "Other",
     "level2": "Customer Care and Logistics",
     "level3": "Overall",
+    "employees": 12,
+    "pay_rate_type": "Hourly",
+    "percentile_25_pay": "20.37",
+    "percentile_50_pay": 21.67,
+    "percentile_75_pay": "24.8775",
+    "groups": "All Guild-eligible",
+    "type": "overall"
+  },
+  {
+    "level1": "Other",
+    "level2": "Customer Care and Logistics",
+    "level3": "Overall",
     "employees": 9,
     "pay_rate_type": "Hourly",
     "percentile_25_pay": "20.56",
@@ -3634,6 +3754,18 @@
     "percentile_75_pay": "24.8775",
     "groups": "Black  women",
     "type": "race and gender"
+  },
+  {
+    "level1": "Other",
+    "level2": "Washington Post Live",
+    "level3": "Overall",
+    "employees": 7,
+    "pay_rate_type": "Hourly",
+    "percentile_25_pay": "32.105",
+    "percentile_50_pay": 33.33,
+    "percentile_75_pay": "35.385",
+    "groups": "All Guild-eligible",
+    "type": "overall"
   },
   {
     "level1": "Other",
