@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: The Post Guild's Latino Caucus
+title: Latino Caucus
 ---
 ### What’s New?
 
