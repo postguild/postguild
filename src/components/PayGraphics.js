@@ -56,7 +56,7 @@ export default function PayGraphics(props) {
         : d.level2 == "Overall";
     });
 
-    console.log(filteredData);
+    // console.log(filteredData);
 
     let salariedData = filteredData.filter(d => d.pay_rate_type === "Salaried");
     let hourlyData = filteredData.filter(d => d.pay_rate_type === "Hourly");
@@ -69,6 +69,20 @@ export default function PayGraphics(props) {
       d3.min(hourlyData, d => d.percentile_25_pay) * 0.8,
       d3.max(hourlyData, d => d.percentile_75_pay) * 1.2
     ];
+
+    if (Number.isNaN(salariedRange[0]) || Number.isNaN(salariedRange[1])) {
+      salariedRange = [
+        d3.min(salariedData, d => d.percentile_50_pay) * 0.8,
+        d3.max(salariedData, d => d.percentile_50_pay) * 1.2
+      ];
+    }
+
+    if (Number.isNaN(hourlyRange[0]) || Number.isNaN(hourlyRange[1])) {
+      hourlyRange = [
+        d3.min(hourlyData, d => d.percentile_50_pay) * 0.8,
+        d3.max(hourlyData, d => d.percentile_50_pay) * 1.2
+      ];
+    }
 
     let level2Items = new Set(
       payData
