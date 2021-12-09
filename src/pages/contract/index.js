@@ -11,7 +11,7 @@ export default class BlogIndexPage extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <a href="/" title="The Washington Post Guild">
+                <a href="/" title="Rights of Guild-covered employees">
                   <img
                     className="header-logo"
                     src="/img/guildlogofinal-large.jpg"
@@ -21,7 +21,7 @@ export default class BlogIndexPage extends React.Component {
 
                 <div className="section">
                   <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                    Guild Contract
+                    Rights of Guild-covered employees
                   </h2>
                   <div className="content">
                     
