@@ -4,7 +4,7 @@ title: The Post Guild guide to hours and pay
 ---
 **How many hours should I be working?**
 
-The Washington Post workweek is37.5 hours over the course of five days, or 7.5 hours per day (not including a lunch break). Employees should not be required to work on days outside their normal schedule.
+The Washington Post workweek is **37.5 hours over the course of five days**, or 7.5 hours per day (not including a lunch break). Employees should not be required to work on days outside their normal schedule.
 
 **Am I eligible for overtime?** 
 
