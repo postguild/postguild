@@ -56,8 +56,8 @@
     "percentile_25_pay": "24.56",
     "percentile_50_pay": 28.61,
     "percentile_75_pay": "33.11",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "Commercial",
@@ -260,8 +260,8 @@
     "percentile_25_pay": "78759.98",
     "percentile_50_pay": 94516.42,
     "percentile_75_pay": "148624",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "Commercial",
@@ -464,8 +464,8 @@
     "percentile_25_pay": "26.695",
     "percentile_50_pay": 35.66,
     "percentile_75_pay": "36.9",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "Commercial",
@@ -644,8 +644,8 @@
     "percentile_25_pay": "84071.025",
     "percentile_50_pay": 141678.09,
     "percentile_75_pay": "155616.14",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "Commercial",
@@ -1112,8 +1112,8 @@
     "percentile_25_pay": "30.83",
     "percentile_50_pay": 32.275,
     "percentile_75_pay": "33.27",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "Commercial",
@@ -1388,8 +1388,8 @@
     "percentile_25_pay": "23.83",
     "percentile_50_pay": 24.4,
     "percentile_75_pay": "25.2525",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "Commercial",
@@ -1652,8 +1652,8 @@
     "percentile_25_pay": "33.8725",
     "percentile_50_pay": 47.985,
     "percentile_75_pay": "54.0575",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -1832,8 +1832,8 @@
     "percentile_25_pay": "101622.32",
     "percentile_50_pay": 126572.33,
     "percentile_75_pay": "158644.22",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -2240,8 +2240,8 @@
     "percentile_25_pay": "NA",
     "percentile_50_pay": 100000,
     "percentile_75_pay": "NA",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -2420,8 +2420,8 @@
     "percentile_25_pay": "107709.95",
     "percentile_50_pay": 124737.805,
     "percentile_75_pay": "265270.6475",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -2684,8 +2684,8 @@
     "percentile_25_pay": "129560",
     "percentile_50_pay": 137799.88,
     "percentile_75_pay": "169560",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -2816,8 +2816,8 @@
     "percentile_25_pay": "NA",
     "percentile_50_pay": 152730.88,
     "percentile_75_pay": "NA",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -3092,8 +3092,8 @@
     "percentile_25_pay": "111060",
     "percentile_50_pay": 122909.15,
     "percentile_75_pay": "131458.185",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -3248,8 +3248,8 @@
     "percentile_25_pay": "90848.945",
     "percentile_50_pay": 96113.7,
     "percentile_75_pay": "99734.11",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -3416,8 +3416,8 @@
     "percentile_25_pay": "149630",
     "percentile_50_pay": 173790.755,
     "percentile_75_pay": "195380.09",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -3908,8 +3908,8 @@
     "percentile_25_pay": "91625.25",
     "percentile_50_pay": 107940.95,
     "percentile_75_pay": "114488.29",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -4112,8 +4112,8 @@
     "percentile_25_pay": "90898.8325",
     "percentile_50_pay": 102653.66,
     "percentile_75_pay": "140295.19",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -4268,8 +4268,8 @@
     "percentile_25_pay": "115780",
     "percentile_50_pay": 138000,
     "percentile_75_pay": "165340",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
@@ -4520,8 +4520,8 @@
     "percentile_25_pay": "NA",
     "percentile_50_pay": 125340,
     "percentile_75_pay": "NA",
-    "groups": "All Guild-eligible",
-    "type": "overall"
+    "groups": "45 to 54",
+    "type": "age"
   },
   {
     "level1": "News",
