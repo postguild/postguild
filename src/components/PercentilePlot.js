@@ -10,6 +10,8 @@ function formatPay(d) {
     : commafy(d.toFixed(2));
 }
 
+console.log(payData);
+
 export default function PercentilePlot(props) {
   let path = props.path || null;
   let keyChart = props.keyChart || false;

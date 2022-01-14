@@ -9,7 +9,7 @@ const d3 = Object.assign({}, require("d3-array"));
 let payData = require("../../static/data/pay_study_int_data.json");
 payData = payData.map(d => {
   Object.keys(d).map(field => {
-    if (parseFloat(d[field])) {
+    if (field != "groups" && parseFloat(d[field])) {
       d[field] = parseFloat(d[field]);
     } else if (d[field] === "NA") {
       d[field] = null;
