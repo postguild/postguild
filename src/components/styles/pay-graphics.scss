@@ -111,9 +111,9 @@
 
 .percentile-plot {
   position: relative;
-  width: 80%;
+  width: calc(90% - 20px);
   height: 40px;
-  margin: 1.25em 0 1em;
+  margin: 1.25em auto 1em;
 
   .plot-bar {
     position: absolute;
@@ -146,6 +146,12 @@
     }
   }
 
+  .domain-bar {
+    height: 2px;
+    background-color: #dbdbdb;
+    transform: translateY(7px);
+  }
+
   .marker {
     position: absolute;
     background-color: $guild-magenta;
@@ -154,10 +160,26 @@
     transform: translate(-50%, -4px);
     font-weight: bold;
 
+    &.marker-domain {
+      width: 2px;
+      background-color: #dbdbdb;
+      font-weight: 400;
+      color: #aaa;
+
+      &.marker-domain-start:after {
+        right: 4px;
+      }
+
+      &.marker-domain-end:after {
+        left: 4px;
+      }
+    }
+
     &:after {
       content: attr(data-tooltip);
       position: absolute;
       font-size: 12px;
+      background-color: white;
     }
 
     &.marker-25 {

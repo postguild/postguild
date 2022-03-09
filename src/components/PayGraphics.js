@@ -5,7 +5,7 @@ import { Dropdown, Tabs } from "react-bulma-components";
 
 import "../components/styles/pay-graphics.scss";
 
-const d3 = Object.assign({}, require("d3-array"));
+const d3 = Object.assign({}, require("d3-array"), require("d3-format"));
 let payData = require("../../static/data/pay_study_int_data.json");
 payData = payData.map(d => {
   Object.keys(d).map(field => {
@@ -62,25 +62,41 @@ export default function PayGraphics(props) {
     let hourlyData = filteredData.filter(d => d.pay_rate_type === "Hourly");
 
     let salariedRange = [
-      d3.min(salariedData, d => d.percentile_25_pay) * 0.8,
-      d3.max(salariedData, d => d.percentile_75_pay) * 1.2
+      parseInt(
+        d3.format(".2r")(d3.min(salariedData, d => d.percentile_25_pay) * 0.8)
+      ),
+      parseInt(
+        d3.format(".2r")(d3.max(salariedData, d => d.percentile_75_pay) * 1.2)
+      )
     ];
     let hourlyRange = [
-      d3.min(hourlyData, d => d.percentile_25_pay) * 0.8,
-      d3.max(hourlyData, d => d.percentile_75_pay) * 1.2
+      parseInt(
+        d3.format(".2r")(d3.min(hourlyData, d => d.percentile_25_pay) * 0.8)
+      ),
+      parseInt(
+        d3.format(".2r")(d3.max(hourlyData, d => d.percentile_75_pay) * 1.2)
+      )
     ];
 
     if (Number.isNaN(salariedRange[0]) || Number.isNaN(salariedRange[1])) {
       salariedRange = [
-        d3.min(salariedData, d => d.percentile_50_pay) * 0.8,
-        d3.max(salariedData, d => d.percentile_50_pay) * 1.2
+        parseInt(
+          d3.format(".2r")(d3.min(salariedData, d => d.percentile_50_pay) * 0.8)
+        ),
+        parseInt(
+          d3.format(".2r")(d3.max(salariedData, d => d.percentile_50_pay) * 1.2)
+        )
       ];
     }
 
     if (Number.isNaN(hourlyRange[0]) || Number.isNaN(hourlyRange[1])) {
       hourlyRange = [
-        d3.min(hourlyData, d => d.percentile_50_pay) * 0.8,
-        d3.max(hourlyData, d => d.percentile_50_pay) * 1.2
+        parseInt(
+          d3.format(".2r")(d3.min(hourlyData, d => d.percentile_50_pay) * 0.8)
+        ),
+        parseInt(
+          d3.format(".2r")(d3.max(hourlyData, d => d.percentile_50_pay) * 1.2)
+        )
       ];
     }
 

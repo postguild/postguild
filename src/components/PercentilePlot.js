@@ -60,6 +60,30 @@ export default function PercentilePlot(props) {
 
   return (
     <div className="percentile-plot">
+      <div
+        key="domain-bar"
+        className="domain-bar"
+        style={{
+          left: `${scale(domain[0])}%`,
+          width: `${scale(domain[1]) - scale(domain[0])}%`
+        }}
+      ></div>
+      <div
+        key="marker-domain-start"
+        className={`marker marker-domain marker-domain-start`}
+        data-tooltip={`$${formatPay(domain[0])}`}
+        style={{
+          left: `${scale(domain[0])}%`
+        }}
+      ></div>
+      <div
+        key="marker-domain-end"
+        className={`marker marker-domain marker-domain-end`}
+        data-tooltip={`$${formatPay(domain[1])}`}
+        style={{
+          left: `${scale(domain[1])}%`
+        }}
+      ></div>
       {data.percentile_25_pay && (
         <>
           <div
