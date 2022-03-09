@@ -183,8 +183,18 @@
     }
 
     &.marker-25 {
+      width: 2px;
+
       &:after {
         transform: translate(calc(-100% - 2px));
+      }
+
+      &.marker-example:before {
+        font-weight: lighter;
+        line-height: 1.1em;
+        content: "25th percentile:";
+        position: absolute;
+        transform: translate(calc(-100% - 2px), calc(-100% - 4px));
       }
     }
 
@@ -192,11 +202,29 @@
       &:after {
         transform: translate(-50%, calc(-100% - 2px));
       }
+
+      &.marker-example:before {
+        font-weight: lighter;
+        line-height: 1.1em;
+        content: "Median:";
+        position: absolute;
+        transform: translate(-50%, calc(-100% - 20px));
+      }
     }
 
     &.marker-75 {
+      width: 2px;
+
       &:after {
         transform: translate(6px);
+      }
+
+      &.marker-example:before {
+        font-weight: lighter;
+        line-height: 1.1em;
+        content: "75th percentile:";
+        position: absolute;
+        transform: translate(6px, calc(-100% - 4px));
       }
     }
 

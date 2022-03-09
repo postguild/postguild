@@ -63,7 +63,7 @@ export default function PayGraphics(props) {
 
     let salariedRange = [
       parseInt(
-        d3.format(".2r")(d3.min(salariedData, d => d.percentile_25_pay) * 0.8)
+        d3.format(".2r")(d3.min(salariedData, d => d.percentile_25_pay) * 0.75)
       ),
       parseInt(
         d3.format(".2r")(d3.max(salariedData, d => d.percentile_75_pay) * 1.2)
@@ -71,7 +71,7 @@ export default function PayGraphics(props) {
     ];
     let hourlyRange = [
       parseInt(
-        d3.format(".2r")(d3.min(hourlyData, d => d.percentile_25_pay) * 0.8)
+        d3.format(".2r")(d3.min(hourlyData, d => d.percentile_25_pay) * 0.75)
       ),
       parseInt(
         d3.format(".2r")(d3.max(hourlyData, d => d.percentile_75_pay) * 1.2)
@@ -81,7 +81,9 @@ export default function PayGraphics(props) {
     if (Number.isNaN(salariedRange[0]) || Number.isNaN(salariedRange[1])) {
       salariedRange = [
         parseInt(
-          d3.format(".2r")(d3.min(salariedData, d => d.percentile_50_pay) * 0.8)
+          d3.format(".2r")(
+            d3.min(salariedData, d => d.percentile_50_pay) * 0.75
+          )
         ),
         parseInt(
           d3.format(".2r")(d3.max(salariedData, d => d.percentile_50_pay) * 1.2)
@@ -92,7 +94,7 @@ export default function PayGraphics(props) {
     if (Number.isNaN(hourlyRange[0]) || Number.isNaN(hourlyRange[1])) {
       hourlyRange = [
         parseInt(
-          d3.format(".2r")(d3.min(hourlyData, d => d.percentile_50_pay) * 0.8)
+          d3.format(".2r")(d3.min(hourlyData, d => d.percentile_50_pay) * 0.75)
         ),
         parseInt(
           d3.format(".2r")(d3.max(hourlyData, d => d.percentile_50_pay) * 1.2)
@@ -130,11 +132,39 @@ export default function PayGraphics(props) {
       <div className="chart-explainer">
         <h3>How to read these charts</h3>
         <p>
-          Salary data includes all Guild-covered employees and is shown across
-          departments and demographic groups. Only groups with at least five
-          people are shown. *EXAMPLE COMING SOON*
+          These charts represent employee salaries in the middle 50% range. Each
+          chart shows the median salary for the group. Charts for groups with
+          seven or more members also show the 25th and 75th percentile salaries.
+        </p>
+        <br />
+        <div className="plot-labels">
+          <h5>Example group</h5>
+          <h6>100 employees</h6>
+        </div>
+        <br />
+        <PercentilePlot
+          keyChart={true}
+          data={{
+            pay_rate_type: "Salaried",
+            percentile_25_pay: 80000,
+            percentile_50_pay: 100000,
+            percentile_75_pay: 140000
+          }}
+          domain={[60000, 160000]}
+        />
+        <p>
+          Because these charts show the middle 50% of salaries, it's important
+          to note that half of the employees in each group earn more or less
+          than the range shown. The charts also don't show salaries for
+          non-Guild-covered employees or for groups with fewer than five people.
+        </p>
+        <p>
+          Using the filters below, you can find visualizations for employee
+          salaries grouped by race, age and gender. They are organized by
+          department, and when applicable, by desk.
         </p>
       </div>
+      <br />
       <div className="sticky-controls">
         <div className="sticky-controls-row">
           <Tabs type="toggle">
