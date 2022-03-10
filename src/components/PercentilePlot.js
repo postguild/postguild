@@ -59,87 +59,96 @@ export default function PercentilePlot(props) {
     scale(data.percentile_75_pay) - scale(data.percentile_25_pay);
 
   return (
-    <div className="percentile-plot">
-      <div
-        key="domain-bar"
-        className="domain-bar"
-        style={{
-          left: `${scale(domain[0])}%`,
-          width: `${scale(domain[1]) - scale(domain[0])}%`
-        }}
-      ></div>
-      <div
-        key="marker-domain-start"
-        className={`marker marker-domain marker-domain-start`}
-        data-tooltip={`$${formatPay(domain[0])}`}
-        style={{
-          left: `${scale(domain[0])}%`
-        }}
-      ></div>
-      <div
-        key="marker-domain-end"
-        className={`marker marker-domain marker-domain-end`}
-        data-tooltip={`$${formatPay(domain[1])}`}
-        style={{
-          left: `${scale(domain[1])}%`
-        }}
-      ></div>
-      {data.percentile_25_pay && (
-        <>
-          <div
-            key="plot-bar"
-            className="plot-bar"
-            style={{
-              left: `${scale(data.percentile_25_pay)}%`,
-              width: `${barWidth}%`
-            }}
-          ></div>
-          <div
-            key="marker-25"
-            className={`marker marker-25 ${keyChart && "marker-example"}`}
-            data-tooltip={`$${formatPay(data.percentile_25_pay)}`}
-            style={{
-              left: `${scale(data.percentile_25_pay)}%`
-            }}
-          ></div>
-          <div
-            key="marker-75"
-            className={`marker marker-75 ${keyChart && "marker-example"}`}
-            data-tooltip={`$${formatPay(data.percentile_75_pay)}`}
-            style={{
-              left: `${scale(data.percentile_75_pay)}%`
-            }}
-          ></div>
-        </>
-      )}
-      {!data.percentile_25_pay && (
-        <>
-          <div
-            className="plot-bar plot-bar-fuzzy"
-            key="plot-bar-fuzzy"
-            style={{
-              left: `${scale(data.percentile_50_pay * 0.8)}%`,
-              width: `${scale(data.percentile_50_pay * 1.2) -
-                scale(data.percentile_50_pay * 0.8)}%`
-            }}
-          ></div>
-          <div
-            className="marker marker-nodata"
-            key="marker-nodata"
-            style={{
-              left: `${scale(data.percentile_50_pay * 1.2)}%`
-            }}
-          ></div>
-        </>
-      )}
-      <div
-        key="marker-50"
-        className={`marker marker-50 ${keyChart && "marker-example"}`}
-        data-tooltip={`$${formatPay(data.percentile_50_pay)}`}
-        style={{
-          left: `${scale(data.percentile_50_pay)}%`
-        }}
-      ></div>
+    <div className="plot">
+      <div className="plot-labels">
+        <h5>{data.groups}</h5>
+        <h6>{data.employees} employees</h6>
+      </div>
+      {keyChart && <br />}
+      <div className="percentile-plot">
+        <div
+          key="domain-bar"
+          className="domain-bar"
+          style={{
+            left: `${scale(domain[0])}%`,
+            width: `${scale(domain[1]) - scale(domain[0])}%`
+          }}
+        ></div>
+        <div
+          key="marker-domain-start"
+          className={`marker marker-domain marker-domain-start ${keyChart &&
+            "marker-example"}`}
+          data-tooltip={`$${formatPay(domain[0])}`}
+          style={{
+            left: `${scale(domain[0])}%`
+          }}
+        ></div>
+        <div
+          key="marker-domain-end"
+          className={`marker marker-domain marker-domain-end ${keyChart &&
+            "marker-example"}`}
+          data-tooltip={`$${formatPay(domain[1])}`}
+          style={{
+            left: `${scale(domain[1])}%`
+          }}
+        ></div>
+        {data.percentile_25_pay && (
+          <>
+            <div
+              key="plot-bar"
+              className="plot-bar"
+              style={{
+                left: `${scale(data.percentile_25_pay)}%`,
+                width: `${barWidth}%`
+              }}
+            ></div>
+            <div
+              key="marker-25"
+              className={`marker marker-25 ${keyChart && "marker-example"}`}
+              data-tooltip={`$${formatPay(data.percentile_25_pay)}`}
+              style={{
+                left: `${scale(data.percentile_25_pay)}%`
+              }}
+            ></div>
+            <div
+              key="marker-75"
+              className={`marker marker-75 ${keyChart && "marker-example"}`}
+              data-tooltip={`$${formatPay(data.percentile_75_pay)}`}
+              style={{
+                left: `${scale(data.percentile_75_pay)}%`
+              }}
+            ></div>
+          </>
+        )}
+        {!data.percentile_25_pay && (
+          <>
+            <div
+              className="plot-bar plot-bar-fuzzy"
+              key="plot-bar-fuzzy"
+              style={{
+                left: `${scale(data.percentile_50_pay * 0.8)}%`,
+                width: `${scale(data.percentile_50_pay * 1.2) -
+                  scale(data.percentile_50_pay * 0.8)}%`
+              }}
+            ></div>
+            <div
+              className="marker marker-nodata"
+              key="marker-nodata"
+              style={{
+                left: `${scale(data.percentile_50_pay * 1.2)}%`
+              }}
+            ></div>
+          </>
+        )}
+        <div
+          key="marker-50"
+          className={`marker marker-50 ${keyChart && "marker-example"}`}
+          data-tooltip={`$${formatPay(data.percentile_50_pay)}`}
+          style={{
+            left: `${scale(data.percentile_50_pay)}%`
+          }}
+        ></div>
+      </div>
     </div>
   );
 }

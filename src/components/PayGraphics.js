@@ -137,14 +137,11 @@ export default function PayGraphics(props) {
           seven or more members also show the 25th and 75th percentile salaries.
         </p>
         <br />
-        <div className="plot-labels">
-          <h5>Example group</h5>
-          <h6>100 employees</h6>
-        </div>
-        <br />
         <PercentilePlot
           keyChart={true}
           data={{
+            groups: "Example group",
+            employees: 100,
             pay_rate_type: "Salaried",
             percentile_25_pay: 80000,
             percentile_50_pay: 100000,
@@ -163,8 +160,8 @@ export default function PayGraphics(props) {
           salaries grouped by race, age and gender. They are organized by
           department, and when applicable, by desk.
         </p>
+        <br />
       </div>
-      <br />
       <div className="sticky-controls">
         <div className="sticky-controls-row">
           <Tabs type="toggle">
@@ -322,20 +319,15 @@ export default function PayGraphics(props) {
                         d.type === t
                     )
                     .map((d, i) => (
-                      <div className="plot" key={`plot-${i}`}>
-                        <div className="plot-labels">
-                          <h5>{d.groups}</h5>
-                          <h6>{d.employees} employees</h6>
-                        </div>
-                        <PercentilePlot
-                          domain={
-                            filters.pay_rate_type === "Salaried"
-                              ? dataView.salariedScale
-                              : dataView.hourlyScale
-                          }
-                          data={d}
-                        ></PercentilePlot>
-                      </div>
+                      <PercentilePlot
+                        key={`plot-${i}`}
+                        domain={
+                          filters.pay_rate_type === "Salaried"
+                            ? dataView.salariedScale
+                            : dataView.hourlyScale
+                        }
+                        data={d}
+                      ></PercentilePlot>
                     ))}
                 </div>
               );

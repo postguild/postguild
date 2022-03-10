@@ -6,13 +6,20 @@
   margin-left: auto;
   margin-right: auto;
 
+  .chart-explainer {
+    background-color: #f7f7f7;
+    padding: 0.5em;
+  }
+
   .sticky-controls {
     position: sticky;
     top: 52px;
-    background-color: white;
+    background-color: #f7f7f7;
+    padding: 0.5em;
     z-index: 2;
     display: flex;
     flex-flow: row wrap;
+    box-shadow: 0px 3px 3px -3px #aaa;
 
     .sticky-controls-row {
       flex: 1 0 100%;
@@ -94,143 +101,155 @@
       margin: 1em 0;
     }
   }
-  h5 {
-    font-size: medium;
-    margin-bottom: 0;
-  }
-
-  h6 {
-    font-size: x-small;
-  }
-
-  h5.italic {
-    font-style: italic;
-    margin-bottom: 0.5em;
-  }
 }
 
-.percentile-plot {
-  position: relative;
-  width: calc(90% - 20px);
-  height: 40px;
-  margin: 1.25em auto 1em;
+.plot {
+  max-width: 650px;
+  margin: auto;
 
-  .plot-bar {
-    position: absolute;
-    height: 12px;
-    background-color: $guild-magenta;
-    opacity: 0.25;
+  .plot-labels {
+    h5 {
+      font-size: medium;
+      margin-bottom: 0;
+    }
 
-    &.plot-bar-fuzzy {
-      background-color: unset;
-      opacity: 0.8;
-      background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0) 0%,
-        rgba(221, 221, 221, 1) 40%,
-        rgba(221, 221, 221, 1) 50%,
-        rgba(221, 221, 221, 1) 60%,
-        rgba(255, 255, 255, 0) 100%
-      );
+    h6 {
+      font-size: x-small;
+    }
 
-      &:after {
-        content: "(Fewer than seven employees)";
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, 12px);
-        font-size: 11px;
-        white-space: nowrap;
-        font-weight: normal;
-        color: #666666;
-      }
+    h5.italic {
+      font-style: italic;
+      margin-bottom: 0.5em;
     }
   }
 
-  .domain-bar {
-    height: 2px;
-    background-color: #dbdbdb;
-    transform: translateY(7px);
-  }
+  .percentile-plot {
+    position: relative;
+    width: calc(90% - 20px);
+    height: 40px;
+    margin: 1.25em auto 1em;
 
-  .marker {
-    position: absolute;
-    background-color: $guild-magenta;
-    width: 4px;
-    height: 20px;
-    transform: translate(-50%, -4px);
-    font-weight: bold;
-
-    &.marker-domain {
-      width: 2px;
-      background-color: #dbdbdb;
-      font-weight: 400;
-      color: #aaa;
-
-      &.marker-domain-start:after {
-        right: 4px;
-      }
-
-      &.marker-domain-end:after {
-        left: 4px;
-      }
-    }
-
-    &:after {
-      content: attr(data-tooltip);
+    .plot-bar {
       position: absolute;
-      font-size: 12px;
-      background-color: white;
+      height: 12px;
+      background-color: $guild-magenta;
+      opacity: 0.25;
+
+      &.plot-bar-fuzzy {
+        background-color: unset;
+        opacity: 0.8;
+        background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(221, 221, 221, 1) 40%,
+          rgba(221, 221, 221, 1) 50%,
+          rgba(221, 221, 221, 1) 60%,
+          rgba(255, 255, 255, 0) 100%
+        );
+
+        &:after {
+          content: "(Fewer than seven employees)";
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, 12px);
+          font-size: 11px;
+          white-space: nowrap;
+          font-weight: normal;
+          color: #666666;
+        }
+      }
     }
 
-    &.marker-25 {
-      width: 2px;
+    .domain-bar {
+      height: 2px;
+      background-color: #dbdbdb;
+      transform: translateY(7px);
+    }
+
+    .marker {
+      position: absolute;
+      background-color: $guild-magenta;
+      width: 4px;
+      height: 20px;
+      transform: translate(-50%, -4px);
+      font-weight: bold;
+
+      &.marker-domain {
+        width: 2px;
+        background-color: #dbdbdb;
+        font-weight: 400;
+        color: #aaa;
+
+        &.marker-domain-start:after {
+          right: 4px;
+        }
+
+        &.marker-domain-end:after {
+          left: 4px;
+        }
+      }
 
       &:after {
-        transform: translate(calc(-100% - 2px));
-      }
-
-      &.marker-example:before {
-        font-weight: lighter;
-        line-height: 1.1em;
-        content: "25th percentile:";
+        content: attr(data-tooltip);
         position: absolute;
-        transform: translate(calc(-100% - 2px), calc(-100% - 4px));
-      }
-    }
-
-    &.marker-50 {
-      &:after {
-        transform: translate(-50%, calc(-100% - 2px));
+        font-size: 12px;
+        background-color: white;
       }
 
-      &.marker-example:before {
-        font-weight: lighter;
-        line-height: 1.1em;
-        content: "Median:";
-        position: absolute;
-        transform: translate(-50%, calc(-100% - 20px));
-      }
-    }
-
-    &.marker-75 {
-      width: 2px;
-
-      &:after {
-        transform: translate(6px);
+      &.marker-example:after {
+        background-color: #f7f7f7;
       }
 
-      &.marker-example:before {
-        font-weight: lighter;
-        line-height: 1.1em;
-        content: "75th percentile:";
-        position: absolute;
-        transform: translate(6px, calc(-100% - 4px));
-      }
-    }
+      &.marker-25 {
+        width: 2px;
 
-    &.marker-nodata {
-      width: 0;
-      background-color: unset;
+        &:after {
+          transform: translate(calc(-100% - 2px));
+        }
+
+        &.marker-example:before {
+          font-weight: lighter;
+          line-height: 1.1em;
+          content: "25th percentile:";
+          position: absolute;
+          transform: translate(calc(-100% - 2px), calc(-100% - 4px));
+        }
+      }
+
+      &.marker-50 {
+        &:after {
+          transform: translate(-50%, calc(-100% - 2px));
+        }
+
+        &.marker-example:before {
+          font-weight: lighter;
+          line-height: 1.1em;
+          content: "Median:";
+          position: absolute;
+          transform: translate(-50%, calc(-100% - 20px));
+        }
+      }
+
+      &.marker-75 {
+        width: 2px;
+
+        &:after {
+          transform: translate(6px);
+        }
+
+        &.marker-example:before {
+          font-weight: lighter;
+          line-height: 1.1em;
+          content: "75th percentile:";
+          position: absolute;
+          transform: translate(6px, calc(-100% - 4px));
+        }
+      }
+
+      &.marker-nodata {
+        width: 0;
+        background-color: unset;
+      }
     }
   }
 }
