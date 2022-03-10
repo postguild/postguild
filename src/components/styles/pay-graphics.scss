@@ -41,6 +41,10 @@
     margin-top: -0.35em;
   }
 
+  p.center {
+    text-align: center;
+  }
+
   p.dropdown-label {
     font-size: small;
     margin-bottom: 0.25em;
@@ -132,8 +136,7 @@
     .plot-bar {
       position: absolute;
       height: 12px;
-      background-color: $guild-magenta;
-      opacity: 0.25;
+      background-color: #fbc3d2;
 
       &.plot-bar-fuzzy {
         background-color: unset;
@@ -162,7 +165,7 @@
 
     .domain-bar {
       height: 2px;
-      background-color: #dbdbdb;
+      background-color: #bcbcbc;
       transform: translateY(7px);
     }
 
@@ -176,9 +179,9 @@
 
       &.marker-domain {
         width: 2px;
-        background-color: #dbdbdb;
+        background-color: #ababab;
         font-weight: 400;
-        color: #aaa;
+        color: #888;
 
         &.marker-domain-start:after {
           right: 4px;

@@ -149,6 +149,10 @@ export default function PayGraphics(props) {
           }}
           domain={[60000, 160000]}
         />
+        <p className="none-note center">
+          The scale shown in gray is for reference only and is not based on
+          minimum or maximum pay.
+        </p>
         <p>
           Because these charts show the middle 50% of salaries, it's important
           to note that half of the employees in each group earn more or less
