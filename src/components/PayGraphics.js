@@ -273,18 +273,18 @@ export default function PayGraphics(props) {
             </Tabs.Tab>
           </Tabs>
         </div>
-      </div>
-      <div>
-        {!dataView.hourly && (
-          <p className="none-note">
-            This department has fewer than five hourly workers.
-          </p>
-        )}
-        {!dataView.salaried && (
-          <p className="none-note">
-            This department has fewer than five salaried workers.
-          </p>
-        )}
+        <div>
+          {!dataView.hourly && (
+            <p className="none-note">
+              This department has fewer than five hourly workers.
+            </p>
+          )}
+          {!dataView.salaried && (
+            <p className="none-note">
+              This department has fewer than five salaried workers.
+            </p>
+          )}
+        </div>
       </div>
       {/* when needed, create a div to hold each subdesk (level 3 categorizations) */}
       {Array.from(
