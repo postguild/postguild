@@ -3,6 +3,7 @@ import PercentilePlot from "./PercentilePlot";
 import { Dropdown, Tabs } from "react-bulma-components";
 
 import "../components/styles/pay-graphics.scss";
+import { filter } from "lodash";
 
 const d3 = Object.assign({}, require("d3-array"), require("d3-format"));
 let payData = require("../../static/data/pay_study_int_data.json");
@@ -289,6 +290,9 @@ export default function PayGraphics(props) {
           )}
         </div>
       </div>
+      <h3 className="centered">{`${filters.level1}${
+        filters.level2 ? " > " + filters.level2 : ""
+      }`}</h3>
       {/* when needed, create a div to hold each subdesk (level 3 categorizations) */}
       {Array.from(
         new Set(
