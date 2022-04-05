@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PercentilePlot from "./PercentilePlot";
 import { Dropdown, Tabs } from "react-bulma-components";
 
