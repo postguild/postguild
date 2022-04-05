@@ -7,8 +7,6 @@ const Navbar = props => {
   const [active, setActive] = useState(false);
   const [navBarActiveClass, setNavBarActiveClass] = useState("");
 
-  const payStudyDropdown = useRef(null);
-
   const toggleHamburger = () => {
     // toggle the active boolean in the state
     // this.setState(
@@ -64,22 +62,9 @@ const Navbar = props => {
             <Link className="navbar-item" to="/dues/">
               Join Us
             </Link>
-            <li className="navbar-item dropdown-anchor">
-              <span
-                onClick={() => {
-                  if (payStudyDropdown.current) {
-                    [...payStudyDropdown.current.classList].includes("hidden")
-                      ? payStudyDropdown.current.classList.remove("hidden")
-                      : payStudyDropdown.current.classList.add("hidden");
-                  }
-                }}
-              >
-                Pay Study
-              </span>
-              <div
-                ref={payStudyDropdown}
-                className="dropdown hidden navbar-item navbar-dropdown-ul"
-              >
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link is-arrowless">Pay Study</a>
+              <div className="navbar-dropdown">
                 <Link className="navbar-item" to="/2022-pay-study/">
                   <b>
                     {" "}
@@ -104,7 +89,7 @@ const Navbar = props => {
                   <b> 2019 report</b>
                 </Link>
               </div>
-            </li>
+            </div>
             <Link className="navbar-item" to="/leadership/">
               Leadership
             </Link>
