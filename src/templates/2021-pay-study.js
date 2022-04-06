@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import H2 from "../components/H2";
 import PayGraphics from "../components/PayGraphics";
 import PercentilePlot from "../components/PercentilePlot";
 import { MDXProvider } from "@mdx-js/react";
@@ -44,8 +45,20 @@ const PayStudyPageTemplate = ({
                 return i.url
               })} */}
               <PayGraphics />
-              <MDXProvider components={{ PercentilePlot }}>
-                <MDXRenderer>{content}</MDXRenderer>
+              <MDXProvider
+                components={{
+                  PercentilePlot,
+                  h2: H2
+                }}
+              >
+                <MDXRenderer
+                  components={{
+                    PercentilePlot,
+                    h2: H2
+                  }}
+                >
+                  {content}
+                </MDXRenderer>
               </MDXProvider>
             </div>
           </div>
