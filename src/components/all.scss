@@ -270,3 +270,24 @@ h2 {
 h2:hover .anchor-link {
   opacity: 1;
 }
+
+.sticky-wrapper {
+  position: sticky;
+  top: 60px;
+  left: 0;
+  height: 100vh;
+  padding-top: 2em;
+  // margin-bottom:-100vh;
+  max-width: calc(calc(100% - 650px) / 2);
+  z-index: 4;
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.non-sticky-content {
+  @media (min-width: 1024px) {
+    margin-top: -100vh;
+  }
+}

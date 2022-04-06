@@ -79,21 +79,38 @@ const PayStudyPage21 = ({ data }) => {
   const { mdx: post } = data;
 
   return (
-    <Layout>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        pathname={post.fields.slug}
-        article={true}
-      />
-      <PayStudyPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        byline={post.frontmatter.byline}
-        content={post.body}
-        toc={post.tableOfContents}
-      />
-    </Layout>
+    <>
+      <div className="sticky-wrapper">
+        <aside id="toc-menu" class="menu">
+          <ul class="menu-list">
+            {post.tableOfContents.items.slice(1).map(heading => {
+              return (
+                <li key={heading.url}>
+                  <a href={heading.url}>{heading.title}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </aside>
+      </div>
+      <div className="non-sticky-content">
+        <Layout>
+          <SEO
+            title={post.frontmatter.title}
+            description={post.frontmatter.description}
+            pathname={post.fields.slug}
+            article={true}
+          />
+          <PayStudyPageTemplate
+            contentComponent={HTMLContent}
+            title={post.frontmatter.title}
+            byline={post.frontmatter.byline}
+            content={post.body}
+            toc={post.tableOfContents}
+          />
+        </Layout>
+      </div>
+    </>
   );
 };
 
