@@ -27,25 +27,27 @@ const PayStudyLinkbox = props => {
   const entryIndex = props.seriesTag.match(/(\d+)/);
 
   return (
-    <div className="pay-study-linkbox">
-      <h6 className="linkbox-header">2022 Post Guild Pay Study</h6>
-      <ul>
-        {payStudyLinks.map((d, i) => {
-          return (
-            <li
-              className={`linkbox-item ${
-                entryIndex[0] - 1 === i ? "active" : ""
-              }`}
-            >
-              {entryIndex[0] - 1 !== i ? (
-                <a href={`/${d.path}`}>{d.title}</a>
-              ) : (
-                d.title
-              )}
-            </li>
-          );
-        })}
-      </ul>
+    <div className="mw-650">
+      <div className="pay-study-linkbox">
+        <h6 className="linkbox-header">2022 Post Guild Pay Study</h6>
+        <ul>
+          {payStudyLinks.map((d, i) => {
+            return (
+              <li
+                className={`linkbox-item ${
+                  entryIndex[0] - 1 === i ? "active" : ""
+                }`}
+              >
+                {entryIndex[0] - 1 !== i ? (
+                  <a href={`/${d.path}`}>{d.title}</a>
+                ) : (
+                  d.title
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </div>
   );
 };
