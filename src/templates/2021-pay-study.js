@@ -17,6 +17,8 @@ library.add(faAngleDown);
 const PayStudyPageTemplate = ({
   title,
   byline,
+  subhed,
+  seriesTag,
   toc,
   content,
   contentComponent
@@ -24,7 +26,7 @@ const PayStudyPageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient pay-study">
+    <section className="section section--gradient pay-study pay-study-22">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -37,23 +39,27 @@ const PayStudyPageTemplate = ({
             </a>
 
             <div className="section">
-              <h2 className="title is-size-1 has-text-weight-bold has-text-centered">
+              <h4 className="kicker is-size-5 has-text-weight-bold">
                 {title}
-              </h2>
+                <span className="series-tag gray"> | {seriesTag}</span>
+              </h4>
+              <h1 className="title is-size-2 has-text-weight-bold">{subhed}</h1>
               <p className="byline">{byline}</p>
               {/* {toc.items.map((i) => {
                 return i.url
               })} */}
-              <PayGraphics />
+
               <MDXProvider
                 components={{
                   PercentilePlot,
+                  PayGraphics,
                   h2: H2
                 }}
               >
                 <MDXRenderer
                   components={{
                     PercentilePlot,
+                    PayGraphics,
                     h2: H2
                   }}
                 >
@@ -83,7 +89,7 @@ const PayStudyPage21 = ({ data }) => {
       <div className="sticky-wrapper">
         <aside id="toc-menu" class="menu">
           <ul class="menu-list">
-            {post.tableOfContents.items.slice(1).map(heading => {
+            {post.tableOfContents.items.map(heading => {
               return (
                 <li key={heading.url}>
                   <a href={heading.url}>{heading.title}</a>
@@ -96,14 +102,16 @@ const PayStudyPage21 = ({ data }) => {
       <div className="non-sticky-content">
         <Layout>
           <SEO
-            title={post.frontmatter.title}
+            title={`${post.frontmatter.title}: ${post.frontmatter.subhed}`}
             description={post.frontmatter.description}
             pathname={post.fields.slug}
             article={true}
           />
           <PayStudyPageTemplate
             contentComponent={HTMLContent}
-            title={post.frontmatter.title}
+            title={`${post.frontmatter.title}`}
+            subhed={post.frontmatter.subhed}
+            seriesTag={post.frontmatter.seriesTag}
             byline={post.frontmatter.byline}
             content={post.body}
             toc={post.tableOfContents}
@@ -130,6 +138,8 @@ export const payStudyPageQuery = graphql`
       }
       frontmatter {
         title
+        subhed
+        seriesTag
         byline
         description
       }

@@ -66,27 +66,40 @@ const Navbar = props => {
               <a className="navbar-link is-arrowless">Pay Study</a>
               <div className="navbar-dropdown">
                 <Link className="navbar-item" to="/2022-pay-study/">
-                  <b>
-                    {" "}
-                    2022 report (
-                    <span role="img" aria-label="New">
-                      ✨
-                    </span>{" "}
-                    New!)
-                  </b>
+                  {" "}
+                  2022 report (
+                  <span role="img" aria-label="New">
+                    ✨
+                  </span>{" "}
+                  New!)
                 </Link>
-                <Link className="navbar-item" to="/2022-pay-study/">
-                  <b>
-                    {" "}
-                    2022 Black Caucus report (
-                    <span role="img" aria-label="New">
-                      ✨
-                    </span>{" "}
-                    New!)
-                  </b>
+                <Link
+                  className="navbar-item"
+                  to="/2022-pay-study-data-analysis/"
+                >
+                  - Data Analysis
                 </Link>
+                <Link
+                  className="navbar-item"
+                  to="/2022-pay-study-testimonials/"
+                >
+                  - Testimonials
+                </Link>
+                <Link
+                  className="navbar-item"
+                  to="/2022-pay-study-black-caucus-report/"
+                >
+                  - Black Caucus report
+                </Link>
+                <Link
+                  className="navbar-item"
+                  to="/2022-pay-study-recommendations/"
+                >
+                  - Recommendations
+                </Link>
+                <hr className="navbar-divider" />
                 <Link className="navbar-item" to="/2019-pay-study/">
-                  <b> 2019 report</b>
+                  2019 report
                 </Link>
               </div>
             </div>

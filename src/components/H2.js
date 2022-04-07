@@ -14,7 +14,8 @@ const H2 = ({ children }) => {
   const link = `#${anchor}`;
 
   return (
-    <h2 id={anchor}>
+    <h2>
+      <span id={anchor} className="anchor-offset"></span>
       {children}
       <a href={link} className="anchor-link">
         <FontAwesomeIcon icon={faLink} />
