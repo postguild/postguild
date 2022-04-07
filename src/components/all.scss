@@ -321,3 +321,25 @@ section.pay-study-22 {
     margin-top: calc(-100vh - calc(132px + 2rem));
   }
 }
+
+.pay-study-linkbox {
+  background-color: #f7f7f7;
+  padding: 1em;
+  max-width: 320px;
+  margin: 2em 0;
+
+  .linkbox-header {
+    text-transform: uppercase;
+  }
+
+  ul {
+    margin-left: 0;
+  }
+
+  li.linkbox-item {
+    list-style-type: none;
+    &.active {
+      font-weight: bold;
+    }
+  }
+}

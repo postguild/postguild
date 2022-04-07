@@ -7,6 +7,7 @@ import Content, { HTMLContent } from "../components/Content";
 import H2 from "../components/H2";
 import PayGraphics from "../components/PayGraphics";
 import PercentilePlot from "../components/PercentilePlot";
+import { PayStudyLinkbox } from "../components/PayStudyLinkbox";
 import { MDXProvider } from "@mdx-js/react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -53,6 +54,9 @@ const PayStudyPageTemplate = ({
                 components={{
                   PercentilePlot,
                   PayGraphics,
+                  PayStudyLinkbox: () => (
+                    <PayStudyLinkbox seriesTag={seriesTag} />
+                  ),
                   h2: H2
                 }}
               >
@@ -60,6 +64,9 @@ const PayStudyPageTemplate = ({
                   components={{
                     PercentilePlot,
                     PayGraphics,
+                    PayStudyLinkbox: () => (
+                      <PayStudyLinkbox seriesTag={seriesTag} />
+                    ),
                     h2: H2
                   }}
                 >
