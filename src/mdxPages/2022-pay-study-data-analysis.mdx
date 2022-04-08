@@ -61,8 +61,8 @@ But according to the company’s data, the percentage of Black or African Americ
 
 In 2016, Black employees made up 25 percent of the total workforce. By 2021, that figure had fallen to 18.8 percent. Black leadership also decreased — from 20 percent in 2016 to 15.9 percent in 2021.
 
-**Pay** \
- \
+**Pay**
+
 Overall, while disparities still exist in the data provided by Post management, there are signs that things are moving in a positive direction. Company-wide gaps, as well as gaps among departments, are a bit smaller than they were when the Guild conducted this study in 2019.
 
 Still, troubling inequities persist.
@@ -70,7 +70,16 @@ Still, troubling inequities persist.
 1. When comparing median salaries, men make more than women even when controlling for factors such as job, section and years spent at the company.
 2. The same goes for White employees compared with employees of color.
 
-**GRAPH OF MEDIAN SALARY FOR SALARIED EMPLOYEES BY GENDER AND MEDIAN SALARY FOR HOURLY EMPLOYEES BY GENDER. **
+##### All Guild-covered employees by gender
+
+<PercentilePlot
+  path="Overall/Overall/Overall/Men/Salaried"
+  domain={[60000, 200000]}
+/>
+<PercentilePlot
+  path="Overall/Overall/Overall/Women/Salaried"
+  domain={[60000, 200000]}
+/>
 
 When examining pay at The Post, we used median salaries rather than mean, because very high or very low salaries can skew a mean. The median salary for Guild-covered women at The Post is 13 percent lower than that for Guild-covered men. The median hourly rate for Guild-covered women is 14 percent higher than that for men.
 
@@ -81,7 +90,28 @@ When examining pay at The Post, we used median salaries rather than mean, becaus
 
 Among Guild-covered workers, White employees still make more on both salaried and hourly bases than employees of color, not taking into account factors such as experience or job type.
 
-**GRAPH SHOWING BREAKDOWN OF MEDIAN SALARY BY RACE AND ETHNICITY **
+##### All Guild-covered employees by race
+
+<PercentilePlot
+  path="Overall/Overall/Overall/White/Salaried"
+  domain={[60000, 200000]}
+/>
+<PercentilePlot
+  path="Overall/Overall/Overall/Black/Salaried"
+  domain={[60000, 200000]}
+/>
+<PercentilePlot
+  path="Overall/Overall/Overall/Asian/Salaried"
+  domain={[60000, 200000]}
+/>
+<PercentilePlot
+  path="Overall/Overall/Overall/Hispanic/Salaried"
+  domain={[60000, 200000]}
+/>
+<PercentilePlot
+  path="Overall/Overall/Overall/Multi-racial/Salaried"
+  domain={[60000, 200000]}
+/>
 
 The median salary by race and ethnicity for salaried Guild-covered employees is as follows:
 
@@ -109,7 +139,11 @@ From 2016 to 2021, The Post hired more women than men across the company. Much o
 
 More than twice as many women as men in Commercial have departed. Our analysis showed that 2019 was a standout year for turnover among female staffers in Commercial, with nearly 40 women leaving The Post. This further exacerbated the gender imbalance in Commercial.
 
+![Retention by gender and department](img/pay-study-22/retention_gender.jpg "Retention by gender and department")
+
 **Retention by race and ethnicity **
+
+![Retention by race and department](img/pay-study-22/retention_race.jpg "Retention by race and department")
 
 From 2016 to 2021, more workers of color left in Commercial than were hired; with the exception of Hispanic or Latino workers, whose numbers remained consistent. Demographic groups of fewer than five were excluded in order to protect individual’s privacy.
 
@@ -131,6 +165,8 @@ Even still, the data shows that simply hiring more people of color has not made 
 
 **Retention by age **
 
+![Retention by age and race, news](img/pay-study-22/age_news.jpg "Retention by age and race, news")
+
 In the Newsroom, journalists of color are, on average, hired at a younger age than White workers. Asian employees and workers who are two or more races have the youngest median hiring ages at 27. White employees, on the other hand, have the oldest average and median hiring ages at 33 and 31, respectively. Average ages have been included for context because there are fewer outliers among ages compared with salaries.
 
 From 2016 to 2021, the average and median ages at time of hiring were:
@@ -151,7 +187,9 @@ From 2016 to 2021, the average and median ages when leaving the Newsroom were:
 - Hispanic or Latino: 33 and 30
 - Two or more races: 30 and 32
 
-On the Commercial side, Black employees tend to be hired at an older age than employees of other races and ethnicities, with average and median hiring ages of 39 and 42, respectively. Asian employees, meanwhile, have the youngest average and median hiring ages at 27 and 26, respectively. \
+On the Commercial side, Black employees tend to be hired at an older age than employees of other races and ethnicities, with average and median hiring ages of 39 and 42, respectively. Asian employees, meanwhile, have the youngest average and median hiring ages at 27 and 26, respectively.
+
+![Retention by age and race, commercial](img/pay-study-22/age_commercial.jpg "Retention by age and race, commercial")
 
 From 2016 to 2021, the average and median ages in Commercial at time of hiring were:
 
@@ -177,6 +215,8 @@ When accounting for retention by departments, the data reflects a hiring boom wi
 
 Conversely, more workers left Commercial than were hired. There was a 47 percent difference between the number of employees hired versus the number of employees that left.
 
+![Retention by department](img/pay-study-22/turnover_by_desk.jpg "Retention by department")
+
 **Retention by section and race (salaried employees)**
 
 Breaking down retention by section and race paints an even more nuanced image of The Post workforce. White employees were hired at more than double the rate of employees of color, yet employees of color left the company at a slightly higher rate than White employees.
@@ -184,6 +224,8 @@ Breaking down retention by section and race paints an even more nuanced image of
 Within the Newsroom, White employees were often hired at a much higher rate than employees of color. In some sections, fewer than five employees of color were hired and therefore couldn’t even be counted within the data in order to protect worker’s privacy. This was the case for Local, Financial and Multiplatform, where 14, 22 and 13 White employees, respectively, were hired from 2016 to 2021, yet fewer than five employees of color in each of those sections were hired over that same time period.
 
 Within National, the number of White employees hired was more than double the number of employees of color hired. Yet both White employees and employees of color left National at comparable rates — despite workers of color making up a smaller number of those hired and a smaller percentage of workers on the section overall.
+
+![Retention by race and department](img/pay-study-22/retention_race.jpg "Retention by race and department")
 
 ## NEWSROOM DEMOGRAPHICS AND PAY
 
@@ -292,18 +334,24 @@ The Post underpays men and women of color relative to White men.\*\* \*\*Control
 
 _By section_
 
-We also examined whether disparities existed within Newsroom sections.\*\* \*\*But many sections are not captured in the analysis because they are too small to evaluate. \
+We also examined whether disparities existed within Newsroom sections. But many sections are not captured in the analysis because they are too small to evaluate.
+
+![Salary gap by gender](img/pay-study-22/gender_dept_gap.jpg "Salary gap by gender")
 
 Of the 15 sections that had at least five men and five women:
 
 - In 10 sections, men had higher median pay than women (beyond 5 percent): Audience, Design, Foreign, Investigative, Local, Multiplatform, National, Opinion, Photography and Style.
 - One section, Sports, had a median pay disparity that favors women by 18 percent.
-- In four sections, there was approximate pay equity between genders (within 5 percent): Emerging News Products, Financial, Graphics and Video. \
+- In four sections, there was approximate pay equity between genders (within 5 percent): Emerging News Products, Financial, Graphics and Video.
+
+![Salary gap by race](img/pay-study-22/race_dept_gap.jpg "Salary gap by race")
 
 Of 13 sections for which there were at least five White journalists and five journalists of color:
 
 - Six sections had a median pay disparity favoring White journalists of more than 7 percent: the Newsroom, Emerging News Products, Video, Style, Photography and National.
-- Seven sections had approximate pay equity (within 5 percent) between journalists of color and White journalists: Audience, Design, Financial, Graphics, Local, Multiplatform and Sports. \
+- Seven sections had approximate pay equity (within 5 percent) between journalists of color and White journalists: Audience, Design, Financial, Graphics, Local, Multiplatform and Sports.
+
+![Salary gap by race and gender](img/pay-study-22/gender_race_dept_gap.jpg "Salary gap by race an gender")
 
 There were only four sections that had at least five White men, five White women, five men of color and five women of color: Design, Local, National and Sports.
 
@@ -407,6 +455,8 @@ For contrast, over that time the racial and ethnic makeup of salaried journalist
 - Asian: 9 percent
 - Hispanic or Latino: 6 percent
 - All others: 9 percent
+
+![Share of merit raises](img/pay-study-22/news_merit_share.jpg "Share of merit raises")
 
 Merit raises went to these groups in the following percentages, compared to the percentages of the Newsroom they make up:
 
@@ -521,11 +571,13 @@ The median hourly pay for employees over 40:
 
 One of the issues with attempting to determine disparities across Commercial is that the data does not allow us to determine how many hours an employee works. The data distinguishes between full- and part-time hourly employees, but does not count how many hours part-time employees work (which would be difficult, because of the fluidity of many part-time schedules).
 
-### **Compensation**
+## Compensation
 
 As explained earlier in the report, in the first quarter of every calendar year The Post awards a portion of employees what they call “merit” raises. These raises, by company definition, **are based upon TK** and follow performance evaluations, which rate employees on a scale of 1 to 5 — with a 3 defined as “meets expectations.” The Post contends that merit raises are tied mostly to performance evaluations.
 
 An analysis of raises for The Post’s Commercial employees shows that White employees typically received higher merit raises than their colleagues of color from 2016 to 2021. The most common type of raise among Commercial employees, with the exception of those mandated by the Guild contract, are merit raises.
+
+![Merit raises in commercial](img/pay-study-22/commercial_merit_raises.jpg "Merit raises in commercial")
 
 The median merit raises for salaried employees were as follows:
 

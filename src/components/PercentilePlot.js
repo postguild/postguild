@@ -15,7 +15,7 @@ console.log(payData);
 export default function PercentilePlot(props) {
   let path = props.path || null;
   let keyChart = props.keyChart || false;
-  const pathLevels = ["level1", "level2", "level3", "groups"];
+  const pathLevels = ["level1", "level2", "level3", "groups", "pay_rate_type"];
 
   const [data, setData] = useState(props.data || payData[0]);
   const [domain, setDomain] = useState(props.domain || [0, 100000]);
@@ -38,7 +38,7 @@ export default function PercentilePlot(props) {
         // setDomain([d3.min(tempData[0], d => d.percentile_25_pay),
         // d3.max(tempData[0], d => d.percentile_75_pay)])
       } else {
-        console.error(`Data filtering did not work for chart`);
+        console.error(`Data filtering did not work for chart ${path}`);
       }
     }
   }, []);
