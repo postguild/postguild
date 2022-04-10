@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import logo from "../img/GuildLogoFinalBug.png";
 
+import { payStudyLinks } from "./PayStudyLinkbox";
+
 const Navbar = props => {
   const [active, setActive] = useState(false);
   const [navBarActiveClass, setNavBarActiveClass] = useState("");
@@ -64,43 +66,22 @@ const Navbar = props => {
             </Link>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link is-arrowless">Pay Study</a>
+              <Link className="navbar-item" to="/2022-pay-study/">
+                {" "}
+                2022 report (
+                <span role="img" aria-label="New">
+                  ✨
+                </span>{" "}
+                New!)
+              </Link>
               <div className="navbar-dropdown">
-                <Link className="navbar-item" to="/2022-pay-study/">
-                  {" "}
-                  2022 report (
-                  <span role="img" aria-label="New">
-                    ✨
-                  </span>{" "}
-                  New!)
-                </Link>
-                <Link
-                  className="navbar-item"
-                  to="/2022-pay-study-data-analysis/"
-                >
-                  - Data Analysis
-                </Link>
-                <Link
-                  className="navbar-item"
-                  to="/2022-pay-study-testimonials/"
-                >
-                  - Testimonials
-                </Link>
-                <Link
-                  className="navbar-item"
-                  to="/2022-pay-study-black-caucus-report/"
-                >
-                  - Black Caucus report
-                </Link>
-                <Link
-                  className="navbar-item"
-                  to="/2022-pay-study-recommendations/"
-                >
-                  - Recommendations
-                </Link>
-                <hr className="navbar-divider" />
-                <Link className="navbar-item" to="/2019-pay-study/">
-                  2019 report
-                </Link>
+                {payStudyLinks.map(d => {
+                  return (
+                    <Link className="navbar-item" to={d.url}>
+                      ‣ {d.title}
+                    </Link>
+                  );
+                })}
               </div>
             </div>
             <Link className="navbar-item" to="/leadership/">
