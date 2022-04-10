@@ -93,20 +93,25 @@ const PayStudyPage21 = ({ data }) => {
 
   return (
     <>
-      <div className="sticky-wrapper">
-        <aside id="toc-menu" class="menu">
-          <ul class="menu-list">
-            {post.tableOfContents.items.map(heading => {
-              return (
-                <li key={heading.url}>
-                  <a href={heading.url}>{heading.title}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </aside>
-      </div>
-      <div className="non-sticky-content">
+      {post.tableOfContents.items.length > 1 && (
+        <div className="sticky-wrapper">
+          <aside id="toc-menu" className="menu">
+            <ul class="menu-list">
+              {post.tableOfContents.items.map(heading => {
+                return (
+                  <li key={heading.url}>
+                    <a href={heading.url}>{heading.title}</a>
+                  </li>
+                );
+              })}
+            </ul>
+          </aside>
+        </div>
+      )}
+      <div
+        className={`${post.tableOfContents.items.length > 1 &&
+          "non-sticky-content"}`}
+      >
         <Layout>
           <SEO
             title={`${post.frontmatter.title}: ${post.frontmatter.subhed}`}

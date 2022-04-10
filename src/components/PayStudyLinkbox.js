@@ -6,6 +6,10 @@ const payStudyLinks = [
     path: "2022-pay-study"
   },
   {
+    title: "Explore the Data",
+    path: "2022-pay-study-explore-data/"
+  },
+  {
     title: "Data Analysis",
     path: "2022-pay-study-data-analysis/"
   },
