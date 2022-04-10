@@ -66,15 +66,15 @@ const Navbar = props => {
             </Link>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link is-arrowless">Pay Study</a>
-              <Link className="navbar-item" to="/2022-pay-study/">
-                {" "}
-                2022 report (
-                <span role="img" aria-label="New">
-                  ✨
-                </span>{" "}
-                New!)
-              </Link>
               <div className="navbar-dropdown">
+                <Link className="navbar-item" to="/2022-pay-study/">
+                  {" "}
+                  2022 report (
+                  <span role="img" aria-label="New">
+                    ✨
+                  </span>{" "}
+                  New!)
+                </Link>
                 {payStudyLinks.map(d => {
                   return (
                     <Link className="navbar-item" to={d.url}>
