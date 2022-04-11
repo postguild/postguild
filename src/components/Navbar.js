@@ -77,7 +77,7 @@ const Navbar = props => {
                 </Link>
                 {payStudyLinks.map(d => {
                   return (
-                    <Link className="navbar-item" to={d.url}>
+                    <Link className="navbar-item" to={`/${d.path}`}>
                       ‣ {d.title}
                     </Link>
                   );
