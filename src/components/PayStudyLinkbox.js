@@ -33,7 +33,9 @@ const PayStudyLinkbox = props => {
   return (
     <div className="mw-650">
       <div className="pay-study-linkbox">
-        <h6 className="linkbox-header">2022 Post Guild Pay Study</h6>
+        <h6 className="linkbox-header">
+          Pay, Retention and Diversity at The Post
+        </h6>
         <ul>
           {payStudyLinks.map((d, i) => {
             return (
