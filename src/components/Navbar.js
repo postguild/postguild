@@ -82,6 +82,10 @@ const Navbar = props => {
                     </Link>
                   );
                 })}
+                <hr className="navbar-divider" />
+                <Link className="navbar-item" to="/2019-pay-study/">
+                  2019 report
+                </Link>
               </div>
             </div>
             <Link className="navbar-item" to="/leadership/">
