@@ -11,6 +11,12 @@
     padding: 0.75em;
   }
 
+  .plot {
+    .marker.marker-example:after {
+      background-color: #f7f7f7;
+    }
+  }
+
   .sticky-controls {
     position: sticky;
     top: 52px;
@@ -197,10 +203,6 @@
         position: absolute;
         font-size: 12px;
         background-color: white;
-      }
-
-      &.marker-example:after {
-        background-color: #f7f7f7;
       }
 
       &.marker-example:before {
