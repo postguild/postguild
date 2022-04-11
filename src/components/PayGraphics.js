@@ -277,7 +277,7 @@ export default function PayGraphics(props) {
             </Tabs.Tab>
           </Tabs>
         </div>
-        <div>
+        <div className="w-100 right">
           {!dataView.hourly && (
             <p className="none-note">
               This department has fewer than five hourly workers.
@@ -291,8 +291,11 @@ export default function PayGraphics(props) {
         </div>
       </div>
       <h3 className="centered">{`${filters.level1}${
-        filters.level2 ? " > " + filters.level2 : ""
+        filters.level2 ? " ↦ " + filters.level2 : ""
       }`}</h3>
+      <p className="none-note">
+        Groups with fewer than five members are not shown.
+      </p>
       {/* when needed, create a div to hold each subdesk (level 3 categorizations) */}
       {Array.from(
         new Set(

@@ -48,12 +48,6 @@
     }
   }
 
-  p.none-note {
-    text-align: right;
-    font-size: small;
-    margin-top: -0.35em;
-  }
-
   p.center {
     text-align: center;
   }
@@ -118,6 +112,20 @@
       margin: 1em 0;
     }
   }
+}
+
+p.none-note {
+  // text-align: right;
+  font-size: small;
+  margin-top: -0.35em;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+div.right {
+  text-align: right;
 }
 
 .plot {
