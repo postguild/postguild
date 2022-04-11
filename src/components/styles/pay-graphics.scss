@@ -37,6 +37,13 @@
 
       .dropdown-container {
         margin-right: 0.5em;
+
+        .dropdown.department-dropdown {
+          .dropdown-content {
+            max-height: 80vh;
+            overflow-y: scroll;
+          }
+        }
       }
     }
   }

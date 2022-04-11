@@ -221,7 +221,7 @@ export default function PayGraphics(props) {
             <div className="dropdown-container">
               <p className="dropdown-label">Choose department:</p>
               <Dropdown
-                className="dropdown"
+                className="dropdown department-dropdown"
                 label="Overall"
                 value={filters.level2}
                 onChange={e => {

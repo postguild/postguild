@@ -325,8 +325,22 @@ section.pay-study-22 {
 .pay-study-linkbox {
   background-color: #f7f7f7;
   padding: 1em;
-  max-width: 320px;
-  margin: 2em 0;
+  max-width: 300px;
+  margin: 1em 0em 1em 2em;
+  float: right;
+
+  @media (max-width: 650px) {
+    float: none;
+    margin: 2em auto;
+  }
+
+  &.left {
+    float: none;
+    margin: 2em 0;
+  }
+
+  opacity: 1;
+  transition: 0.5s opacity;
 
   .linkbox-header {
     text-transform: uppercase;
@@ -342,6 +356,10 @@ section.pay-study-22 {
       font-weight: bold;
     }
   }
+
+  .meta-text {
+    font-size: medium;
+  }
 }
 
 .mw-650 {
@@ -351,4 +369,9 @@ section.pay-study-22 {
 
 .data-table {
   font-size: smaller;
+}
+
+.hidden {
+  opacity: 0;
+  transition: 0.5s opacity;
 }
