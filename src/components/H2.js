@@ -5,7 +5,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 function getAnchor(text) {
   return text
     .toLowerCase()
-    .replace(/[^a-z0-9 ]/g, "")
+    .replace(/[^a-z0-9 \-]/g, "")
     .replace(/[ ]/g, "-");
 }
 
