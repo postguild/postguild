@@ -301,6 +301,7 @@ section.pay-study-22 {
   left: 0;
   height: 100vh;
   margin-top: calc(132px + 2rem);
+  padding-top: 1.5em;
   // margin-bottom:-100vh;
   max-width: calc(calc(100% - 680px) / 2);
   z-index: 4;
@@ -311,9 +312,12 @@ section.pay-study-22 {
 
   &:before {
     content: "Jump to section ↴";
-    color: #ccc;
-    padding-left: 0.75em;
+    position: absolute;
+    left: calc(100% - 200px);
+    top: 0;
     width: 200px;
+    padding-left: 0.75em;
+    color: #999;
   }
 
   aside#toc-menu {
