@@ -304,11 +304,16 @@ section.pay-study-22 {
   // margin-bottom:-100vh;
   max-width: calc(calc(100% - 680px) / 2);
   z-index: 4;
+  text-align: right;
 
   &:before {
     content: "Jump to section ↴";
     color: #ccc;
     padding-left: 0.75em;
+  }
+
+  .menu-list {
+    text-align: right !important;
   }
 
   @media (max-width: 1023px) {

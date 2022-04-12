@@ -34,12 +34,9 @@ const PayStudyLinkbox = props => {
     <div className="mw-650">
       <div className={`pay-study-linkbox ${props.className}`}>
         <h6 className="linkbox-header">
-          Pay, Retention and Diversity at The Post
+          Pay, Diversity and Retention at The Post
         </h6>
-        <p className="meta-text">
-          This study by members of the Washington Post Guild consists of six
-          parts:
-        </p>
+        <p className="meta-text">This study consists of six parts:</p>
         <ul>
           {payStudyLinks.map((d, i) => {
             return (

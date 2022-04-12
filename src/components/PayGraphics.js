@@ -3,7 +3,6 @@ import PercentilePlot from "./PercentilePlot";
 import { Dropdown, Tabs } from "react-bulma-components";
 
 import "../components/styles/pay-graphics.scss";
-import { filter } from "lodash";
 
 const d3 = Object.assign({}, require("d3-array"), require("d3-format"));
 let payData = require("../../static/data/pay_study_int_data.json");
