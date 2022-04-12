@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { graphql } from "gatsby";
 import ScrollToTop from "react-scroll-to-top";
 import PropTypes from "prop-types";
@@ -16,7 +16,7 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faAngleDown);
 
-const InPageNavigation = ({toc}) => {
+const InPageNavigation = ({ toc }) => {
   const [visible, setVisible] = useState(false);
   const onScroll = () => {
     setVisible(document.documentElement.scrollTop > 800);
@@ -27,24 +27,25 @@ const InPageNavigation = ({toc}) => {
     return () => document.removeEventListener("scroll", onScroll);
   }, []);
 
-  console.log(toc)
+  // console.log(toc)
 
   return (
-    <div className={`sticky-wrapper ${visible ? 'visible' : 'hidden'}`}>
-        <aside id="toc-menu" className="menu">
-          <ul class="menu-list">
-            {toc.items && toc.items.map(heading => {
+    <div className={`sticky-wrapper ${visible ? "visible" : "hidden"}`}>
+      <aside id="toc-menu" className="menu">
+        <ul class="menu-list">
+          {toc.items &&
+            toc.items.map(heading => {
               return (
                 <li key={heading.url}>
                   <a href={heading.url}>{heading.title}</a>
                 </li>
               );
             })}
-          </ul>
-        </aside>
-      </div>
-  )
-}
+        </ul>
+      </aside>
+    </div>
+  );
+};
 
 const PayStudyPageTemplate = ({
   title,
@@ -71,9 +72,7 @@ const PayStudyPageTemplate = ({
             </a>
 
             <div className="section">
-              <h4 className="kicker is-size-5 has-text-weight-bold">
-                {title}
-              </h4>
+              <h4 className="kicker is-size-5 has-text-weight-bold">{title}</h4>
               <h1 className="title is-size-2 has-text-weight-bold">{subhed}</h1>
               <p className="byline">{byline}</p>
               {/* {toc.items.map((i) => {
@@ -84,7 +83,7 @@ const PayStudyPageTemplate = ({
                 components={{
                   PercentilePlot,
                   PayGraphics,
-                  PayStudyLinkbox: (props) => (
+                  PayStudyLinkbox: props => (
                     <PayStudyLinkbox seriesTag={seriesTag} {...props} />
                   ),
                   h2: H2
@@ -94,8 +93,8 @@ const PayStudyPageTemplate = ({
                   components={{
                     PercentilePlot,
                     PayGraphics,
-                    PayStudyLinkbox: (props) => (
-                      <PayStudyLinkbox seriesTag={seriesTag} {...props}/>
+                    PayStudyLinkbox: props => (
+                      <PayStudyLinkbox seriesTag={seriesTag} {...props} />
                     ),
                     h2: H2
                   }}
@@ -124,13 +123,13 @@ const PayStudyPage21 = ({ data }) => {
   return (
     <>
       {post.tableOfContents.items.length > 1 && (
-        <InPageNavigation toc={post.tableOfContents}/>
+        <InPageNavigation toc={post.tableOfContents} />
       )}
       <div
         className={`${post.tableOfContents.items.length > 1 &&
           "non-sticky-content"}`}
       >
-        <ScrollToTop smooth color="#f31550" top={800}/>
+        <ScrollToTop smooth color="#f31550" top={800} />
         <Layout>
           <SEO
             title={`${post.frontmatter.title}: ${post.frontmatter.subhed}`}

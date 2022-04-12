@@ -10,7 +10,7 @@ function formatPay(d) {
     : commafy(d.toFixed(2));
 }
 
-console.log(payData);
+// console.log(payData);
 
 export default function PercentilePlot(props) {
   let path = props.path || null;
