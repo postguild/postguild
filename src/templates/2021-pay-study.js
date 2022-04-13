@@ -130,7 +130,7 @@ const PayStudyPage21 = ({ data }) => {
 
   return (
     <>
-      {post.tableOfContents.length && post.tableOfContents.items.length > 1 && (
+      {post.tableOfContents.items && post.tableOfContents.items.length > 1 && (
         <InPageNavigation toc={post.tableOfContents} />
       )}
       <div
