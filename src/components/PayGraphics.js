@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import PercentilePlot from "./PercentilePlot";
 import { Dropdown, Tabs } from "react-bulma-components";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
 import "../components/styles/pay-graphics.scss";
 
 const d3 = Object.assign({}, require("d3-array"), require("d3-format"));
@@ -233,7 +236,8 @@ export default function PayGraphics(props) {
                     key={`dropdown-item-${i}`}
                     renderAs="a"
                   >
-                    {d}
+                    {d + " "}
+                    <FontAwesomeIcon icon={faAngleDown} />
                   </Dropdown.Item>
                 ))}
               </Dropdown>
