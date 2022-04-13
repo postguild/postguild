@@ -63,13 +63,21 @@ const PayStudyPageTemplate = ({
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <a href="/" title="The Washington Post Guild">
+            {seriesTag === "Part 1" ? (
               <img
-                className="header-logo"
-                src="/img/guildlogofinal-large.jpg"
-                alt="The Washington Post Guild Logo"
+                className="pay-study-topper"
+                src="/img/Guild_SocialHeader.jpg"
+                alt="The Washington Post Guild"
               />
-            </a>
+            ) : (
+              <a href="/" title="The Washington Post Guild">
+                <img
+                  className="header-logo"
+                  src="/img/guildlogofinal-large.jpg"
+                  alt="The Washington Post Guild Logo"
+                />
+              </a>
+            )}
 
             <div className="section">
               <h4 className="kicker is-size-5 has-text-weight-bold">{title}</h4>
@@ -136,6 +144,7 @@ const PayStudyPage21 = ({ data }) => {
             description={post.frontmatter.description}
             pathname={post.fields.slug}
             article={true}
+            image={"/img/Guild_WebsiteHeader.jpg"}
           />
           <PayStudyPageTemplate
             contentComponent={HTMLContent}
