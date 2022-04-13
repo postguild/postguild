@@ -5,7 +5,7 @@ import { Link, graphql, StaticQuery } from "gatsby";
 class BlogList extends React.Component {
   render() {
     const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { edges: posts } = data.allMdx;
 
     return (
       <>
@@ -33,7 +33,7 @@ class BlogList extends React.Component {
 
 BlogList.propTypes = {
   data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
+    allMdx: PropTypes.shape({
       edges: PropTypes.array
     })
   })
@@ -43,7 +43,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query BlogListQuery {
-        allMarkdownRemark(
+        allMdx(
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
         ) {

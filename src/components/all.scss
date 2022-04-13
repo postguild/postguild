@@ -1,14 +1,10 @@
-@import "~bulma/sass/utilities/initial-variables";
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-$black: #000;
-$dark: $black;
-$guild-magenta: #f31550;
-$guild-orange: #ff8c2e;
-$primary: $black;
+@import "~bulma/bulma.sass";
 
-@import "~bulma";
+@import "./styles/colors.scss";
+@import "./styles/navbar.scss";
 
 $mobile: 768px;
 
@@ -98,6 +94,8 @@ body {
 .title,
 .content h2,
 .content h3,
+.content h4,
+.content h5,
 .content p {
   max-width: 650px;
   margin-left: auto;
@@ -238,6 +236,10 @@ section.pay-study {
     }
   }
 
+  .kicker {
+    margin-bottom: 0em;
+  }
+
   .byline {
     font-weight: bold;
     margin: 1.5rem auto;
@@ -256,4 +258,137 @@ section.pay-study {
   strong {
     border-bottom: 2px solid $guild-magenta;
   }
+}
+
+section.pay-study-22 {
+  .title {
+    margin-top: 0.25em;
+  }
+
+  .gray {
+    color: #999;
+  }
+
+  .byline {
+    text-align: left;
+  }
+
+  h2 {
+    position: relative;
+
+    span.anchor-offset {
+      position: absolute;
+      top: -80px;
+    }
+  }
+  .anchor-link {
+    color: #666;
+    opacity: 0;
+    position: absolute;
+    transform: translate(2px, 2px);
+    width: 1em;
+    font-size: 0.75em;
+  }
+
+  h2:hover .anchor-link {
+    opacity: 1;
+  }
+}
+
+.sticky-wrapper {
+  position: sticky;
+  top: 60px;
+  left: 0;
+  height: 100vh;
+  margin-top: calc(132px + 2rem);
+  padding-top: 1.5em;
+  // margin-bottom:-100vh;
+  max-width: calc(calc(100% - 680px) / 2);
+  z-index: 4;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-content: start;
+
+  &:before {
+    content: "Jump to section ↴";
+    position: absolute;
+    left: calc(100% - 200px);
+    top: 0;
+    width: 200px;
+    padding-left: 0.75em;
+    color: #999;
+  }
+
+  aside#toc-menu {
+    width: 200px;
+  }
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.non-sticky-content {
+  @media (min-width: 1024px) {
+    margin-top: calc(-100vh - calc(132px + 2rem));
+  }
+}
+
+.pay-study-linkbox {
+  background-color: #f7f7f7;
+  padding: 1em;
+  max-width: 300px;
+  margin: 1em 0em 1em 2em;
+  float: right;
+
+  @media (max-width: 650px) {
+    float: none;
+    margin: 2em auto;
+  }
+
+  &.left {
+    float: none;
+    margin: 2em 0;
+  }
+
+  opacity: 1;
+  transition: 0.5s opacity;
+
+  .linkbox-header {
+    text-transform: uppercase;
+  }
+
+  ul {
+    margin-left: 0;
+  }
+
+  li.linkbox-item {
+    list-style-type: none;
+    &.active {
+      font-weight: bold;
+    }
+  }
+
+  .meta-text {
+    font-size: medium;
+  }
+}
+
+.mw-650 {
+  max-width: 650px;
+  margin: auto;
+}
+
+.data-table {
+  font-size: smaller;
+}
+
+.hidden {
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+
+.pay-study-topper {
+  margin-bottom: 2em;
 }

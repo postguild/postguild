@@ -12,6 +12,10 @@ const TemplateWrapper = ({ children }) => {
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
         <meta name="description" content={description} />
 
         <link
@@ -41,7 +45,7 @@ const TemplateWrapper = ({ children }) => {
         <body className="has-navbar-fixed-top" />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <div className="content">{children}</div>
       <Footer />
     </div>
   );

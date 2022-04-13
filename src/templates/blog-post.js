@@ -4,10 +4,9 @@ import PropTypes from "prop-types";
 import SEO from "../components/SEO";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
-export const BlogPostTemplate = ({ content, contentComponent, title }) => {
-  const PostContent = contentComponent || Content;
-
+const BlogPostTemplate = ({ content, contentComponent, title }) => {
   return (
     <section className="section">
       <div className="container content">
@@ -23,7 +22,7 @@ export const BlogPostTemplate = ({ content, contentComponent, title }) => {
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light is-center">
               {title}
             </h1>
-            <PostContent content={content} />
+            <MDXRenderer>{content}</MDXRenderer>
           </div>
         </div>
       </div>
@@ -39,7 +38,7 @@ BlogPostTemplate.propTypes = {
 };
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { mdx: post } = data;
 
   return (
     <Layout>
@@ -50,7 +49,7 @@ const BlogPost = ({ data }) => {
         article={true}
       />
       <BlogPostTemplate
-        content={post.html}
+        content={post.body}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         title={post.frontmatter.title}
@@ -61,7 +60,7 @@ const BlogPost = ({ data }) => {
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object
+    mdx: PropTypes.object
   })
 };
 
@@ -69,9 +68,9 @@ export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    mdx(id: { eq: $id }) {
       id
-      html
+      body
       fields {
         slug
       }

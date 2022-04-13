@@ -9,7 +9,7 @@ description: "In the past week, members of the Post Guild have demonstrated what
 
 In the past week, members of the Post Guild have demonstrated what being part of a union is all about.
 
-When 20 of our Post Express editorial colleagues and at least one person from commercial were abruptly laid off, Washington Post employees led by the Post Guild rallied around them in spectacular fashion. We raised nearly \$1,400 to fund goodbye drinks and food and compiled a long list of job opportunities for those now seeking new employment.
+When 20 of our Post Express editorial colleagues and at least one person from commercial were abruptly laid off, Washington Post employees led by the Post Guild rallied around them in spectacular fashion. We raised nearly $1,400 to fund goodbye drinks and food and compiled a long list of job opportunities for those now seeking new employment.
 
 We’re not done yet.
 

@@ -16,7 +16,7 @@ Our union secured this pay increase a year ago during contract negotiations. \*P
 
 It's not huge, but it's something, especially if you didn't get a merit raise this year. So celebrate! And remember that the stronger we are come January, when bargaining begins again, the better cost-of-living raise we can negotiate into our next contract.
 
-You can view the full contract on our new website: https://postguild.org/contract/. And if you haven't yet joined the union, please do so today by emailing us at wapounion@gmail.com. Remember, recruiters get a finder's fee of \$25 for every new person you bring into the guild.
+You can view the full contract on our new website: https://postguild.org/contract/. And if you haven't yet joined the union, please do so today by emailing us at wapounion@gmail.com. Remember, recruiters get a finder's fee of $25 for every new person you bring into the guild.
 
 Happy Thursday,
 
