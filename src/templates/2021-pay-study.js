@@ -134,7 +134,8 @@ const PayStudyPage21 = ({ data }) => {
         <InPageNavigation toc={post.tableOfContents} />
       )}
       <div
-        className={`${post.tableOfContents.items.length > 1 &&
+        className={`${post.tableOfContents.items &&
+          post.tableOfContents.items.length > 1 &&
           "non-sticky-content"}`}
       >
         <ScrollToTop smooth color="#f31550" top={800} />
