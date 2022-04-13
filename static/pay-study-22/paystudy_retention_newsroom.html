@@ -947,8 +947,10 @@ df %&gt;%
   filter(year_type!=&quot;active&quot;) %&gt;% 
   pivot_wider(names_from=&quot;year_type&quot;, values_from=&quot;n&quot;) %&gt;% 
   mutate(category=case_when(
-    hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
+    terminated==hired ~ &quot;Same&quot;,
+    hired &gt; terminated ~ &quot;More hired than left&quot;,
+    terminated &gt; hired ~ &quot;More left than hired&quot;,
+    TRUE ~ &quot;&quot;
   )) %&gt;% 
   kable()</code></pre>
 <table>
@@ -995,7 +997,7 @@ df %&gt;%
 <td align="left">Prefer not to disclose</td>
 <td align="right">1</td>
 <td align="right">1</td>
-<td align="left">More left than hired</td>
+<td align="left">Same</td>
 </tr>
 <tr class="even">
 <td align="left">Other</td>
@@ -1022,8 +1024,10 @@ df %&gt;%
   filter(hired&gt;=5 &amp; terminated&gt;=5) %&gt;% 
   mutate(category=case_when(
     hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
-  ))%&gt;% 
+    terminated&gt;hired ~ &quot;More left than hired&quot;,
+    terminated==hired ~ &quot;Same&quot;,
+    TRUE ~ &quot;&quot;
+  )) %&gt;% 
   kable()</code></pre>
 <table>
 <colgroup>
@@ -1137,7 +1141,9 @@ df %&gt;%
   pivot_wider(names_from=&quot;year_type&quot;, values_from=&quot;n&quot;) %&gt;% 
   mutate(category=case_when(
     hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
+    terminated&gt;hired ~ &quot;More left than hired&quot;,
+    terminated==hired ~ &quot;Same&quot;,
+    TRUE ~ &quot;&quot;
   )) %&gt;% 
   kable()</code></pre>
 <table>
@@ -1181,8 +1187,10 @@ df %&gt;%
   filter(hired&gt;=5 &amp; terminated&gt;=5) %&gt;% 
   mutate(category=case_when(
     hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
-  ))%&gt;% 
+    terminated&gt;hired ~ &quot;More left than hired&quot;,
+    terminated==hired ~ &quot;Same&quot;,
+    TRUE ~ &quot;&quot;
+  )) %&gt;% 
   kable()</code></pre>
 <table>
 <colgroup>
@@ -1300,8 +1308,10 @@ df %&gt;%
   #filter(hired&gt;=5 &amp; terminated&gt;=5) %&gt;% 
   mutate(category=case_when(
     hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
-  ))%&gt;% 
+    terminated&gt;hired ~ &quot;More left than hired&quot;,
+    terminated==hired ~ &quot;Same&quot;,
+    TRUE ~ &quot;&quot;
+  )) %&gt;% 
   kable()</code></pre>
 <table>
 <colgroup>
@@ -1353,7 +1363,7 @@ df %&gt;%
 <td align="right">2020</td>
 <td align="right">1</td>
 <td align="right">1</td>
-<td align="left">More left than hired</td>
+<td align="left">Same</td>
 </tr>
 <tr class="odd">
 <td align="left">News</td>
@@ -1361,7 +1371,7 @@ df %&gt;%
 <td align="right">2020</td>
 <td align="right">3</td>
 <td align="right">NA</td>
-<td align="left">More left than hired</td>
+<td align="left"></td>
 </tr>
 <tr class="even">
 <td align="left">News</td>
@@ -1391,10 +1401,12 @@ view_this &lt;-df %&gt;%
   filter(year_type!=&quot;active&quot;) %&gt;% 
   pivot_wider(names_from=&quot;year_type&quot;, values_from=&quot;n&quot;) %&gt;% 
   #filter(hired&gt;=5 &amp; terminated&gt;=5) %&gt;% 
-  mutate(category=case_when(
+   mutate(category=case_when(
     hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
-  ))%&gt;% 
+    terminated&gt;hired ~ &quot;More left than hired&quot;,
+    terminated==hired ~ &quot;Same&quot;,
+    TRUE ~ &quot;&quot;
+  )) %&gt;% 
   kable()
 
 #12/(12+5+54)=.17
@@ -1410,8 +1422,10 @@ df %&gt;%
   pivot_wider(names_from=&quot;year_type&quot;, values_from=&quot;n&quot;) %&gt;% 
   mutate(category=case_when(
     hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
-  ))%&gt;% 
+    terminated&gt;hired ~ &quot;More left than hired&quot;,
+    terminated==hired ~ &quot;Same&quot;,
+    TRUE ~ &quot;&quot;
+  )) %&gt;% 
   kable()</code></pre>
 <table>
 <thead>
@@ -1583,8 +1597,10 @@ turnoverbydesk &lt;- df %&gt;%
   filter(hired&gt;=5 &amp; terminated&gt;=5) %&gt;% 
   mutate(category=case_when(
     hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
-  ))
+    terminated&gt;hired ~ &quot;More left than hired&quot;,
+    terminated==hired ~ &quot;Same&quot;,
+    TRUE ~ &quot;&quot;
+  )) 
 
 kable(turnoverbydesk)</code></pre>
 <table>
@@ -1675,7 +1691,9 @@ newsroom_desks &lt;- df %&gt;%
   filter(hired&gt;=5 &amp; terminated&gt;=5) %&gt;% 
   mutate(category=case_when(
     hired&gt;terminated ~ &quot;More hired than left&quot;,
-    TRUE ~ &quot;More left than hired&quot;
+    terminated&gt;hired ~ &quot;More left than hired&quot;,
+    terminated==hired ~ &quot;Same&quot;,
+    TRUE ~ &quot;&quot;
   ))
 kable(newsroom_desks)</code></pre>
 <table>
@@ -1694,7 +1712,7 @@ kable(newsroom_desks)</code></pre>
 <td align="left">Emerging News Products</td>
 <td align="right">6</td>
 <td align="right">6</td>
-<td align="left">More left than hired</td>
+<td align="left">Same</td>
 </tr>
 <tr class="even">
 <td align="left">person of color</td>
