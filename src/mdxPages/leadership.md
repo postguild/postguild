@@ -18,6 +18,12 @@ Jacob has been with The Post since 2018, originally as an editor with Outlook, a
 
 Kallie has been at the Post for two years, working as a senior program manager in custom advertising solutions. After helping organize the new union at the Atlantic, she was thrilled to join a shop with such a rich history and depth of membership. She's honored to now help steward (sorry, couldn’t resist) it into a new era. She's a Northern California girl living in Brooklyn; outside of work she's busy trying to visit every movie theater in the five boroughs, convincing herself she likes the East Coast beaches just as well as the West Coast, and ranking the city’s selection of almond croissants.
 
-## Chief Steward
+## S﻿ecretary
 
-### K﻿allie Gregg
+### V﻿anessa Larson
+
+<!--StartFragment-->
+
+joined The Post as a news multiplatform editor a little over four years ago; before that, I spent nearly four years at the now-defunct Washington Post Express, where I was copy chief. I've been a Guild steward involved with recruiting and keeping track of membership data since 2022, and was an MPED captain for the walkout. A D.C. native, I previously spent about seven years in Turkey as a freelancer before returning to the area and settling in Silver Spring, where I live with my husband and cat.
+
+<!--EndFragment-->
