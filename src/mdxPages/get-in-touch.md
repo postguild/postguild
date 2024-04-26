@@ -2,7 +2,6 @@
 templateKey: about-page
 title: Get in touch
 ---
-
 ## Email
 
 [wapounion@gmail.com](mailto:wapounion@gmail.com)
@@ -11,7 +10,9 @@ title: Get in touch
 
 [@postguild](https://twitter.com/postguild) on Twitter
 
-Follow us on [Facebook](https://www.facebook.com/groups/WaPoGuild/)
+Follow us on [Facebook](https://www.facebook.com/groups/WaPoGuild/)[@﻿postguild](https://www.instagram.com/postguild/) on Instagram
+
+@﻿postguild on Threads
 
 ## Visit
 
