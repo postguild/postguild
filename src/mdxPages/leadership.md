@@ -2,6 +2,8 @@
 templateKey: about-page
 title: Leadership
 ---
+# L﻿eadership
+
 ## Co-chairs
 
 ### K﻿athleen Floyd
