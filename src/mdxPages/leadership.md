@@ -15,3 +15,9 @@ Jacob has been with The Post since 2018, originally as an editor with Outlook, a
 ## Chief Steward
 
 ### K﻿allie Gregg
+
+Kallie has been at the Post for two years, working as a senior program manager in custom advertising solutions. After helping organize the new union at the Atlantic, she was thrilled to join a shop with such a rich history and depth of membership. She's honored to now help steward (sorry, couldn’t resist) it into a new era. She's a Northern California girl living in Brooklyn; outside of work she's busy trying to visit every movie theater in the five boroughs, convincing herself she likes the East Coast beaches just as well as the West Coast, and ranking the city’s selection of almond croissants.
+
+## Chief Steward
+
+### K﻿allie Gregg
